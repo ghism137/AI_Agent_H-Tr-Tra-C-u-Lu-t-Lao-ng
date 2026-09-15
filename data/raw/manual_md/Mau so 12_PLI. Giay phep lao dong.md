@@ -1,0 +1,2 @@
+Mẫu số 12/PLI
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Socialist Republic of Vietnam Independence - Freedom - Happiness _______________________ GIẤY PHÉP LAO ĐỘNG WORK PERMIT Số: No:

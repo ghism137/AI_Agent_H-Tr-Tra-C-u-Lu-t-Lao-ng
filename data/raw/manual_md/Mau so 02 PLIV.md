@@ -1,0 +1,16 @@
+Mẫu số 02/PLIV
+Kính gửi: Sở Lao động - Thương binh và Xã hội
+Thực hiện kế hoạch sản xuất kinh doanh năm ............, doanh nghiệp, đơn vị ................ có một số trường hợp làm thêm từ trên 200 giờ đến 300 giờ trong năm, cụ thể như sau:
+1. Trường hợp phải làm thêm từ trên 200 giờ đến 300 giờ trong năm:
+2. Thời gian bắt đầu có người lao động thực hiện làm thêm từ trên 200 giờ đến 300 giờ/năm:
+3. Cam kết khi tổ chức thực hiện làm thêm từ trên 200 giờ đến 300 giờ/năm (2)
+.............................................................................................................................
+.............................................................................................................................
+Ghi chú:
+(1) Phải phù hợp với các trường hợp được quy định.
+(2) Khuyến khích các thỏa thuận có lợi hơn cho người lao động khi tham gia làm thêm giờ, như: tăng cường bồi dưỡng bằng hiện vật, thực hiện ăn ca, tăng cường kiểm tra sức khỏe...
+TÊN CƠ QUAN CHỦ QUẢN TÊN DOANH NGHIỆP, CƠ SỞ SẢN XUẤT, KINH DOANH ________ Số: ............. V/v: Tổ chức làm thêm từ trên 200 giờ đến 300 giờ trong năm | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ________________________ ...., ngày .... tháng ... năm ....
+STT | Các trường hợp phải làm thêm từ trên 200 giờ đến 300 giờ trong năm (1) | Ghi chú
+1.
+...
+Nơi nhận: - Như trên; - ..........; | NGƯỜI SỬ DỤNG LAO ĐỘNG HOẶC NGƯỜI ĐƯỢC ỦY QUYỀN (Ký tên, đóng dấu)

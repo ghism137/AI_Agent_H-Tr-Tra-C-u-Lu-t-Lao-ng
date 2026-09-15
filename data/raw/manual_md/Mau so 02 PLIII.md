@@ -1,0 +1,16 @@
+Mẫu số 02/PLIII
+Kính gửi: (3)
+(4)
+Căn cứ Nghị định số ..../..../NĐ-CP ngày ....tháng ....năm .... của Chính phủ ....(ghi theo tên Nghị định của Chính phủ quy định chi tiết và hướng dẫn thi hành về nội dung cho thuê lại lao động theo khoản 2 Điều 54 của Bộ luật Lao động);
+Theo đề nghị của ...(3)... đề nghị rút tiền ký quỹ hoạt động cho thuê lại lao động và hồ sơ kèm theo, ...(1)... có ý kiến như sau:
+1. Đồng ý với đề nghị rút tiền ký quỹ hoạt động cho thuê lại lao động của ...(3)....., địa chỉ doanh nghiệp........., mã số doanh nghiệp:.............., mã số giấy phép (nếu có): ................ để thực hiện .......(5)............
+2. .........(3)..., Ngân hàng ...(4), Sở Lao động - Thương binh và Xã hội tỉnh/thành phố .......... có trách nhiệm thực hiện đúng các quy định về ký quỹ của doanh nghiệp cho thuê lại lao động./.
+Ghi chú:
+(1) Ủy ban nhân dân cấp tỉnh.
+(2) Chữ viết tắt tên đơn vị soạn thảo công văn.
+(3) Tên doanh nghiệp cho thuê lại đề nghị rút tiền ký quỹ.
+(4) Tên ngân hàng nhận ký quỹ.
+(5) Ghi lý do rút tiền ký quỹ theo quy định tại khoản 1 Điều 18 Nghị định này.
+(6) Trường hợp cấp phó được giao ký thay thì ghi chữ viết tắt “K.T.” vào trước Chủ tịch, bên dưới ghi Phó Chủ tịch.
+ỦY BAN NHÂN DÂN...(1) ________ Số: ...../UBND-.....(2) V/v: Thông báo đồng ý về việc rút tiền ký quỹ hoạt động cho thuê lại lao động | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ________________________ ...., ngày .... tháng ... năm ....
+Nơi nhận: - .............; - .............; | CHỦ TỊCH (6) (Chữ ký, dấu) Họ và tên

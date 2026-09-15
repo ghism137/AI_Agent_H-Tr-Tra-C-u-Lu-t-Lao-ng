@@ -1,0 +1,16 @@
+Mẫu số 03/PLI
+Kính gửi: (Tên doanh nghiệp/tổ chức)
+Theo đề nghị tại văn bản số.... (ngày/tháng/năm) của (tên doanh nghiệp/tổ chức) và ý kiến chấp thuận của Ủy ban nhân dân tỉnh/thành phố.............. (nếu có),... (2) thông báo về những vị trí công việc mà (tên doanh nghiệp/tổ chức) được sử dụng người lao động nước ngoài như sau:
+I. VỊ TRÍ CÔNG VIỆC ĐƯỢC CHẤP THUẬN
+1. Vị trí công việc (nhà quản lý/giám đốc điều hành/chuyên gia/lao động kỹ thuật); chức danh công việc; số lượng (người); thời hạn làm việc từ (ngày/tháng/năm) đến (ngày/tháng/năm), hình thức làm việc, địa điểm làm việc.
+2. Vị trí công việc (nếu có) (nhà quản lý/giám đốc điều hành/chuyên gia/lao động kỹ thuật); chức danh công việc; số lượng người; thời hạn làm việc từ (ngày/tháng/năm) đến (ngày/tháng/năm), hình thức làm việc, địa điểm làm việc.
+II. VỊ TRÍ CÔNG VIỆC KHÔNG ĐƯỢC CHẤP THUẬN
+1. Vị trí công việc (nhà quản lý/giám đốc điều hành/chuyên gia/lao động kỹ thuật); chức danh công việc; số lượng (người): ......................................................
+Lý do: ..............................................................................................
+2. Vị trí công việc (nếu có) (nhà quản lý/giám đốc điều hành/chuyên gia/lao động kỹ thuật); chức danh công việc; số lượng (người): ...........................................
+Lý do: ...............................................................................................
+(Tên doanh nghiệp/tổ chức) có trách nhiệm thực hiện đúng các quy định của pháp luật về người lao động nước ngoài làm việc tại Việt Nam./.
+Ghi chú:
+(1), (2) Bộ Lao động - Thương binh và Xã hội (Cục Việc làm/Ủy ban nhân dân tỉnh, thành phố.... (3) Cục trưởng/Chủ tịch UBND cấp tỉnh.
+........(1)......... _______ Số: ................. V/v chấp thuận vị trí công việc sử dụng người lao động nước ngoài | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc _______________________ ......, ngày ..... tháng ..... năm .......
+Nơi nhận: - Như trên; - Lưu: ..........; | ..........(3)........... (Ký và ghi rõ họ tên, đóng dấu)

@@ -1,0 +1,234 @@
+[
+  {
+    "source_doc": "10/2012/QH13",
+    "target_doc": "51/2001/QH10",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "10/2012/QH13",
+    "target_doc": "35/2002/QH10",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "10/2012/QH13",
+    "target_doc": "84/2007/QH11",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "10/2012/QH13",
+    "target_doc": "74/2006/QH11",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "Luật Bảo hiểm xã hội 58-2014-QH13",
+    "target_doc": "51/2001/QH10",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "12/2012/QH13",
+    "target_doc": "51/2001/QH10",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "115/2015/NĐ-CP",
+    "target_doc": "142/2008/QĐ-TTG",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "145/2020/NĐ-CP",
+    "target_doc": "05/2015/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "145/2020/NĐ-CP",
+    "target_doc": "49/2013/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "145/2020/NĐ-CP",
+    "target_doc": "04/2015/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "152/2020/NĐ-CP",
+    "target_doc": "140/2018/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "152/2020/NĐ-CP",
+    "target_doc": "75/2014/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "28/2015/NĐ-CP",
+    "target_doc": "127/2008/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "35/2022/NĐ-CP",
+    "target_doc": "145/2020/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "70/2023/NĐ-CP",
+    "target_doc": "152/2020/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "70/2023/NĐ-CP",
+    "target_doc": "35/2022/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "70/2023/NĐ-CP",
+    "target_doc": "152/2020/NĐ-CP",
+    "relation_type": "thay_the",
+    "scope": "toan_bo",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "70/2023/NĐ-CP",
+    "target_doc": "152/2020/NĐ-CP",
+    "relation_type": "bai_bo",
+    "scope": "dieu_khoan_cu_the",
+    "target_article": "Điều 30",
+    "status": "active"
+  },
+  {
+    "source_doc": "70/2023/NĐ-CP",
+    "target_doc": "35/2022/NĐ-CP",
+    "relation_type": "bai_bo",
+    "scope": "toan_bo",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "06/2021/TT-BLĐTBXH",
+    "target_doc": "59/2015/TT-BLĐTBXH",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "28/2015/TT-BLĐTBXH",
+    "target_doc": "32/2010/TT-BLĐTBXH",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "82/2013/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "09/1998/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "152/2006/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "03/2007/TT-BLĐTBXH",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "19/2008/TT-BLĐTBXH",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "107/2007/QĐ-TTG",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "24/2007/TT-BLĐTBXH",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  },
+  {
+    "source_doc": "59/2015/TT-BLĐTBXH",
+    "target_doc": "92/2009/NĐ-CP",
+    "relation_type": "sua_doi",
+    "scope": "mot_so_dieu",
+    "target_article": null,
+    "status": "active"
+  }
+]
