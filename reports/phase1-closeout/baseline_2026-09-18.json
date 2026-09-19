@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-09-18T12:00:00+07:00",
+  "build_exit_code": 1,
+  "stdout": "Materialization failed: Conflict: Target doc:146/2018/NĐ-CP:body/article:14 not found or not active at 2019-01-01 for op op-nd75-3-4\n",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Project\\AI_Agent_Luật_Lao_Động\\scripts\\build_phase1_stage.py\", line 210, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\Admin\\Project\\AI_Agent_Luật_Lao_Động\\scripts\\build_phase1_stage.py\", line 174, in main\n    versions = materialize_versions(versions, operations)\n  File \"C:\\Users\\Admin\\Project\\AI_Agent_Luật_Lao_Động\\backend\\ingestion\\version_builder.py\", line 119, in materialize_versions\n    raise ValueError(f\"Conflict: Target {target_locator} not found or not active at {effective_from} for op {op['operation_id']}\")\nValueError: Conflict: Target doc:146/2018/NĐ-CP:body/article:14 not found or not active at 2019-01-01 for op op-nd75-3-4\n",
+  "manifest": {
+    "release_id": "candidate-5fa82899a2941d49",
+    "status": "candidate",
+    "published": false,
+    "sources_sha256": "f89a3f8a7f4bf609795e55dedb60135f5a543332ff8412662af0f04dd5deb733",
+    "parser_code_sha256": "0dbfe795b099f3b917163e0742102b33b5f4a7a6b000dff870a860a943f6a4cf",
+    "verified_relations_sha256": "4c935c3c0b2d0c5eaeb6900058403736c973d7537b5a51f52cc180983d44aed6",
+    "schema_version": 2,
+    "documents_parsed": 61,
+    "chunks": 3110,
+    "provision_versions": 2745,
+    "quarantined_documents": 0,
+    "missing_required_parsed_documents": [],
+    "verified_as_of": null,
+    "gate1": "PASS",
+    "gate2": "PASS",
+    "gate3": "FAIL"
+  }
+}

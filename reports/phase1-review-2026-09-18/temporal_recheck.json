@@ -1,0 +1,43 @@
+{
+  "versions": 2745,
+  "with_valid_to": 0,
+  "with_applied_relations": 0,
+  "repeal_reproductions": [
+    {
+      "target": "doc:10/2012/QH13",
+      "registry_repeal_date": "2021-01-01",
+      "versions": 242,
+      "eligible_at_target_date": 242
+    },
+    {
+      "target": "doc:58/2014/QH13",
+      "registry_repeal_date": "2025-07-01",
+      "versions": 125,
+      "eligible_at_target_date": 125
+    },
+    {
+      "target": "doc:74/2024/NĐ-CP",
+      "registry_repeal_date": "2026-01-01",
+      "versions": 7,
+      "eligible_at_target_date": 7
+    },
+    {
+      "target": "doc:146/2018/NĐ-CP",
+      "registry_repeal_date": "2025-08-15",
+      "versions": 55,
+      "eligible_at_target_date": 55
+    },
+    {
+      "target": "doc:75/2023/NĐ-CP",
+      "registry_repeal_date": "2025-08-15",
+      "versions": 9,
+      "eligible_at_target_date": 9
+    },
+    {
+      "target": "doc:02/2025/NĐ-CP",
+      "registry_repeal_date": "2025-08-15",
+      "versions": 5,
+      "eligible_at_target_date": 5
+    }
+  ]
+}

@@ -59,18 +59,5 @@ SEED_RELATIONS = [
 
 
 def build_relations():
-    """
-    Ghi SEED_RELATIONS ra file (dùng độc lập để seed nhanh).
-    Trong pipeline thông thường, dùng extract_relations.build_relations_corpus()
-    để auto-extract + merge SEED_RELATIONS.
-    """
-    output_path = 'data/document_relations.json'
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(SEED_RELATIONS, f, ensure_ascii=False, indent=2)
-
-    print(f"Đã lưu {len(SEED_RELATIONS)} seed relations vào {output_path}")
-
-
-if __name__ == "__main__":
-    build_relations()
+    """Legacy entry point is disabled; seeds are review candidates only."""
+    raise RuntimeError("Seed relations require evidence and review; use extract_relations for candidate output")

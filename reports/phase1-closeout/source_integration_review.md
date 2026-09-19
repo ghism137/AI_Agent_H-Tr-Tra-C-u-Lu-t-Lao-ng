@@ -1,0 +1,11 @@
+# Source integration review — 2026-09-17
+
+Current candidate update: `candidate-303a0188c7681a97` has 253 registered sources, 56 parsed documents and 3,110 chunks. The 12 required forms are now source-compared and signed for text fidelity; see `required_artifact_source_comparison.json` and the review queue. The lines below retain the integration findings at the time they were written, before that form review. Gate 1 remains FAIL for legal coverage, amendments and temporal versions.
+
+The two supplied DOCX files are registered with their byte hashes and explicit source roles in `data/registry/source_selection.json`. This is an extraction decision, not a legal validity sign-off.
+
+- NĐ 219/2025: the DOCX yields Articles 1–36 and Forms 01–04. Each of the 36 article texts was compared against the official Gazette PDF extraction; normalized similarity is at least 0.9998. The DOCX is selected for extraction because it preserves the four forms without the two extra PDF parser fragments. Forms and tables still need cell-level human review.
+- NĐ 188/2025: the existing Gazette Part 1 PDF supplies the normative body and Forms 1–4. The new DOCX supplies only Forms 5–12, with no normative articles introduced by contract templates. The Part 2 PDF comparison must stop at page 20; page 21 starts unrelated NĐ 190/2025. The previous page interval through 45 appended unrelated decrees to Form 12. Each DOCX form has a counterpart in the PDF; token containment ranges 0.89–1.00. Form 12 and merged tables need direct cell-level review before content verification.
+- The 74 Markdown files without document numbers in their names each have exactly one same-name DOCX candidate. After normalized token comparison, every Markdown token is contained in its DOCX counterpart; all 74 are recorded as flattened derivatives excluded from extraction. The individual source IDs, hashes, parent candidates, metrics and dispositions are in `source_reconciliation.json`. Their exclusion does not certify the parent DOCX's legal currency or fidelity to a signed original.
+
+Candidate corpus: 233 registered sources, 37 parsed documents and 2,423 chunks after selection. Gate 1 remains FAIL because metadata, amendment chains, coverage scope and manual source reviews are incomplete.

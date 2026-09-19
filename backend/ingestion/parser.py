@@ -1,120 +1,183 @@
+"""Parse legal structure while retaining source locations."""
+
+from __future__ import annotations
+
 import json
 import os
 import re
-from typing import Dict, Any, List
+import unicodedata
+from typing import Any
+
+
+PART = re.compile(r"^Phần\s+([IVXLCDM]+|\d+)\b", re.I)
+CHAPTER = re.compile(r"^Chương\s+([IVXLCDM]+|\d+)\b", re.I)
+SECTION = re.compile(r"^Mục\s+([IVXLCDM]+|\d+)\b", re.I)
+ARTICLE = re.compile(r"^Điều\s+(\d+[a-z]?)(?:\.\s*(.*))?$", re.I)
+ANNEX = re.compile(r"^PHỤ LỤC(?:\s+(?:SỐ\s+)?[IVXLCDM\d]+)?$", re.I)
+FORM = re.compile(r"^Mẫu số\s+\d+[A-Za-z]?$", re.I)
+WATERMARK = re.compile(r"^\s*(?:©\s*)?(?:www\.)?(?:thuvienphapluat\.vn|luatvietnam\.vn|luatminhkhue\.vn)(?:\s*\|.*)?\s*$", re.I)
+
 
 def normalize_text(text: str) -> str:
-    """Xóa khoảng trắng thừa và chuẩn hóa chuỗi."""
-    if not text:
-        return ""
-    # Giữ lại khoảng trắng đơn
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFC", text or "")).strip()
+
 
 def remove_watermarks(text: str) -> str:
-    """Xóa các đoạn văn bản nghi ngờ là watermark của bên thứ 3."""
-    watermarks = [
-        "thuvienphapluat",
-        "thư viện pháp luật",
-        "luatvietnam",
-        "luật việt nam",
-        "luatminhkhue",
-        "giaoducphapluat",
-        "www."
-    ]
-    lines = text.split('\n')
-    clean_lines = []
-    for line in lines:
-        lower_line = line.lower()
-        # Bỏ qua dòng nếu chứa watermark
-        if any(wm in lower_line for wm in watermarks):
-            continue
-        clean_lines.append(line)
-    return '\n'.join(clean_lines)
+    return "\n".join(line for line in text.splitlines() if not WATERMARK.fullmatch(line))
 
-def parse_legal_document(markdown_content: str, doc_meta: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Phân tích file Markdown và trích xuất cấu trúc văn bản pháp luật.
-    """
-    text = remove_watermarks(markdown_content)
-    
-    # Regex để nhận diện các cấp bậc
-    phan_pattern = re.compile(r'^Phần\s+([A-Z0-9IVX]+)(.*)', re.IGNORECASE)
-    chuong_pattern = re.compile(r'^Chương\s+([A-Z0-9IVX]+)(.*)', re.IGNORECASE)
-    muc_pattern = re.compile(r'^Mục\s+(\d+)(.*)', re.IGNORECASE)
-    dieu_pattern = re.compile(r'^Điều\s+(\d+)\.(.*)', re.IGNORECASE)
-    
-    lines = [normalize_text(line) for line in text.split('\n') if normalize_text(line)]
-    
-    articles = []
-    current_phan = ""
-    current_chuong = ""
-    current_muc = ""
-    current_dieu = None
-    
-    has_dieu = False
-    
-    for line in lines:
-        if phan_match := phan_pattern.match(line):
-            current_phan = line
-            continue
-        if chuong_match := chuong_pattern.match(line):
-            current_chuong = line
-            continue
-        if muc_match := muc_pattern.match(line):
-            current_muc = line
-            continue
-        if dieu_match := dieu_pattern.match(line):
-            has_dieu = True
-            if current_dieu:
-                articles.append(current_dieu)
-            
-            hierarchy = []
-            if current_phan: hierarchy.append(current_phan)
-            if current_chuong: hierarchy.append(current_chuong)
-            if current_muc: hierarchy.append(current_muc)
-            
-            hierarchy_path = " > ".join(hierarchy) if hierarchy else ""
-            
-            current_dieu = {
-                "article_number": dieu_match.group(1),
-                "title": dieu_match.group(2).strip(),
-                "hierarchy_path": hierarchy_path,
-                "content": [line]
-            }
-            continue
-            
-        if current_dieu:
-            current_dieu["content"].append(line)
-            
-    if current_dieu:
-        articles.append(current_dieu)
-        
-    # Trường hợp file biểu mẫu/phụ lục không có "Điều" nào, ta gom tất cả vào một
-    if not has_dieu and lines:
-        title = lines[0] if len(lines) > 0 else "Nội dung"
-        articles.append({
-            "article_number": "ALL",
-            "title": title,
-            "hierarchy_path": "",
-            "content": lines
-        })
-        
-    return {
-        "metadata": doc_meta,
-        "articles": [
-            {
-                "article_number": a["article_number"],
-                "title": a.get("title", ""),
-                "hierarchy_path": a["hierarchy_path"],
-                "content": "\n".join(a["content"])
-            }
-            for a in articles
-        ]
-    }
 
-def save_cleaned(cleaned_data: Dict[str, Any], output_path: str):
-    """Lưu dữ liệu đã parse ra file JSON."""
+def parse_legal_document(
+    markdown_content: str,
+    doc_meta: dict[str, Any],
+    blocks: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    if blocks is None:
+        blocks = [{"kind": "paragraph", "text": line, "locator": f"line:{number}"}
+                  for number, line in enumerate(markdown_content.splitlines(), 1)]
+    parts: list[dict[str, Any]] = []
+    source_tables: list[dict[str, Any]] = []
+    for block in blocks:
+        if block["kind"] == "table":
+            source_tables.append({"locator": block["locator"], "rows": block["rows"],
+                                  "cells": block.get("cells", [])})
+            for row_number, row in enumerate(block["rows"], 1):
+                text = " | ".join(row)
+                if text.strip():
+                    parts.append({"text": text, "locator": f"{block['locator']}/row:{row_number}",
+                                  "kind": "table_row"})
+            continue
+        else:
+            text = normalize_text(block["text"])
+        if text and not WATERMARK.fullmatch(text):
+            parts.append({"text": text, "locator": block["locator"], "kind": block["kind"]})
+
+    articles: list[dict[str, Any]] = []
+    current: dict[str, Any] | None = None
+    hierarchy = {"part": "", "chapter": "", "section": ""}
+    content_kind = doc_meta.get("content_kind", "normative")
+    annex_count = 0
+    pending_heading: str | None = None
+    last_normative_number = 0
+
+    def flush() -> None:
+        nonlocal current
+        if current is not None:
+            lines = current.pop("_lines")
+            locators = current.pop("source_locators")
+            
+            CLAUSE = re.compile(r"^(\d+)\.\s")
+            POINT = re.compile(r"^([a-zđ])\)\s", re.I)
+            
+            base_path = current["structural_path"]
+            current_path = list(base_path)
+            current_lines = []
+            current_locators = []
+            
+            for line, locator in zip(lines, locators, strict=True):
+                clause_match = CLAUSE.match(line)
+                point_match = POINT.match(line)
+                
+                if clause_match:
+                    if current_lines:
+                        piece = dict(current)
+                        piece["structural_path"] = current_path
+                        piece["content"] = "\n".join(current_lines)
+                        piece["content_segments"] = [{"text": l, "locator": loc} for l, loc in zip(current_lines, current_locators, strict=True)]
+                        articles.append(piece)
+                    current_path = list(base_path) + [f"item:{clause_match.group(1)}"]
+                    current_lines = [line]
+                    current_locators = [locator]
+                elif point_match:
+                    if current_lines:
+                        piece = dict(current)
+                        piece["structural_path"] = current_path
+                        piece["content"] = "\n".join(current_lines)
+                        piece["content_segments"] = [{"text": l, "locator": loc} for l, loc in zip(current_lines, current_locators, strict=True)]
+                        articles.append(piece)
+                    item_part = next((p for p in current_path if p.startswith("item:")), None)
+                    if item_part:
+                        current_path = list(base_path) + [item_part, f"point:{point_match.group(1).lower()}"]
+                    else:
+                        current_path = list(base_path) + [f"point:{point_match.group(1).lower()}"]
+                    current_lines = [line]
+                    current_locators = [locator]
+                else:
+                    current_lines.append(line)
+                    current_locators.append(locator)
+                    
+            if current_lines:
+                piece = dict(current)
+                piece["structural_path"] = current_path
+                piece["content"] = "\n".join(current_lines)
+                piece["content_segments"] = [{"text": l, "locator": loc} for l, loc in zip(current_lines, current_locators, strict=True)]
+                articles.append(piece)
+            current = None
+
+    for part in parts:
+        line = part["text"]
+        if pending_heading is not None and part["kind"] == "paragraph":
+            if not (PART.match(line) or CHAPTER.match(line) or SECTION.match(line) or ARTICLE.match(line) or ANNEX.match(line)):
+                hierarchy[pending_heading] += " " + line
+                pending_heading = None
+                continue
+            pending_heading = None
+        if part["kind"] == "paragraph" and (ANNEX.match(line) or
+                                           (content_kind in {"annex", "form"} and FORM.match(line))):
+            flush()
+            annex_count += 1
+            content_kind = "form" if FORM.match(line) else "annex"
+            current = {"article_number": "ALL", "title": line, "content_kind": content_kind,
+                       "structural_path": [content_kind, f"item:{annex_count}"], "hierarchy_path": line,
+                       "source_locators": [part["locator"]], "_lines": [line]}
+            continue
+        if content_kind == "normative" and part["kind"] == "paragraph":
+            if PART.match(line):
+                flush()
+                hierarchy = {"part": line, "chapter": "", "section": ""}
+                pending_heading = "part" if re.fullmatch(r"Phần\s+[IVXLCDM\d]+\.?(?:\s*)", line, re.I) else None
+                continue
+            if CHAPTER.match(line):
+                flush()
+                hierarchy["chapter"] = line
+                hierarchy["section"] = ""
+                pending_heading = "chapter" if re.fullmatch(r"Chương\s+[IVXLCDM\d]+\.?(?:\s*)", line, re.I) else None
+                continue
+            if SECTION.match(line):
+                flush()
+                hierarchy["section"] = line
+                pending_heading = "section" if re.fullmatch(r"Mục\s+[IVXLCDM\d]+\.?(?:\s*)", line, re.I) else None
+                continue
+            match = ARTICLE.match(line)
+            if match:
+                article_number = int(re.match(r"\d+", match.group(1)).group())
+                if article_number > last_normative_number + 1 or article_number < last_normative_number:
+                    if current is not None:
+                        current["_lines"].append(line)
+                        current["source_locators"].append(part["locator"])
+                    continue
+                flush()
+                last_normative_number = article_number
+                current = {"article_number": match.group(1), "title": match.group(2) or "",
+                           "content_kind": "normative", "structural_path": ["body", f"article:{match.group(1)}"],
+                           "hierarchy_path": " > ".join(value for value in hierarchy.values() if value),
+                           "source_locators": [part["locator"]], "_lines": [line]}
+                continue
+        if current is not None:
+            current["_lines"].append(line)
+            current["source_locators"].append(part["locator"])
+    flush()
+    if not articles:
+        if content_kind not in {"annex", "form"}:
+            raise ValueError(f"No articles found in normative document {doc_meta.get('doc_number', '')}")
+        articles = [{"article_number": "ALL", "title": parts[0]["text"] if parts else "",
+                     "content_kind": content_kind, "structural_path": [content_kind, "item:1"],
+                     "hierarchy_path": "", "source_locators": [part["locator"] for part in parts],
+                     "content": "\n".join(part["text"] for part in parts),
+                     "content_segments": [{"text": part["text"], "locator": part["locator"]} for part in parts]}]
+    return {"metadata": doc_meta, "articles": articles, "source_tables": source_tables}
+
+
+def save_cleaned(cleaned_data: dict[str, Any], output_path: str) -> None:
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(cleaned_data, f, ensure_ascii=False, indent=2)
+    with open(output_path, "w", encoding="utf-8") as stream:
+        json.dump(cleaned_data, stream, ensure_ascii=False, indent=2)

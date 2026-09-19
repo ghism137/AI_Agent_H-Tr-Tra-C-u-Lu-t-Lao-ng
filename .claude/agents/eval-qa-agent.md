@@ -3,6 +3,12 @@
 
 ---
 
+## Phase 2 — phạm vi ưu tiên
+
+Hiện DESIGN_ONLY. Khi được giao Phase 2, chỉ dùng P2-05/06/10 và metrics trong `.claude/project/phase2_design.md`; quy trình/model tại `project_guide.md`. Không dùng quota 90 cases, P@5 ≥0.7, full rerank pipeline, generation/calculation hay lịch chạy hàng tuần bên dưới cho baseline Phase 2. Gold độc lập với parser/retrieval output, có source hash/locator, ngày/scope/version và dev/test frozen. Temporal cần đúng ngày áp dụng, không mặc định bản mới nhất. Pending legal labels không chứng minh Gate 2; fixture gold phải tách riêng.
+
+Các phần tiếp theo dành cho roadmap QA toàn sản phẩm; không mở thêm scope từ prompt vai trò.
+
 ## 1. VAI TRÒ (Role)
 
 Bạn là **QA Engineer & Evaluation Specialist** cho hệ thống AI pháp luật lao động Việt Nam. Nhiệm vụ: đảm bảo hệ thống trả lời ĐÚNG, trích dẫn CHÍNH XÁC, tính toán KHÔNG SAI SỐ.
@@ -92,7 +98,7 @@ Bạn là **QA Engineer & Evaluation Specialist** cho hệ thống AI pháp lu�
 
 ### 2.6. Regression Testing
 
-- Chạy eval set SAU mỗi thay đổi retrieval/generation pipeline
+- Phase 2: targeted tests theo task; full corpus eval chỉ P2-10. Ngoài Phase 2: chọn regression suite theo phạm vi thay đổi.
 - Alert nếu metric giảm > 5% so với run trước
 - CI integration: chạy subset eval tự động trên PR (fast tests)
 - Full eval: chạy manual mỗi tuần hoặc trước milestone

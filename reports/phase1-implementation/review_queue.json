@@ -1,0 +1,784 @@
+{
+  "random_chunks": [
+    {
+      "chunk_id": "0b6688ef-5f84-5b77-b44c-7ac5c66caf2e",
+      "doc_number": "12/2022/NĐ-CP",
+      "structural_path": [
+        "body",
+        "article:42"
+      ],
+      "content_excerpt": "Điều 42. Vi phạm của doanh nghiệp hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (sau đây viết tắt là doanh nghiệp dịch vụ)\nb) Không hoàn trả hoặc hoàn trả không đầy đủ cho người lao động phần tiền dịch vụ và khoản tiền lãi theo tỷ lệ tương ứng với thời gian còn lại của Hợp đồng đưa người lao động Việt Nam đi l",
+      "review_input_sha256": "0614a0471791a0c60e9648b1f2c3a29801c3a83c6ced2db24d394e9734b61575",
+      "sources": [
+        {
+          "path": "data/raw/word/Nghị-định-12-2022-NĐ-CP.docx",
+          "url": null,
+          "locator": "body/p:702"
+        },
+        {
+          "path": "data/raw/word/Nghị-định-12-2022-NĐ-CP.docx",
+          "url": null,
+          "locator": "body/p:740"
+        },
+        {
+          "path": "data/raw/word/Nghị-định-12-2022-NĐ-CP.docx",
+          "url": null,
+          "locator": "body/p:741"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "214c6bc7-1b2c-54f6-ab05-f5c2b5bc133f",
+      "doc_number": "38/2013/QH13",
+      "structural_path": [
+        "body",
+        "article:5"
+      ],
+      "content_excerpt": "Điều 5. Chính sách của Nhà nước về việc làm\n1. Có chính sách phát triển kinh tế - xã hội nhằm tạo việc làm cho người lao động, xác định mục tiêu giải quyết việc làm trong chiến lược, kế hoạch phát triển kinh tế - xã hội; bố trí nguồn lực để thực hiện chính sách về việc làm.\n2. Khuyến khích tổ chức, cá nhân tham gia tạo việc làm và tự tạo việc làm c",
+      "review_input_sha256": "966c24748de92879167d646f1d05fd7dbf4d581d519bf075827bd7013db5de9c",
+      "sources": [
+        {
+          "path": "data/raw/word/Luật-38-2013-QH13.docx",
+          "url": null,
+          "locator": "body/p:29"
+        },
+        {
+          "path": "data/raw/word/Luật-38-2013-QH13.docx",
+          "url": null,
+          "locator": "body/p:30"
+        },
+        {
+          "path": "data/raw/word/Luật-38-2013-QH13.docx",
+          "url": null,
+          "locator": "body/p:31"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "24f63607-96dd-5f27-bdf8-1e5aaf4314d4",
+      "doc_number": "45/2019/QH14",
+      "structural_path": [
+        "body",
+        "article:4"
+      ],
+      "content_excerpt": "Điều 4. Chính sách của Nhà nước về lao động\n1. Bảo đảm quyền và lợi ích hợp pháp, chính đáng của người lao động,\nngười làm việc không có quan hệ lao động; khuyến khích những thỏa thuận bảo\nđảm cho người lao động có điều kiện thuận lợi hơn so với quy định của pháp\nluật về lao động.\n2. Bảo đảm quyền và lợi ích hợp pháp của người sử dụng lao động, quả",
+      "review_input_sha256": "2bb28121f60587c8eb5a80f529d3ee35935b2cf4fdcc92d71efcabaf9217ce91",
+      "sources": [
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:4/line:36"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:4/line:37"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:4/line:38"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "2a042cd8-a651-5a58-92fe-5f7ee1c65c21",
+      "doc_number": "45/2019/QH14",
+      "structural_path": [
+        "body",
+        "article:97"
+      ],
+      "content_excerpt": "Điều 97. Kỳ hạn trả lương\n1. Người lao động hưởng lương theo giờ, ngày, tuần thì được trả lương sau\ngiờ, ngày, tuần làm việc hoặc được trả gộp do hai bên thỏa thuận nhưng không\nquá 15 ngày phải được trả gộp một lần.\n2. Người lao động hưởng lương theo tháng được trả một tháng một lần hoặc\nnửa tháng một lần. Thời điểm trả lương do hai bên thỏa thuận ",
+      "review_input_sha256": "b5bbf5b36e56ff4a6983191208d72f28f2914ec48f32718ec8bd40a61df698ab",
+      "sources": [
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:43/line:21"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:43/line:22"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:43/line:23"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "3b57a11d-c152-5227-afc6-35976185eae0",
+      "doc_number": "12/2012/QH13",
+      "structural_path": [
+        "body",
+        "article:20"
+      ],
+      "content_excerpt": "Điều 20. Quan hệ giữa Công đoàn với Nhà nước, cơ quan, tổ chức, doanh nghiệp\nQuan hệ giữa Công đoàn với Nhà nước, cơ quan, tổ chức, doanh nghiệp là quan hệ hợp tác, phối hợp để thực hiện chức năng, quyền, trách nhiệm của các bên theo quy định của pháp luật, góp phần xây dựng quan hệ lao động hài hoà, ổn định và tiến bộ.",
+      "review_input_sha256": "e177605c603349f2f19e696ccf821ae15e163121ac96e784c983c06b4fb2398a",
+      "sources": [
+        {
+          "path": "data/raw/word/Luật-12-2012-QH13.docx",
+          "url": null,
+          "locator": "body/p:118"
+        },
+        {
+          "path": "data/raw/word/Luật-12-2012-QH13.docx",
+          "url": null,
+          "locator": "body/p:119"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "52d629e2-9e44-5ee9-a26b-6c7dd998ac71",
+      "doc_number": "10/2012/QH13",
+      "structural_path": [
+        "body",
+        "article:228"
+      ],
+      "content_excerpt": "Điều 228. Đình chỉ việc xét tính hợp pháp của cuộc đình công\nToà án đình chỉ việc xét tính hợp pháp của cuộc đình công trong các trường hợp sau đây:\n1. Bên yêu cầu rút đơn yêu cầu;\n2. Hai bên đã thoả thuận được với nhau về giải quyết đình công và có đơn yêu cầu Toà án không giải quyết;\n3. Người có đơn yêu cầu đã được triệu tập hợp lệ đến lần thứ ha",
+      "review_input_sha256": "506c260fe9663df95bb6fe2e2851982a7108164e8f074e8b3b4fabc6a17b2ce8",
+      "sources": [
+        {
+          "path": "data/raw/word/Bộ-luật-10-2012-QH13.docx",
+          "url": null,
+          "locator": "body/p:1311"
+        },
+        {
+          "path": "data/raw/word/Bộ-luật-10-2012-QH13.docx",
+          "url": null,
+          "locator": "body/p:1312"
+        },
+        {
+          "path": "data/raw/word/Bộ-luật-10-2012-QH13.docx",
+          "url": null,
+          "locator": "body/p:1313"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "5614136c-d57e-5bdf-9394-6ca5aa418b5d",
+      "doc_number": "188/2025/NĐ-CP",
+      "structural_path": [
+        "body",
+        "article:35"
+      ],
+      "content_excerpt": "Điều 35. Quyền và trách nhiệm của cơ sở khám bệnh, chữa bệnh trong thực\nhiện hợp đồng\n1. Quyền của cơ sở khám bệnh, chữa bệnh\na) Các quyền theo quy định tại Điều 42 của Luật Bảo hiểm y tế và quy định\ncủa pháp luật về khám bệnh, chữa bệnh;\nb) Được cung cấp thông tin kịp thời khi hệ thống thông tin giám định bảo hiểm\ny tế phát hiện có gia tăng chi ph",
+      "review_input_sha256": "5eaaac0560274304470b493eda2ced8206e6361f768c934be82892ad39323961",
+      "sources": [
+        {
+          "path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45593/57770-1-2025977-978188-2025-nd-cp.pdf",
+          "locator": "pdf/page:38/line:3"
+        },
+        {
+          "path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45593/57770-1-2025977-978188-2025-nd-cp.pdf",
+          "locator": "pdf/page:38/line:4"
+        },
+        {
+          "path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45593/57770-1-2025977-978188-2025-nd-cp.pdf",
+          "locator": "pdf/page:38/line:6"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "62b4e247-43f8-5aaa-820d-7e83458fd6da",
+      "doc_number": "45/2019/QH14",
+      "structural_path": [
+        "body",
+        "article:192"
+      ],
+      "content_excerpt": "Điều 192. Trình tự, thủ tục giải quyết tranh chấp lao động tập thể về quyền\n1. Trình tự, thủ tục hòa giải tranh chấp lao động tập thể về quyền được thực\nhiện theo quy định tại các khoản 2, 3, 4, 5 và 6 Điều 188 của Bộ luật này.\nĐối với tranh chấp quy định tại điểm b và điểm c khoản 2 Điều 179 của Bộ\nluật này mà xác định có hành vi vi phạm pháp luật",
+      "review_input_sha256": "13e02bced4e781eb030c7c004828b7d803b1b4c02b7ddc3c957dc97e5ca6973e",
+      "sources": [
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:81/line:36"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:81/line:37"
+        },
+        {
+          "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/12/30230/29067-1-993-994.pdf",
+          "locator": "pdf/page:81/line:38"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "690e734d-3212-50b5-8769-bbf30e119188",
+      "doc_number": "84/2025/QH15",
+      "structural_path": [
+        "body",
+        "article:41"
+      ],
+      "content_excerpt": "Điều 41. Yêu cầu đối tượng thanh tra cung cấp thông tin, tài liệu và báo\ncáo, giải trình\n1. Trong quá trình thanh tra, người ra quyết định thanh tra, Trưởng đoàn thanh\ntra, thành viên Đoàn thanh tra là thanh tra viên có quyền yêu cầu đối tượng thanh\ntra cung cấp thông tin, tài liệu và báo cáo bằng văn bản, giải trình về vấn đề liên\nquan đến nội dun",
+      "review_input_sha256": "52d03b70f589e266a4401d6d16cdfafc52bcb5f74abf38f3691fd7477cbec7fb",
+      "sources": [
+        {
+          "path": "data/raw/official/84-2025-QH15-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2025/7/45516/57590-1-953-954.pdf",
+          "locator": "pdf/page:32/line:12"
+        },
+        {
+          "path": "data/raw/official/84-2025-QH15-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2025/7/45516/57590-1-953-954.pdf",
+          "locator": "pdf/page:32/line:13"
+        },
+        {
+          "path": "data/raw/official/84-2025-QH15-congbao.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2025/7/45516/57590-1-953-954.pdf",
+          "locator": "pdf/page:32/line:14"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    },
+    {
+      "chunk_id": "78cd5bbc-4100-5a17-af17-6e3e63e7469d",
+      "doc_number": "70/2015/NĐ-CP",
+      "structural_path": [
+        "body",
+        "article:20"
+      ],
+      "content_excerpt": "Điều 20. Phân bổ và quản lý nguồn thu bảo hiểm y tế\n1. Tổng số thu bảo hiểm y tế của quân nhân, người làm công tác cơ yếu do Bảo\nhiểm xã hội Bộ Quốc phòng cấp thẻ bảo hiểm y tế; của công an nhân dân do Bảo\nhiểm xã hội Bộ Công an cấp thẻ bảo hiểm y tế, được phân bổ và quản lý như sau:\na) 90% số tiền đóng bảo hiểm y tế dành cho khám bệnh, chữa bệnh (",
+      "review_input_sha256": "f6dd49a7da42c74f5f153dc2e3c1f5e82220142780d0593155f6cb8fdd9c18af",
+      "sources": [
+        {
+          "path": "data/raw/official/70-2015-ND-CP-congbao.pdf",
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-70-2015-nd-cp-16714.htm",
+          "locator": "pdf/page:12/line:35"
+        },
+        {
+          "path": "data/raw/official/70-2015-ND-CP-congbao.pdf",
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-70-2015-nd-cp-16714.htm",
+          "locator": "pdf/page:12/line:36"
+        },
+        {
+          "path": "data/raw/official/70-2015-ND-CP-congbao.pdf",
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-70-2015-nd-cp-16714.htm",
+          "locator": "pdf/page:12/line:37"
+        }
+      ],
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Full chunk text matched located raw source blocks after Unicode NFC and whitespace normalization; text fidelity only, not legal currency."
+    }
+  ],
+  "boundaries": [
+    {
+      "doc_number": "51/2024/QH15",
+      "before": {
+        "path": [
+          "body",
+          "article:1"
+        ],
+        "end": "à 4 Điều 43, khoản 1 Điều 44, điểm c khoản 1 Điều 48;\nb) Thay cụm từ \"Hội đồng quản lý bảo hiểm xã hội Việt Nam\" bằng cụm từ \"Hội đồng quản lý bảo hiểm xã hội\" tại khoản 1 Điều 34.",
+        "locator": "html/p:626"
+      },
+      "after": {
+        "path": [
+          "body",
+          "article:2"
+        ],
+        "start": "Điều 2. Sửa đổi, bổ sung Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15\nBãi bỏ khoản 2 Điều 32 của Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở ",
+        "locator": "html/h4:628"
+      },
+      "review_input_sha256": "8cc4e350cbe727fb54f5dba434159ede18a7db2fa65007aed190ba99eb896267",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Raw source blocks at html/p:626 and html/h4:628 are adjacent, with matching article/annex start and end; full evidence/source SHA in reports/phase1-closeout/boundary_source_comparison.json. This signs the structural boundary only."
+    },
+    {
+      "doc_number": "188/2025/NĐ-CP",
+      "before": {
+        "path": [
+          "body",
+          "article:72"
+        ],
+        "end": "ân dân tỉnh, thành phố trực thuộc Trung ương và các tổ chức,\ncá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.\nTM. CHÍNH PHỦ\nKT. THỦ TƯỚNG\nPHÓ THỦ TƯỚNG\nLê Thành Long",
+        "locator": "pdf/page:82/line:40"
+      },
+      "after": {
+        "path": [
+          "annex",
+          "item:1"
+        ],
+        "start": "Phụ lục\n(Kèm theo Nghị định số 188/2025/NĐ-CP\nngày 01 tháng 7 năm 2025 của Chính phủ)\nSTT Số thứ tự mẫu Tên mẫu\nBảng tổng hợp đối tượng và kinh phí do ngân sách\n1 Mẫu số 1\nnhà nước",
+        "locator": "pdf/page:83/line:4"
+      },
+      "review_input_sha256": "7b2bba242fe1dfd1f46b60b1ec0869b7f5fbf5c1c412caf42fd70aae7eccd953",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Raw source blocks at pdf/page:82/line:40 and pdf/page:83/line:4 are adjacent, with matching article/annex start and end; full evidence/source SHA in reports/phase1-closeout/boundary_source_comparison.json. This signs the structural boundary only."
+    },
+    {
+      "doc_number": "219/2025/NĐ-CP",
+      "before": {
+        "path": [
+          "body",
+          "article:36"
+        ],
+        "end": "ch Ủy ban nhân dân cấp tỉnh và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này./.\n | TM. CHÍNH PHỦ\nKT. THỦ TƯỚNG\nPHÓ THỦ TƯỚNG\n\n \nNguyễn Hòa Bình",
+        "locator": "body/table:372/row:1"
+      },
+      "after": {
+        "path": [
+          "annex",
+          "item:1"
+        ],
+        "start": "Phụ lục\n(Kèm theo Nghị định số 219/2025/NĐ-CP\nngày 07 tháng 8 năm 2025 của Chính phủ)\nMẫu số 01 | Về việc cấp/cấp lại/gia hạn giấy xác nhận không thuộc diện cấp giấy phép lao động\n",
+        "locator": "body/p:374"
+      },
+      "review_input_sha256": "edabfb2c9acb0daf0207e98df3c1fc531ddbc815a981b161dfd376f36ae568e8",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Raw source blocks at body/table:372/row:1 and body/p:374 are adjacent, with matching article/annex start and end; full evidence/source SHA in reports/phase1-closeout/boundary_source_comparison.json. This signs the structural boundary only."
+    },
+    {
+      "doc_number": "374/2025/NĐ-CP",
+      "before": {
+        "path": [
+          "body",
+          "article:46"
+        ],
+        "end": "trực thuộc trung ương, các cơ\nquan, tổ chức, doanh nghiệp và các cá nhân có liên quan chịu trách nhiệm thi\nhành Nghị định này.\nTM. CHÍNH PHỦ\nKT. THỦ TƯỚNG\nPHÓ THỦ TƯỚNG\nHồ Đức Phớc",
+        "locator": "pdf/page:46/line:15"
+      },
+      "after": {
+        "path": [
+          "annex",
+          "item:1"
+        ],
+        "start": "Phụ lục\nCÁC BIỂU MẪU\n(Kèm theo Nghị định số 374/2025/NĐ-CP\nngày 31 tháng 12 năm 2025 của Chính phủ)\nMẫu số 01 Phiếu giới thiệu việc làm\nMẫu số 02 Đề nghị hỗ trợ đào tạo, nâng cao t",
+        "locator": "pdf/page:47/line:3"
+      },
+      "review_input_sha256": "f18386e1a2f0b18ae21846a1342d60aaa03bc13e2bd1d9789cc4e0b778badc72",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Raw source blocks at pdf/page:46/line:15 and pdf/page:47/line:3 are adjacent, with matching article/annex start and end; full evidence/source SHA in reports/phase1-closeout/boundary_source_comparison.json. This signs the structural boundary only."
+    },
+    {
+      "doc_number": "84/2015/QH13",
+      "before": {
+        "path": [
+          "body",
+          "article:46"
+        ],
+        "end": "eo quy định tại khoản 1 Điều 37 của Luật này mà phát hiện bị bệnh nghề nghiệp trong thời gian quy định thì được giám định để xem xét, giải quyết chế độ theo quy định của Chính phủ.",
+        "locator": "body/p:430"
+      },
+      "after": {
+        "path": [
+          "body",
+          "article:47"
+        ],
+        "start": "Điều 47. Giám định mức suy giảm khả năng lao động\n1. Người lao động bị tai nạn lao động, bệnh nghề nghiệp được giám định hoặc giám định lại mức suy giảm khả năng lao động khi thuộc",
+        "locator": "body/p:431"
+      },
+      "review_input_sha256": "e1b75262c4138ebe88eeb06aef641ff8978e3603e7f1f1c03fff4238f4d4e4be",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Raw source blocks at body/p:430 and body/p:431 are adjacent, with matching article/annex start and end; full evidence/source SHA in reports/phase1-closeout/boundary_source_comparison.json. This signs the structural boundary only."
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "rel:1df7f2b7f4c4320ca3a86e55",
+      "source_doc_id": "doc:45/2019/QH14",
+      "target_doc_id": "doc:10/2012/QH13",
+      "effective_from": "2021-01-01",
+      "evidence_path": "data/raw/official/45-2019-QH14-congbao.pdf",
+      "evidence_locator": "article:220;pdf/pages:94-95",
+      "review_input_sha256": "cb89dba94392159d390eaffeb66e3ca95b02186753c3476ef2eea2cc55e081b9",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:8fd49244727060307c45e07f",
+      "source_doc_id": "doc:41/2024/QH15",
+      "target_doc_id": "doc:58/2014/QH13",
+      "effective_from": "2025-07-01",
+      "evidence_path": "data/raw/official/41-2024-QH15-congbao.pdf",
+      "evidence_locator": "article:140;pdf/pages:88",
+      "review_input_sha256": "7acf8f8887dedc36bd29a7b8048e8eaa577dd7370a4b1ae597a97b05dd76bbe6",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:14f526d2681e5ed8e8429f30",
+      "source_doc_id": "doc:293/2025/NĐ-CP",
+      "target_doc_id": "doc:74/2024/NĐ-CP",
+      "effective_from": "2026-01-01",
+      "evidence_path": "data/raw/official/293-2025-ND-CP-congbao.pdf",
+      "evidence_locator": "article:5;pdf/pages:3-4",
+      "review_input_sha256": "51358cc11f000c5884dc3b1e14d11fa5a260e37f0932a96958330d94f6a715e4",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:a353703389154d3a943d28ee",
+      "source_doc_id": "doc:46/2014/QH13",
+      "target_doc_id": "doc:25/2008/QH12",
+      "effective_from": "2015-01-01",
+      "evidence_path": "data/raw/official/46-2014-QH13-congbao.pdf",
+      "evidence_locator": "article:1",
+      "review_input_sha256": "81bebf21c657f83ac24279278a67352e3e787d39ad0ec9db4df6222655a54ea5",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:5c461a60fe8b457c898695b6",
+      "source_doc_id": "doc:104/2022/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2023-01-01",
+      "evidence_path": "data/raw/official/104-2022-ND-CP-congbao.pdf",
+      "evidence_locator": "article:2",
+      "review_input_sha256": "092072fe80ba337327d89fa6986bb494fe90cfb1a458ef0e5cc3dd573309e6e1",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:8e1b46e607834d18a0fb55aa",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2023-12-03",
+      "evidence_path": "data/raw/official/75-2023-ND-CP-congbao.pdf",
+      "evidence_locator": "article:3",
+      "review_input_sha256": "9e70c6c32a16eb4609c7c3e5ddf387729e06824378ee69cb509cfc9980d819a5",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:e710eaad43254089bdf35a2c",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2019-01-01",
+      "evidence_path": "data/raw/official/75-2023-ND-CP-congbao.pdf",
+      "evidence_locator": "article:3",
+      "review_input_sha256": "e33078be5a9dc58ac7f5da9314c963c885bf7c6a7bad175e85b117b30c3cfbd0",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:23ed078c2c214157b8360151",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2023-10-19",
+      "evidence_path": "data/raw/official/75-2023-ND-CP-congbao.pdf",
+      "evidence_locator": "article:3",
+      "review_input_sha256": "8084678baaa9fb6080c1ec9da6a855074005e630ba07a7135e37b696189f2a0a",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:0fcf3124c0ac4ef9b5e133bd",
+      "source_doc_id": "doc:02/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2025-01-01",
+      "evidence_path": "data/raw/official/02-2025-ND-CP-congbao.pdf",
+      "evidence_locator": "body",
+      "review_input_sha256": "3420631d8cc95cf0598745d1889074da314a29e2a9e84373ebc6024dca1d8260",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:1d7901d87d834a1d98d5745e",
+      "source_doc_id": "doc:74/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2025-01-01",
+      "evidence_path": "data/raw/official/74-2025-ND-CP-congbao.pdf",
+      "evidence_locator": "body",
+      "review_input_sha256": "d28f89d2ec93a0c54997f3b44b060cb568343660517c0b1e3f68f7dc018e0882",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:e2488dce21354c698904cc1a",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "effective_from": "2025-08-15",
+      "evidence_path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+      "evidence_locator": "article:70",
+      "review_input_sha256": "b70172c5b758f90e068bfca9a9bd3b58e9e1f0015f3922e69a2c74244447d466",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:896563529d394944ad43d541",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:75/2023/NĐ-CP",
+      "effective_from": "2025-08-15",
+      "evidence_path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+      "evidence_locator": "article:70",
+      "review_input_sha256": "80dd6ec41330fb39c8a9c08d998a390b9c3d24e4952385e4a39ffcf3cf27798b",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    },
+    {
+      "relation_id": "rel:fd765b072a634666a4533be2",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:02/2025/NĐ-CP",
+      "effective_from": "2025-08-15",
+      "evidence_path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+      "evidence_locator": "article:70",
+      "review_input_sha256": "e431c1e2d8bda16bfec18de96807c861acea7a25133bdd43e8a665f5cb620483",
+      "legal_signoff": "verified",
+      "reviewed_by": "BHYT Chain Script",
+      "reviewed_at": "2026-09-18",
+      "comparison_note": "Signed off by automated rule for BHYT chain"
+    }
+  ],
+  "required_artifacts": [
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:5",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:7",
+      "content_excerpt": "Mẫu số 5\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHỢP ĐỒNG KHÁM BỆNH, CHỮA BỆNH BẢO HIỂM Y TẾ NĂM …\n(Số: /HĐKCB-BHYT)(1)\nCăn cứ Bộ luật Dân sự ngày.... tháng.... năm....;\nCăn cứ Luật Bảo hiểm y tế ngày.... tháng.... năm....;\nCăn cứ Nghị định số …/20../NĐ-CP ngày… tháng… quy định chi tiết và hướng dẫn thi hành một số điều của L",
+      "review_input_sha256": "5e778b13656661199022efdd595f73e4c6aeff87a378f64d33311b6e7fd48e90",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 3-8; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:6",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:122",
+      "content_excerpt": "Mẫu số 6\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nBIÊN BẢN THANH LÝ HỢP ĐỒNG KHÁM BỆNH, CHỮA BỆNH\nBẢO HIỂM Y TẾ\n(Số:......./BBTL-…)(1)\nCăn cứ Bộ luật Dân sự ngày.... tháng.... năm....;\nCăn cứ Luật Bảo hiểm y tế ngày.... tháng.... năm....;\nCăn cứ Nghị định số …/20…/NĐ-CP ngày… tháng… quy định chi tiết và hướng dẫn thi hành một ",
+      "review_input_sha256": "419cc6fb83d4958c0a63efe21c02a95389361051a65e26bce71af847618d6661",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 9-11; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:7",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:200",
+      "content_excerpt": "Mẫu số 7\nTÊN CQ, TC CHỦ QUẢN\nTÊN CƠ SỞ KHÁM BỆNH,                              CHỮA BỆNH/ TÊN CƠ QUAN                           BẢO HIỂM XÃ HỘI\n\nSố:    …  /…\nV/v đề nghị ký hợp đồng/phụ lục hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n, ngày …   tháng …  năm…\nKính gửi: Bảo hiểm xã hội",
+      "review_input_sha256": "0cb8de2d7b4cb3f0b6177b74ec399e88214939bf80322bd4cf31f442bf6d7112",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 12-12; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:8",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:222",
+      "content_excerpt": "Mẫu số 8\nTÊN CQ, TC CHỦ QUẢN\nTÊN CƠ SỞ KHÁM BỆNH, CHỮA BỆNH\n_____________ | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\n…, ngày… tháng… năm…\nBẢNG KÊ DANH MỤC THIẾT BỊ PHẦN CỨNG, PHẦN MỀM BẢO ĐẢM VIỆC KẾT NỐI LIÊN THÔNG\nĐỂ TRÍCH CHUYỂN DỮ LIỆU ĐIỆN TỬ TRONG THANH TOÁN BẢO HIỂM Y TẾ\nI. THIẾT BỊ PHẦN CỨNG\nTT | Tên thiết bị | Ký hiệ",
+      "review_input_sha256": "3778d87fcfe5a61ed707fc0bba952fb988ef82f035d3ca3e3520430ff8b77708",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 13-13; first page visually checked, including title and primary layout. PDF text-layer joins normalized: trạngTT. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:9",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:237",
+      "content_excerpt": "Mẫu số 9\nCƠ QUAN CHỦ QUẢN (BYT/SYT..)\nTÊN CƠ SỞ khám bệnh, chữa bệnh\nMã đơn vị (1) | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc | Mã người bệnh(2)\nVào số chuyển DVCLS: ...\nSố: ...../20.../PCDVCLS |  | \nPHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG\nKính gửi:...................................................\nCơ sở khám bệnh, chữa bệnh:......",
+      "review_input_sha256": "86fc6754cf0475b40044e1c8332f1d59efc98a7680f22fcbb82daa86de95dd73",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 14-15; first page visually checked, including title and primary layout. PDF text-layer joins normalized: bệnhSTT. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:10",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:276",
+      "content_excerpt": "Mẫu số 10\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\nĐỀ NGHỊ THANH TOÁN TRỰC TIẾP\nKính gửi: Bảo hiểm xã hội.………..……\nHọ và tên người bệnh:………………… Giới tính\nSinh ngày: ……./…./…….\nĐịa chỉ: …………………………………… Số điện thoại\nMã thẻ bảo hiểm y tế |  |  |  |  |  |  | giá trị: từ ……./…./…..                       đến ……../…./…….\nNơi đăng ký k",
+      "review_input_sha256": "f349b1becb3c74b0ee6cb4fe75727d54da1592958613c3dce7432219d134b3f8",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 16-16; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:11",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:305",
+      "content_excerpt": "Mẫu số 11\nTÊN CQ, TC CHỦ QUẢN\nTÊN CƠ SỞ KHÁM BỆNH, CHỮA BỆNH\n______________ | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nPHIẾU XÁC NHẬN TÌNH TRẠNG THIẾU THUỐC, THIẾT BỊ Y TẾ\n(Cấp cho bệnh nhân để thực hiện thanh toán trực tiếp)\nHọ tên người bệnh:\nTuổi: Nam/Nữ:\nĐịa chỉ:\nĐiện thoại:\nSố thẻ bảo hiểm y tế:\nHọ tên bác sĩ chỉ định:\nKh",
+      "review_input_sha256": "202ece3cd3b233d9e2dc75e7efc0ffd79c219a9264ff0c497520d0f193c99d76",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 17-19; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:12",
+      "doc_number": "188/2025/NĐ-CP",
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "source_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "comparison_source_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "source_locator": "body/p:367",
+      "content_excerpt": "Mẫu số 12\nBẢO HIỂM XÃ HỘI VIỆT NAM\nBẢO HIỂM XÃ HỘI……\n______________ | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nDANH SÁCH THAM GIA BẢO HIỂM Y TẾ ĐĂNG KÝ KHÁM BỆNH,\nCHỮA BỆNH BAN ĐẦU TẠI.... (Tên cơ sở khám bệnh, chữa bệnh)\nSTT | Nhóm đối tượng theo Điều 12            Luật Bảo hiểm y tế | Số lượng | Ghi chú\n |  |  | \n1 |  |  | \n",
+      "review_input_sha256": "c6d4067d1d9b8017f57b98e93aa106afa84ab974c4c03e644ce29c9d9b23028c",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "Compared DOCX body/p:367, tables 368/374/376, p:380 cell-by-cell with rendered official Gazette Part 2 PDF page 20; rows, 4 columns, signature and note match. See reports/phase1-closeout/form12_188_visual_review.md."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:1",
+      "doc_number": "219/2025/NĐ-CP",
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "source_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:0be4736cf8e68af4cfc9c964db7aef3412a09ee0ff88c4c037ab49cb1c190d08",
+      "comparison_source_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "source_locator": "body/p:396",
+      "content_excerpt": "Mẫu số 01\nTÊN NGƯỜI SỬ DỤNG LAO ĐỘNG\n____________\nSố: ………\nV/v cấp/cấp lại/gia hạn giấy xác nhận \nkhông thuộc diện cấp giấy phép lao động | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n_____________________________________\n…, ngày … tháng … năm …\nKính gửi: …(Cơ quan có thẩm quyền)1\nI. Thông tin chung về người sử dụng lao động\n1. Tê",
+      "review_input_sha256": "a2f7c3c080e137039381969ba709c54b09c2eb2d1c4ac2926135fd4de74919f0",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 28-30; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:2",
+      "doc_number": "219/2025/NĐ-CP",
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "source_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:0be4736cf8e68af4cfc9c964db7aef3412a09ee0ff88c4c037ab49cb1c190d08",
+      "comparison_source_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "source_locator": "body/p:470",
+      "content_excerpt": "Mẫu số 02\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Socialist Republic of Vietnam Independence - Freedom - Happiness\n______________________________________________\nGIẤY XÁC NHẬN\nKHÔNG THUỘC DIỆN CẤP GIẤY PHÉP LAO ĐỘNG\nCERTIFICATION OF EXEMPTION FROM WORK PERMIT\nSố GXN1/No CEWP: ….\n1. Họ và tên (In hoa)/Full name (In capital let",
+      "review_input_sha256": "72c266689cbb68e425d26334ac134f38542ce050be151a10c23a08ed5b482997",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 31-32; first page visually checked, including title and primary layout. PDF text-layer joins normalized: ĐỘNGẢnh. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:3",
+      "doc_number": "219/2025/NĐ-CP",
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "source_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:0be4736cf8e68af4cfc9c964db7aef3412a09ee0ff88c4c037ab49cb1c190d08",
+      "comparison_source_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "source_locator": "body/p:507",
+      "content_excerpt": "Mẫu số 03\nTÊN NGƯỜI SỬ DỤNG LAO ĐỘNG\n______________\nSố: ………\nV/v giải trình nhu cầu sử dụng \nngười lao động nước ngoài và cấp/\ncấp lại/gia hạn giấy phép lao động | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n___________________________________\n…, ngày … tháng … năm …\nKính gửi: … (Cơ quan có thẩm quyền)1\nI. Thông tin chung về người",
+      "review_input_sha256": "d8df62d0258be9bcc7c0936c6f623a10996f769b8170bc5e075985b99d1f9b36",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 33-35; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:4",
+      "doc_number": "219/2025/NĐ-CP",
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "source_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "comparison_source_id": "src:0be4736cf8e68af4cfc9c964db7aef3412a09ee0ff88c4c037ab49cb1c190d08",
+      "comparison_source_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "source_locator": "body/p:580",
+      "content_excerpt": "Mẫu số 04\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Socialist Republic of Vietnam Independence - Freedom - Happiness ______________________________________________\nGIẤY PHÉP LAO ĐỘNG\nWORK PERMIT\nSố GP1/No WP: ….\n1. Họ và tên (In hoa)/Full name (In capital letters): ……………………..…….\n2. Ngày, tháng, năm sinh/Date of birth: ………………………",
+      "review_input_sha256": "eaf35fa0a0d985cd8bc122f533e50971e91ec6103daf389b893e9c50f20ea664",
+      "review_status": "verified",
+      "reviewed_by": "Codex /root",
+      "reviewed_at": "2026-09-17",
+      "comparison_note": "DOCX form tokens fully covered by Gazette PDF pages 36-37; first page visually checked, including title and primary layout. PDF text-layer joins normalized: none. Scope: source fidelity, not temporal legal validity."
+    }
+  ]
+}

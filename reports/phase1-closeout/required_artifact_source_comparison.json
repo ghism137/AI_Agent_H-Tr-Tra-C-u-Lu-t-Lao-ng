@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "candidate_release_id": "candidate-c022e6286b9101c2",
+  "reviewer": "Codex /root",
+  "reviewed_at": "2026-09-17",
+  "method": "Full DOCX form token multiset compared with exact official Gazette PDF page interval after Unicode NFC/casefold; three PDF text-layer word joins split; first page of every form visually inspected in contact sheet. This signs source fidelity, not legal applicability.",
+  "contact_sheet": "reports/phase1-closeout/form_first_pages_contact_sheet.png",
+  "results": [
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:5",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        3,
+        8
+      ],
+      "docx_token_count": 2112,
+      "pdf_token_count": 2248,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:6",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        9,
+        11
+      ],
+      "docx_token_count": 989,
+      "pdf_token_count": 1019,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:7",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        12,
+        12
+      ],
+      "docx_token_count": 250,
+      "pdf_token_count": 383,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:8",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        13,
+        13
+      ],
+      "docx_token_count": 179,
+      "pdf_token_count": 189,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [
+        "trạngTT"
+      ],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:9",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        14,
+        15
+      ],
+      "docx_token_count": 293,
+      "pdf_token_count": 313,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [
+        "bệnhSTT"
+      ],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:10",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        16,
+        16
+      ],
+      "docx_token_count": 156,
+      "pdf_token_count": 166,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "188/2025/NĐ-CP:form:11",
+      "docx_path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "docx_sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "gazette_pdf_path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "gazette_pdf_sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "gazette_pdf_pages_inclusive": [
+        17,
+        19
+      ],
+      "docx_token_count": 881,
+      "pdf_token_count": 911,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:1",
+      "docx_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "docx_sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "gazette_pdf_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "gazette_pdf_sha256": "6a40ffbe511b18170fe7effa42f63b544961381bbc1fa279e0f9bebb641e8d01",
+      "gazette_pdf_pages_inclusive": [
+        28,
+        30
+      ],
+      "docx_token_count": 860,
+      "pdf_token_count": 890,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:2",
+      "docx_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "docx_sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "gazette_pdf_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "gazette_pdf_sha256": "6a40ffbe511b18170fe7effa42f63b544961381bbc1fa279e0f9bebb641e8d01",
+      "gazette_pdf_pages_inclusive": [
+        31,
+        32
+      ],
+      "docx_token_count": 444,
+      "pdf_token_count": 469,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [
+        "ĐỘNGẢnh"
+      ],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:3",
+      "docx_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "docx_sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "gazette_pdf_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "gazette_pdf_sha256": "6a40ffbe511b18170fe7effa42f63b544961381bbc1fa279e0f9bebb641e8d01",
+      "gazette_pdf_pages_inclusive": [
+        33,
+        35
+      ],
+      "docx_token_count": 1107,
+      "pdf_token_count": 1137,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    },
+    {
+      "artifact_id": "219/2025/NĐ-CP:form:4",
+      "docx_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "docx_sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "gazette_pdf_path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "gazette_pdf_sha256": "6a40ffbe511b18170fe7effa42f63b544961381bbc1fa279e0f9bebb641e8d01",
+      "gazette_pdf_pages_inclusive": [
+        36,
+        37
+      ],
+      "docx_token_count": 408,
+      "pdf_token_count": 433,
+      "docx_tokens_missing_from_pdf": [],
+      "pdf_text_layer_join_fixes": [],
+      "visual_check": "First Gazette page of form checked in contact sheet; title/number and principal table or letter layout agree."
+    }
+  ]
+}

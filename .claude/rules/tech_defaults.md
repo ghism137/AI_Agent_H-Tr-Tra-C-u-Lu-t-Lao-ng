@@ -12,13 +12,14 @@ Nếu đề xuất dịch vụ trả phí, PHẢI kèm phương án thay thế m
 - **FastAPI** — API framework (async, auto-docs, type hints)
 - **Pydantic v2** — validation & serialization
 
-### Embedding & Vector DB
-- **Embedding model**: `intfloat/multilingual-e5-base` hoặc `BAAI/bge-m3`
-  (open-source, hỗ trợ tiếng Việt, chạy local hoặc free inference API)
-- **Vector DB**: Qdrant (local mode, không cần server) hoặc ChromaDB
-- **BM25**: rank_bm25 hoặc Elasticsearch (nếu cần hybrid search)
+### Phase 2 — stack baseline đã chọn
+- BGE-M3 dense 1.024 chiều, Qdrant local single-process, BM25 riêng và RRF; không mở lựa chọn E5/Chroma/Elasticsearch trong baseline.
+- Chi tiết/ngoại lệ dùng `.claude/project/phase2_design.md`; chưa cài/tải/chạy khi DESIGN_ONLY.
+- Không silent truncate; cache versioned; fixture tests không là legal acceptance.
+- RAM/GPU/quota cần đo khi thực thi; không mặc định free API sẵn có.
 
-### LLM
+### LLM — tham khảo roadmap ngoài Phase 2
+Các tên/free-tier dưới đây là lựa chọn lịch sử, phải xác minh lại trước sử dụng. Phase 2 không gọi generation LLM. Model phát triển dùng Project Guide.
 - **Primary**: Google Gemini free-tier (gemini-1.5-flash / gemini-2.0-flash)
 - **Fallback**: Groq free-tier (llama-3.1-70b)
 - **Local option**: Ollama + quantized model (nếu máy đủ mạnh)

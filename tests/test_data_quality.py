@@ -1,112 +1,69 @@
+"""Corpus checks distinguish candidate output from publishable data."""
+
 import json
-import os
-import pytest
-import sys
+import hashlib
+from datetime import date
+from pathlib import Path
 
-# Thêm root path để import được backend
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from backend.retrieval.graph_utils import is_valid, get_supplementary_docs
-from backend.ingestion.extract_relations import _normalize_doc_number
+from backend.ingestion.schema import Chunk
+from backend.ingestion.temporal import eligibility
+from backend.retrieval.graph_utils import get_supplementary_docs, is_valid
 
-def test_normalize_doc_number():
-    """Kiểm tra hàm _normalize_doc_number"""
-    assert _normalize_doc_number("145-2020-NĐ-CP") == "145/2020/NĐ-CP"
-    assert _normalize_doc_number("45-2019-QH14") == "45/2019/QH14"
-    assert _normalize_doc_number("06-2021-TT-BLĐTBXH") == "06/2021/TT-BLĐTBXH"
 
-def test_chunks_jsonl_quality():
-    """Kiểm tra file chunks.jsonl có tồn tại, không rỗng và đúng schema cơ bản"""
-    chunks_path = 'data/chunks.jsonl'
-    assert os.path.exists(chunks_path), "File chunks.jsonl không tồn tại"
-    
-    with open(chunks_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        
-    assert len(lines) > 0, "File chunks.jsonl trống"
-    
-    # Check sample
-    sample_chunk = json.loads(lines[0])
-    assert 'chunk_id' in sample_chunk
-    assert 'content' in sample_chunk
-    assert 'doc_number' in sample_chunk
+def test_candidate_corpus_schema_and_lineage():
+    root = Path(__file__).resolve().parents[1]
+    stage = root / "data/staging/phase1-candidate"
+    sources = {item["source_id"] for item in json.loads((root / "data/registry/sources.json").read_text(encoding="utf-8"))}
+    documents = {item["doc_id"] for item in json.loads((root / "data/registry/documents.json").read_text(encoding="utf-8"))}
+    chunks = [Chunk.model_validate_json(line) for line in (stage / "chunks.jsonl").read_text(encoding="utf-8").splitlines()]
+    assert chunks
+    assert len({item.chunk_id for item in chunks}) == len(chunks)
+    assert all(item.doc_id in documents for item in chunks)
+    assert all(ref.source_id in sources for item in chunks for ref in item.source_refs)
+    assert all(item.verification_status == "pending" for item in chunks)
+    manifest = json.loads((stage / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["chunks"] == len(chunks)
+    assert manifest["published"] is False
+    assert manifest["gate1"] == "PASS"
 
-def test_document_relations_quality():
-    """Kiểm tra schema của relations"""
-    relations_path = 'data/document_relations.json'
-    assert os.path.exists(relations_path), "File document_relations.json không tồn tại"
-    
-    with open(relations_path, 'r', encoding='utf-8') as f:
-        relations = json.load(f)
-        
-    assert isinstance(relations, list)
-    
-    if len(relations) > 0:
-        sample = relations[0]
-        assert 'source_doc' in sample
-        assert 'target_doc' in sample
-        assert 'relation_type' in sample
-        assert 'scope' in sample
-        assert sample['relation_type'] in ['can_cu', 'huong_dan', 'sua_doi', 'bo_sung', 'thay_the', 'bai_bo']
 
-def test_is_valid_logic():
-    """Kiểm tra hàm lọc logic is_valid"""
-    mock_relations = [
-        {
-            "source_doc": "145/2020/NĐ-CP",
-            "target_doc": "45/2019/QH14",
-            "relation_type": "sua_doi",
-            "scope": "dieu_khoan_cu_the",
-            "target_article": "Điều 36"
-        },
-        {
-            "source_doc": "12/2022/NĐ-CP",
-            "target_doc": "11/2013/NĐ-CP",
-            "relation_type": "thay_the",
-            "scope": "toan_bo",
-            "target_article": None
-        }
-    ]
-    
-    # Điều 36 bị sửa đổi -> False
-    assert is_valid("45/2019/QH14", "Điều 36", mock_relations) == False
-    
-    # Điều 37 không bị sửa đổi -> True
-    assert is_valid("45/2019/QH14", "Điều 37", mock_relations) == True
-    
-    # Văn bản bị thay thế toàn bộ -> False
-    assert is_valid("11/2013/NĐ-CP", "Điều 1", mock_relations) == False
-    
-    # Test effective_date trong tương lai (chưa có hiệu lực)
-    mock_relations_future = [
-        {
-            "source_doc": "99/2026/NĐ-CP",
-            "target_doc": "45/2019/QH14",
-            "relation_type": "thay_the",
-            "scope": "toan_bo",
-            "effective_date": "2026-12-31"
-        }
-    ]
-    # Ngày hiện tại giả lập là 2026-09-01, văn bản chưa bị thay thế
-    assert is_valid("45/2019/QH14", "Điều 1", mock_relations_future, reference_date="2026-09-01") == True
-    # Ngày hiện tại giả lập là 2027-01-01, văn bản đã bị thay thế
-    assert is_valid("45/2019/QH14", "Điều 1", mock_relations_future, reference_date="2027-01-01") == False
+def test_source_bytes_and_required_coverage_are_intact():
+    root = Path(__file__).resolve().parents[1]
+    sources = json.loads((root / "data/registry/sources.json").read_text(encoding="utf-8"))
+    assert all(hashlib.sha256((root / item["path"]).read_bytes()).hexdigest() == item["sha256"] for item in sources)
+    coverage = json.loads((root / "data/registry/coverage.json").read_text(encoding="utf-8"))
+    parsed = json.loads((root / "data/staging/phase1-candidate/parsed.json").read_text(encoding="utf-8"))
+    assert all(item["source_present"] and f"doc:{item['doc_number']}" in parsed for item in coverage)
+    assert [article["article_number"] for article in parsed["doc:51/2024/QH15"]["articles"]
+            if article["content_kind"] == "normative" and len(article["structural_path"]) == 2] == ["1", "2", "3"]
 
-def test_get_supplementary_docs():
-    """Kiểm tra logic 1-hop expansion"""
-    mock_relations = [
-        {
-            "source_doc": "145/2020/NĐ-CP",
-            "target_doc": "45/2019/QH14",
-            "relation_type": "huong_dan"
-        },
-        {
-            "source_doc": "74/2024/NĐ-CP",
-            "target_doc": "45/2019/QH14",
-            "relation_type": "huong_dan"
-        }
-    ]
-    
-    supp_docs = get_supplementary_docs("45/2019/QH14", mock_relations)
-    assert len(supp_docs) == 2
-    assert "145/2020/NĐ-CP" in supp_docs
-    assert "74/2024/NĐ-CP" in supp_docs
+
+def test_candidate_relations_never_change_validity():
+    candidate = {"source_doc": "70/2023/NĐ-CP", "target_doc": "152/2020/NĐ-CP",
+                 "relation_type": "thay_the", "scope": "toan_bo", "effective_date": "2023-09-18",
+                 "review_status": "candidate"}
+    assert is_valid("152/2020/NĐ-CP", "Điều 1", [candidate], "2024-01-01")
+    assert get_supplementary_docs("152/2020/NĐ-CP", [candidate]) == []
+
+
+def test_verified_relation_requires_effective_date_in_legacy_graph():
+    relation = {"source_doc": "45/2019/QH14", "target_doc": "10/2012/QH13",
+                "relation_type": "thay_the", "scope": "toan_bo", "review_status": "verified"}
+    assert is_valid("10/2012/QH13", "Điều 1", [relation], "2022-01-01")
+    relation["effective_date"] = "2021-01-01"
+    assert is_valid("10/2012/QH13", "Điều 1", [relation], "2020-12-31")
+    assert not is_valid("10/2012/QH13", "Điều 1", [relation], "2021-01-01")
+
+
+def test_verified_v2_document_expiry_boundary():
+    root = Path(__file__).resolve().parents[1]
+    relations = json.loads((root / "data/registry/relations_verified.json").read_text(encoding="utf-8"))
+    assert is_valid("74/2024/NĐ-CP", "Điều 3", relations, "2025-12-31")
+    assert not is_valid("74/2024/NĐ-CP", "Điều 3", relations, "2026-01-01")
+
+
+def test_temporal_interval_boundary_and_unknown():
+    version = {"verification_status": "verified", "valid_from": "2021-01-01", "valid_to": "2025-07-01"}
+    assert eligibility(version, date(2021, 1, 1), coverage_verified=True, applicability_resolved=True) == "eligible"
+    assert eligibility(version, date(2025, 7, 1), coverage_verified=True, applicability_resolved=True) == "ineligible"
+    assert eligibility(version, date(2022, 1, 1), coverage_verified=False, applicability_resolved=True) == "unknown"

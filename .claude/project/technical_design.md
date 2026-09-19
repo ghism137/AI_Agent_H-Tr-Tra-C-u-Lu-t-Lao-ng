@@ -1,8 +1,29 @@
 # Bản Thiết kế Kỹ thuật — AI Agent Luật Lao Động Việt Nam
 
-> **Version:** 1.1 — 2026-09-06 (updated: bỏ ràng buộc thời gian/người, tập trung chất lượng)
+> **Version:** 1.3 — 2026-09-16. Giữ cấu trúc thiết kế tổng thể v1.1; đính chính các điểm đã xác minh và tách thiết kế triển khai theo phase.
 > **Tác giả:** RAG Solutions Architect
 > **Input:** [Project.md](file:///c:/Users/Admin/Project/AI_Agent_Luật_Lao_Động/.claude/project/Project.md) + [rag-design-agent-prompt.md](file:///c:/Users/Admin/Project/AI_Agent_Luật_Lao_Động/.claude/agents/rag-design-agent-prompt.md)
+
+---
+
+## Cách sử dụng tài liệu
+
+Đây là **thiết kế tổng thể dự án**, giữ kiến trúc, phạm vi và lộ trình ban đầu. Các schema/code snippets/cây thư mục bên dưới là minh họa định hướng; contract, cấu trúc file thực tế, agent phụ trách và tiêu chí nghiệm thu được chốt ở thiết kế từng phase trước khi triển khai.
+
+- [Phase 1 — Data foundation và chunking](phase1_design.md): PAUSED theo handoff 2026-09-18, chưa nghiệm thu closeout.
+- [Phase 2 — Retrieval baseline v2](phase2_design.md): DESIGN_ONLY; 5 gói/10 task. Giao việc theo [Project Guide](project_guide.md), chưa chạy trước. Các mục Phase 2 và snippets cũ bên dưới là định hướng; v2 quyết định scope/contract/gate khi mâu thuẫn.
+- Phase 3–7: lập thiết kế riêng khi bắt đầu phase, dựa trên đầu ra đã được kiểm chứng của phase trước.
+- [Review và bằng chứng](../../../reports/phase1-review-2026-09-16/review.md). Bản v1.2 chi tiết được [lưu tham khảo](../../../reports/phase1-review-2026-09-16/design_review_v1.2.md), không còn thay thế bản tổng thể này.
+
+**Đính chính có hiệu lực đối với các minh họa cũ bên dưới:**
+
+1. Lọc trạng thái phải xét **ngày áp dụng, phiên bản và quan hệ đã duyệt** trên cả BM25/dense. Không dùng riêng `status != het_hieu_luc` để kết luận hiệu lực. Schema cụ thể xem Phase 1.
+2. Mẫu Qdrant payload-index bên dưới dành cho **server**; embedded `path=...` dùng được cho baseline nhỏ nhưng không có payload index như server. Không bắt buộc server ở lần đo đầu. [Nguồn Qdrant](https://github.com/qdrant/qdrant-client/blob/master/qdrant_client/local/qdrant_local.py).
+3. Các số quota, latency, RAM/GPU và benchmark trong bản gốc là giả định cần đo/kiểm tra khi triển khai, không phải cam kết. Giữ BGE-M3 1.024 chiều; không cần model/reranker phức tạp để xác minh data pipeline.
+4. Danh mục luật và constants trong ví dụ là **snapshot ban đầu**, không phải danh sách/mức hiện hành. Duyệt coverage, ngày hiệu lực và công thức trước sử dụng; xem findings F06/F07 và thiết kế Phase 1.
+5. Số lượng ≥2.000 chunks hay ≥30 files không chứng minh chất lượng. Gate 1 yêu cầu coverage, identity, nội dung, provenance, uniqueness và kiểm tra nguồn. P@5 báo đúng định nghĩa, không ép ≥0,70 khi mỗi câu chỉ có ít gold; metric và cách đo xem Phase 2.
+6. Rerank theo loại văn bản/recency là phương án thử nghiệm, không quyết định luật áp dụng và không là điều kiện bắt buộc cho baseline. Hybrid tốt hơn là giả thuyết cần đo, không phải thứ tự kết quả được áp đặt.
+7. Các ví dụ tính trợ cấp có `bhtn=0` chỉ đúng khi người dùng đã xác nhận dữ kiện đó và đủ điều kiện hưởng; thiếu đầu vào phải hỏi bổ sung. Các công thức mẫu chưa thay thế rule specification của Phase 3.
 
 ---
 
@@ -126,7 +147,7 @@ for doc in crawl_plan:
 | 1 | Bộ luật Lao động 2019 | 45/2019/QH14 | Luật gốc — nền tảng |
 | 2 | NĐ hướng dẫn BLLĐ | 145/2020/NĐ-CP | Chi tiết BLLĐ |
 | 3 | NĐ về HĐLĐ, đào tạo, kỷ luật | 12/2022/NĐ-CP | Bổ sung BLLĐ |
-| 4 | NĐ về lương tối thiểu (mới nhất) | 74/2024/NĐ-CP | Mức lương TT vùng |
+| 4 | NĐ về lương tối thiểu (snapshot ban đầu) | 74/2024/NĐ-CP | Mức lương TT vùng |
 | 5 | Luật BHXH 2014 | 58/2014/QH13 | BHXH cốt lõi |
 | 6 | NĐ hướng dẫn Luật BHXH | 115/2015/NĐ-CP | Chi tiết BHXH |
 | 7 | Luật BHYT 2008 (sửa đổi 2014) | 25/2008/QH12, 46/2014/QH13 | BHYT |
@@ -243,8 +264,8 @@ QUY TẮC CHUNKING:
     "target_doc": "145/2020/NĐ-CP",
     "effective_date": "2022-07-15",
     "scope": "mot_so_dieu",
-    "affected_articles": [5, 8, 12],
-    "note": "Sửa đổi Điều 5, 8, 12 của NĐ 145/2020"
+    "affected_articles": [4, 31],
+    "note": "Khoản 2 Điều 4 và Khoản 2 Điều 31; phải lưu scope cấp khoản khi triển khai"
   }
 ]
 ```
@@ -285,7 +306,7 @@ QUY TẮC CHUNKING:
 
 1. **Hybrid retrieval native**: BGE-M3 tạo được cả dense vector VÀ sparse (lexical) representation từ cùng model → không cần maintain 2 model riêng
 2. **Vietnamese benchmarks**: Top-tier trên VN-MTEB (Vietnamese Massive Text Embedding Benchmark)
-3. **Matryoshka dimension**: Có thể truncate 1024 → 512 dim nếu cần tiết kiệm storage/speed
+3. **Dimension**: Giữ 1024 chiều; không mặc định truncate còn 512 chiều. [Model card](https://huggingface.co/BAAI/bge-m3).
 4. **MIT license**: Free dùng thương mại
 
 #### Deployment plan
@@ -313,7 +334,7 @@ Option B (Không có GPU):
 #### Lý do chọn Qdrant
 
 1. **Pre-filtering**: filter theo `status`, `effective_date`, `doc_type` TRƯỚC khi ANN search → đảm bảo không bao giờ trả chunk hết hiệu lực
-2. **Payload indexing**: có thể index `status`, `effective_date`, `topic_tags` → filter O(1) thay vì O(n)
+2. **Payload indexing**: có thể index `status`, `effective_date`, `topic_tags` → tăng hiệu quả filtering trên server; không cam kết O(1)
 3. **Scalar quantization**: giảm memory ~4x khi cần
 4. **Snapshot/backup**: dễ backup và restore
 5. **Rust performance**: nhanh hơn ChromaDB đáng kể khi dataset > 1000 chunks
@@ -325,7 +346,7 @@ Option B (Không có GPU):
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PayloadSchemaType
 
-client = QdrantClient(path="./data/qdrant_db")  # local mode, không cần server
+client = QdrantClient(url="http://localhost:6333")  # server local cho ví dụ payload indexes
 
 client.create_collection(
     collection_name="legal_chunks",
@@ -592,9 +613,9 @@ Result:
 |---|---|---|---|---|
 | 1 | Trợ cấp thôi việc | Đ.46 K.1 BLLĐ 2019 | `TC = 1/2 × L_bq × N` | N≤0 → 0; N<6 tháng check NĐ 145 |
 | 2 | Trợ cấp mất việc | Đ.47 K.1 BLLĐ 2019 | `TC = 1 × L_bq × N` (min = 2×L_bq) | Mức tối thiểu 2 tháng lương |
-| 3 | Lương thử việc | Đ.26 K.1 BLLĐ 2019 | `L_tv ≥ 85% × L_ct` | Check tính hợp lệ, tính ngược |
+| 3 | Lương thử việc | Đ.26 BLLĐ 2019 | `L_tv ≥ 85% × L_ct` | Check tính hợp lệ, tính ngược |
 | 4 | BHTN | Đ.50 Luật VL 2013 | `TC = 60% × L_bq × N_tháng` | N_tháng phụ thuộc thời gian đóng; max 12 tháng |
-| 5 | Phép năm | Đ.113 BLLĐ 2019 | `P = 12 + ⌊(N-1)/5⌋` | Tính lẻ; điều kiện đặc biệt 14 ngày |
+| 5 | Phép năm | Đ.113–114 BLLĐ 2019 | `P = base_days + ⌊N/5⌋` (trường hợp đủ năm) | Base 12/14/16; thâm niên cùng NSDLĐ; pro-rata có rule riêng |
 
 #### Configurable constants
 
@@ -620,7 +641,7 @@ Result:
 ```
 
 > [!WARNING]
-> Các hằng số này THAY ĐỔI THEO THỜI GIAN (lương tối thiểu vùng thay đổi mỗi 1-2 năm, lương cơ sở đã bãi bỏ). Config file phải version hóa và note rõ `effective_date`.
+> Các hằng số này THAY ĐỔI THEO THỜI GIAN (cần kiểm chứng theo thời điểm và đối tượng áp dụng). Config file phải version hóa và note rõ `effective_date`.
 
 ### 4.6. Drafting Module
 
@@ -877,10 +898,10 @@ AI_Agent_Luật_Lao_Động/
 
 **🚪 Quality Gate 2**:
 ```
-□ Precision@5 ≥ 0.70 trên eval set
+□ Báo Precision@5; gate theo thiết kế Phase 2, không áp ngưỡng bất khả thi
 □ Recall@5 ≥ 0.80 trên eval set
 □ Temporal Recall@5 ≥ 0.80 (subset temporal cases)
-□ Hybrid > BM25-only AND Hybrid > Dense-only (chứng minh giá trị hybrid)
+□ So BM25/dense/hybrid công bằng; báo kết quả thực tế, không ép hybrid phải thắng
 □ Không bao giờ trả chunk có status = "het_hieu_luc" trong top 5
 □ Latency < 3 giây cho retrieval
 ```
@@ -991,11 +1012,11 @@ AI_Agent_Luật_Lao_Động/
 
 **🚪 Quality Gate 6 (FINAL)**:
 ```
-□ Precision@5 ≥ 0.70, Recall@5 ≥ 0.80, MRR ≥ 0.70
+□ Báo Precision@5; Recall@5 ≥ 0.80, MRR@5 ≥ 0.70 (theo thiết kế Phase 2)
 □ Temporal Recall@5 ≥ 0.80
 □ Citation Precision ≥ 0.90, Citation Recall ≥ 0.80
 □ Calculation Accuracy = 100%
-□ Full pipeline > BM25-only > LLM-no-RAG (chứng minh giá trị RAG)
+□ So retrieval và generation bằng metric tương ứng; không ép thứ tự thắng
 □ Reviewer Agent final sign-off: 0 Critical findings
 □ README.md hoàn chỉnh
 ```

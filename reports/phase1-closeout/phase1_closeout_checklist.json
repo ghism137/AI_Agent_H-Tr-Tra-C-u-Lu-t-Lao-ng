@@ -1,0 +1,34 @@
+{
+  "M1": {
+    "description": "Review state decoupling",
+    "status": "yes"
+  },
+  "M2": {
+    "description": "Legal operation mapping",
+    "status": "yes"
+  },
+  "M3": {
+    "description": "Fidelity index generation",
+    "status": "yes"
+  },
+  "M4": {
+    "description": "Legal chain verification",
+    "status": "yes"
+  },
+  "M5": {
+    "description": "Temporal version materialization",
+    "status": "yes"
+  },
+  "M6": {
+    "description": "Fail-closed gates testing",
+    "status": "yes"
+  },
+  "M7": {
+    "description": "Immutable publish validation",
+    "status": "yes"
+  },
+  "M8": {
+    "description": "Handoff preparation",
+    "status": "yes"
+  }
+}

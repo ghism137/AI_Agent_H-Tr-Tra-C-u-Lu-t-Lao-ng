@@ -1,0 +1,239 @@
+{
+  "status": "automated_comparison_only",
+  "not_legal_signoff": true,
+  "decree_219": {
+    "docx_normative_articles": 36,
+    "pdf_normative_articles": 36,
+    "docx_forms": 4,
+    "article_comparison": [
+      {
+        "article": "1",
+        "similarity": 1.0
+      },
+      {
+        "article": "2",
+        "similarity": 1.0
+      },
+      {
+        "article": "3",
+        "similarity": 1.0
+      },
+      {
+        "article": "4",
+        "similarity": 1.0
+      },
+      {
+        "article": "5",
+        "similarity": 1.0
+      },
+      {
+        "article": "6",
+        "similarity": 1.0
+      },
+      {
+        "article": "7",
+        "similarity": 1.0
+      },
+      {
+        "article": "8",
+        "similarity": 1.0
+      },
+      {
+        "article": "9",
+        "similarity": 1.0
+      },
+      {
+        "article": "10",
+        "similarity": 1.0
+      },
+      {
+        "article": "11",
+        "similarity": 1.0
+      },
+      {
+        "article": "12",
+        "similarity": 1.0
+      },
+      {
+        "article": "13",
+        "similarity": 1.0
+      },
+      {
+        "article": "14",
+        "similarity": 1.0
+      },
+      {
+        "article": "15",
+        "similarity": 1.0
+      },
+      {
+        "article": "16",
+        "similarity": 1.0
+      },
+      {
+        "article": "17",
+        "similarity": 1.0
+      },
+      {
+        "article": "18",
+        "similarity": 1.0
+      },
+      {
+        "article": "19",
+        "similarity": 1.0
+      },
+      {
+        "article": "20",
+        "similarity": 1.0
+      },
+      {
+        "article": "21",
+        "similarity": 1.0
+      },
+      {
+        "article": "22",
+        "similarity": 1.0
+      },
+      {
+        "article": "23",
+        "similarity": 1.0
+      },
+      {
+        "article": "24",
+        "similarity": 1.0
+      },
+      {
+        "article": "25",
+        "similarity": 1.0
+      },
+      {
+        "article": "26",
+        "similarity": 1.0
+      },
+      {
+        "article": "27",
+        "similarity": 1.0
+      },
+      {
+        "article": "28",
+        "similarity": 1.0
+      },
+      {
+        "article": "29",
+        "similarity": 1.0
+      },
+      {
+        "article": "30",
+        "similarity": 1.0
+      },
+      {
+        "article": "31",
+        "similarity": 1.0
+      },
+      {
+        "article": "32",
+        "similarity": 1.0
+      },
+      {
+        "article": "33",
+        "similarity": 1.0
+      },
+      {
+        "article": "34",
+        "similarity": 1.0
+      },
+      {
+        "article": "35",
+        "similarity": 1.0
+      },
+      {
+        "article": "36",
+        "similarity": 0.9998
+      }
+    ]
+  },
+  "decree_188_continuation": {
+    "docx_forms": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "pdf_forms": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "pdf_page_interval": [
+      3,
+      20
+    ],
+    "form_comparison": [
+      {
+        "form": "5",
+        "similarity": 0.8825,
+        "docx_token_containment_in_pdf": 1.0,
+        "docx_length": 9658,
+        "pdf_extraction_length": 11659
+      },
+      {
+        "form": "6",
+        "similarity": 0.7958,
+        "docx_token_containment_in_pdf": 1.0,
+        "docx_length": 4852,
+        "pdf_extraction_length": 6830
+      },
+      {
+        "form": "7",
+        "similarity": 0.5241,
+        "docx_token_containment_in_pdf": 1.0,
+        "docx_length": 1182,
+        "pdf_extraction_length": 2567
+      },
+      {
+        "form": "8",
+        "similarity": 0.8094,
+        "docx_token_containment_in_pdf": 0.9888,
+        "docx_length": 996,
+        "pdf_extraction_length": 849
+      },
+      {
+        "form": "9",
+        "similarity": 0.7618,
+        "docx_token_containment_in_pdf": 0.951,
+        "docx_length": 1880,
+        "pdf_extraction_length": 2120
+      },
+      {
+        "form": "10",
+        "similarity": 0.4721,
+        "docx_token_containment_in_pdf": 0.9747,
+        "docx_length": 892,
+        "pdf_extraction_length": 2137
+      },
+      {
+        "form": "11",
+        "similarity": 0.5767,
+        "docx_token_containment_in_pdf": 1.0,
+        "docx_length": 3977,
+        "pdf_extraction_length": 8132
+      },
+      {
+        "form": "12",
+        "similarity": 0.7801,
+        "docx_token_containment_in_pdf": 0.8865,
+        "docx_length": 751,
+        "pdf_extraction_length": 581
+      }
+    ]
+  }
+}

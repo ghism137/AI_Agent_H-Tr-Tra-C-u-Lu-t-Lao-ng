@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-17",
+  "status": "identified_primary_sources_ingested_relations_pending",
+  "notes": "All identified original Gazette PDFs for core BHYT and five cross-amendment laws are ingested. Clause-level relation and temporal-version review remains pending; source presence alone does not pass Gate 1.",
+  "documents": [
+    {
+      "number": "71/2025/QH15",
+      "group": "labor_foreign_workers",
+      "reason": "Adds clause 8a to Article 154 of Labor Code 45/2019, affecting work-permit exemptions from 2026.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-71-2025-qh15-45555.htm",
+      "retrieval": "Official Gazette issue PDF saved as data/raw/official/71-2025-QH15-congbao.pdf (SHA-256 42b72d237c9531c257b56165c86c18967d9772294e3a7236822cd3f4e7d3d17d, law at PDF pages 39–69); scanned signed PDF saved as data/raw/official/71-2025-QH15.signed.pdf (SHA-256 b80b983f152d364e0e3299d20ef967cb646df5d75d02caff661d1dd88ae8df51). Law parsed in unpublished Phase 1 candidate; clause 49(4) and Article 50 read directly. Amendment relation and derived versions remain pending legal review."
+    },
+    {
+      "number": "113/2025/QH15",
+      "group": "labor_social_insurance",
+      "reason": "Population Law amends Labor Code Article 139 on maternity leave and is listed among Social Insurance Law amendments.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-113-2025-qh15-468675.htm",
+      "retrieval": "Signed Gazette issue PDF saved as data/raw/official/113-2025-QH15-congbao.pdf (SHA-256 0990f33d17b1f1be3577c3f5176fdc10026eae5de11e212772ae6316beb71a29), law at PDF pages 93–107. Article 29(1) changes maternity leave in Labor Code Article 139(1); Article 29(2) changes Social Insurance Law Article 53(2)(c). The source prints conflicting target document numbers (49/2019/QH14 and 41/2024/QH14); relation sign-off awaits independent identity reconciliation."
+    },
+    {
+      "number": "124/2025/QH15",
+      "group": "labor_vocational_training",
+      "reason": "Article 43 amends Labor Code Articles 59 and 61.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-124-2025-qh15-468685.htm",
+      "retrieval": "Signed Gazette issue PDF saved as data/raw/official/124-2025-QH15-congbao.pdf (SHA-256 48f89542a1be6495333740fb0bca8cc0f6ad827d6123365eb0c9fe59ae81a50b), law at PDF pages 84–108. Article 43(1) changes Labor Code Article 59(2)(a) and Article 61(3); Article 44(1) makes these changes effective 01/01/2026. The law explicitly identifies the Labor Code as 45/2019/QH14 and lists Law 113 as an amendment, cross-checking the target-number typo in Law 113. Relations/versions remain pending."
+    },
+    {
+      "number": "73/2025/QH15",
+      "group": "social_insurance",
+      "reason": "Teachers Law amends Article 66 of Social Insurance Law 41/2024.",
+      "official_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=179262",
+      "retrieval": "Gazette issue 967+968 stored at data/raw/official/73-2025-QH15-congbao.pdf; SHA-256 2b7535f43224225b1360c888d5447d9291301c220aaa689e2d5063fe467877dd, law pages 57–75. Article 40 adds clause 3a to Social Insurance Law Article 66; Article 41(1) effective 01/01/2026. Parsed; relation/version pending."
+    },
+    {
+      "number": "84/2025/QH15",
+      "group": "social_insurance",
+      "reason": "Named in the official consolidation history of Social Insurance Law 41/2024; target provision and scope need review.",
+      "official_url": "https://vbpl.vn/TW/Pages/vbpq-thuoctinh-hopnhat.aspx?ItemID=182335&View=0",
+      "retrieval": "Gazette issue 953+954 stored at data/raw/official/84-2025-QH15-congbao.pdf; SHA-256 ab0c445c3003754d36430c2ecf6d091b326dc3ace65f91136292689450088f81, law pages 4–44. Article 62(1)(s) repeals inspection phrases in Social Insurance Law Articles 16, 17, 136 and 137; Article 63(1) effective 01/07/2025. Parsed; fragment relations/versions pending."
+    },
+    {
+      "number": "142/2025/QH15",
+      "group": "social_insurance",
+      "reason": "Article 86(2) amends Article 37(1)(a) of Social Insurance Law 41/2024.",
+      "official_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=187584",
+      "retrieval": "Signed Gazette issue 44 stored at data/raw/official/142-2025-QH15-congbao.pdf; SHA-256 e1dd1eea40bc2c9af74d1e66591a303002357673613750ab35f82e1cb958c1f9, law pages 41–100. Article 86(2) amends Social Insurance Law Article 37(1)(a); Article 87(1) effective 01/03/2026 for this amendment. Parsed; relation/version pending."
+    },
+    {
+      "number": "162/2026/NĐ-CP",
+      "group": "social_insurance",
+      "reason": "Adjusts pension and monthly social-insurance benefits relevant to amounts after July 2026.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-162-2026-nd-cp-469551.htm",
+      "retrieval": "Signed Gazette issue 290 stored at data/raw/official/162-2026-ND-CP-congbao.pdf; SHA-256 0bfcf34621ca82e2e9bbf8ae5f3ab397b535e5fd4466b9ab70555e2a01f8f771, decree pages 10–14. Article 1 limits eligible recipients; Article 5(1) effective 01/07/2026; Article 5(2) repeals Decree 75/2024. Parsed; population/amount coverage and relation/version pending."
+    },
+    {
+      "number": "61/2020/NĐ-CP",
+      "group": "unemployment_historical",
+      "reason": "Amends Decree 28/2015 for the historical interval before both are superseded by Decree 374/2025.",
+      "official_url": "https://vbpl.vn/bolaodong/Pages/vbpq-toanvan.aspx?ItemID=142819",
+      "retrieval": "Individual Gazette PDF saved at data/raw/official/61-2020-ND-CP-congbao.pdf; SHA-256 96d9570d72cb698894392248baae9cf3d904a33f1eb7a9d2039a3b1a8e61ba23, PDF pages 1–21. Article 1 amends Decree 28/2015, Article 2 repeals specific clauses, Article 3(1) effective 15/07/2020 and Article 3(2) has pending-application transition. Parsed; derived versions/relation review pending."
+    },
+    {
+      "number": "75/2024/NĐ-CP",
+      "group": "social_insurance_historical",
+      "reason": "Decree 162/2026 Article 5(2) repeals Decree 75/2024 from 01/07/2026; historical pension/benefit amounts require prior decree.",
+      "official_url": null,
+      "retrieval": "Individual Gazette PDF saved at data/raw/official/75-2024-ND-CP-congbao.pdf; SHA-256 afeba2041ac2761ea1b1d4bba01a6808f3102048b12a0d8bb4f66b58b215b1dd, PDF pages 1–6. Article 5(1) effective 01/07/2024, Article 5(2) repeals Decree 42/2023. Decree 162/2026 repeals 75/2024 from 01/07/2026. Parsed; temporal and population review pending."
+    },
+    {
+      "number": "42/2023/NĐ-CP",
+      "group": "social_insurance_historical",
+      "reason": "Decree 75/2024 Article 5(2) repeals Decree 42/2023 from 01/07/2024; prior pension/benefit amounts require this historical source.",
+      "official_url": null,
+      "retrieval": "Individual Gazette PDF saved at data/raw/official/42-2023-ND-CP-congbao.pdf; SHA-256 fa37ad3c06c9fecc7daf52dde54602a9eaf7c713fdecafedcabcf685dde3e087, PDF pages 1–6. Article 5(1) makes decree effective 14/08/2023 but rules applicable from 01/07/2023; Article 5(2) repeals Decree 108/2021. Parsed; temporal interpretation and population review pending."
+    },
+    {
+      "number": "108/2021/NĐ-CP",
+      "group": "social_insurance_historical",
+      "reason": "Decree 42/2023 Article 5(2) repeals Decree 108/2021 from 14/08/2023; earlier pension/benefit interval depends on it.",
+      "official_url": null,
+      "retrieval": "Individual Gazette PDF saved at data/raw/official/108-2021-ND-CP-congbao.pdf; SHA-256 9e35d14f64351698500ba26427d1e52d61831d857b42b58930339ec63d8726ab, PDF pages 1–7. Article 5(1) formal effect 20/01/2022 but applies from 01/01/2022; Article 5(2) repeals Decree 44/2019. Parsed; temporal/population review pending."
+    },
+    {
+      "number": "44/2019/NĐ-CP",
+      "group": "social_insurance_historical",
+      "reason": "Decree 108/2021 Article 5(2) repeals Decree 44/2019; earlier pension/benefit interval may depend on it.",
+      "official_url": null,
+      "retrieval": "Individual Gazette PDF saved at data/raw/official/44-2019-ND-CP-congbao.pdf; SHA-256 937a3c286f4d24f4af5aee31f29019b139ef08e52192cb9e8fc2cb9c0faf0c2b, PDF pages 1–4. Article 5 effective 01/07/2019. Parsed; historical population review pending. Historical benefit calculations before 2019 remain outside verified scope and require explicit coverage decision."
+    },
+    {
+      "number": "32/2013/QH13",
+      "group": "health_insurance_cross_amendment",
+      "reason": "Law on corporate income tax; cited as amending BHYT by Decree 188/2025. Identify exact BHYT clause.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-32-2013-qh13-6394.htm",
+      "retrieval": "Original Gazette PDF saved as data/raw/official/32-2013-QH13-congbao.pdf (11 pages, SHA-256 d74a73184e59dd507117dd6994fd2bef31f8d9b54c1571e2baabf386024ae87c). Article 2(4)(b) repeals corporate income tax content of BHYT Law Article 4(2). Metadata verified; relation and provision versions pending."
+    },
+    {
+      "number": "97/2015/QH13",
+      "group": "health_insurance_cross_amendment",
+      "reason": "Law on fees and charges; verify repeal of BHYT Article 18(4) and temporal effect.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-97-2015-qh13-18431.htm",
+      "retrieval": "Original Gazette PDF saved as data/raw/official/97-2015-QH13-congbao.pdf (30 pages, SHA-256 370076673296d99991665b07e8846b8a705557d4caf3fcd2e41e181056076a72). Article 23(2)(d) repeals BHYT Law Article 18(4). Metadata verified; relation and provision versions pending."
+    },
+    {
+      "number": "35/2018/QH14",
+      "group": "health_insurance_cross_amendment",
+      "reason": "Cross-law planning amendments; identify BHYT provision and effective date.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-35-2018-qh14-27813.htm",
+      "retrieval": "Original Gazette PDF saved as data/raw/official/35-2018-QH14-congbao.pdf (77 pages, SHA-256 6ebe64e782f429196cc20821e7ee091ee90187de9451e6f55c2a12f2b428527b). Article 30 removes the planning phrase from BHYT Law Article 6(2). Metadata verified; relation and provision versions pending."
+    },
+    {
+      "number": "68/2020/QH14",
+      "group": "health_insurance_cross_amendment",
+      "reason": "Residence law; identify BHYT amendment and effect.",
+      "official_url": "https://congbao.chinhphu.vn/tai-ve-van-ban-so-68-2020-qh14-32684-33716?format=pdf",
+      "retrieval": "Original Gazette PDF saved as data/raw/official/68-2020-QH14-congbao.pdf (27 pages, SHA-256 740784336d365ca3116a505afd2734a04c6619f57fd761ecf883a4949abea07a). Article 37(2) changes BHYT Law Article 2(7), with Article 38 transition. Metadata verified; relation and provision versions pending."
+    },
+    {
+      "number": "30/2023/QH15",
+      "group": "health_insurance_cross_amendment",
+      "reason": "Local security-force law; identify BHYT amendment and effect.",
+      "official_url": "https://congbao.chinhphu.vn/van-ban/luat-so-30-2023-qh15-40866.htm",
+      "retrieval": "Original Gazette PDF saved as data/raw/official/30-2023-QH15-congbao.pdf (17 pages, SHA-256 bea5756fef66028ca9e6c9a88c388ebe3f5abe7a886ecad7556c7ea2388c2947). Article 32(2) adds BHYT Law Article 12(4)(c). Metadata verified; relation and provision versions pending."
+    }
+  ]
+}

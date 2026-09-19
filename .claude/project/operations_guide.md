@@ -1,8 +1,12 @@
 # Hướng dẫn Vận hành — Operations Guide
 
+> **Hiện hành 2026-09-18:** Phase 1 PAUSED, chưa nghiệm thu closeout; Phase 2 DESIGN_ONLY. Quy trình/model/task packet dùng [Project Guide](project_guide.md); contract và 5 gói task dùng [Phase 2 v2](phase2_design.md). Các phase khác bên dưới giữ làm roadmap, không phải lệnh thực thi. Chỉ dẫn hiện hành này thay prompt/checklist cũ khi mâu thuẫn.
+
+> **Ghi chú kiến trúc lịch sử 2026-09-16:** [Technical Design](technical_design.md) v1.3 giữ kiến trúc tổng thể ban đầu. Dùng [Phase 1 design](phase1_design.md) và [Phase 2 design](phase2_design.md) để chốt schema/files/vai trò thực thi và gate tương ứng. Phase 1 đang cần sửa theo review. Phase 2 bắt đầu BM25 → dense → hybrid đơn giản; embedded Qdrant được phép cho baseline nhỏ, server chỉ cần khi đo payload indexes/concurrency. Các checklist/prompt cũ bên dưới đọc cùng thiết kế phase; v1.2 đã chuyển thành tài liệu tham khảo lịch sử.
+
 > **Mục đích**: Bạn có bản thiết kế trong tay. Bây giờ bạn cần biết **làm gì**, **ai (agent nào) làm**, **theo thứ tự nào**, và **khi nào xong**.
 >
-> **Tham chiếu**: [Technical Design](file:///C:/Users/Admin/.gemini/antigravity-ide/brain/40338306-b56f-47a0-9d3a-35995e61a424/technical_design.md)
+> **Tham chiếu**: [Technical Design](technical_design.md) và [review Phase 1](../../../reports/phase1-review-2026-09-16/review.md).
 
 ---
 
@@ -44,6 +48,12 @@ Reviewer   ██        ██        ██        ██        ██       
 ·      = Không tham gia
 ```
 
+### 1.3. Model và handoff
+
+Dùng [Project Guide §2–6](project_guide.md) làm nguồn duy nhất cho model allocation, task size, escalation và prompt. Mỗi task có owner, inputs, allowlist, output, acceptance, tests và điểm dừng. BUILDER_DONE không là reviewer sign-off; nghiệm thu cần actual reviewer cùng snapshot/diff digest.
+
+Không dispatch tất cả agent trong ma trận; mặc định một builder tuần tự. Review gộp ở checkpoint. Không bắt builder đọc lại toàn bộ roadmap.
+
 ---
 
 ## 2. Dependency Graph — Thứ tự Bắt buộc
@@ -83,7 +93,7 @@ Pipeline                   │
 ```
 
 > [!IMPORTANT]
-> **Phase 2 và Phase 3 có thể chạy SONG SONG** vì chúng không phụ thuộc nhau. Đây là cơ hội để tiết kiệm thời gian nếu có nhiều người làm.
+> **Roadmap lịch sử: Phase 2 và Phase 3 có thể chạy SONG SONG khi được giao** vì chúng không phụ thuộc nhau. Đây là cơ hội để tiết kiệm thời gian nếu có nhiều người làm.
 
 > [!WARNING]
 > **Phase 4 PHẢI đợi** cả Phase 2 và Phase 3 hoàn tất, vì Orchestration cần ghép nối tất cả modules.
@@ -138,73 +148,29 @@ Report findings theo Critical/Major/Minor."
 #### ✅ Checklist Quality Gate 1
 
 ```
-□ data/crawl_plan.md tồn tại, liệt kê ≥ 30 VB
-□ data/raw/ có ≥ 30 files
-□ data/cleaned/ có ≥ 30 JSON files
-□ data/chunks.jsonl có ≥ 2000 dòng (chunks)
-□ Mỗi chunk có đủ 19 metadata fields
+□ Registry/coverage liệt kê tập văn bản bắt buộc duy nhất và nguồn đã xác minh
+□ Raw giữ source hash/đường dẫn gốc, không flatten mất phiên bản
+□ Cleaned/chunks thuộc cùng release, không thiếu văn bản bắt buộc
+□ Mọi chunk hợp schema v2, unique ID, đủ provenance/temporal metadata
 □ Sampling 10 random chunks: 10/10 đúng vs source
-□ data/document_relations.json tồn tại
+□ Chỉ verified relations có evidence/date/scope được dùng đổi validity
+□ Kiểm tra 5 boundaries và 3 relations; build deterministic, lỗi không thay active release
 □ Reviewer Agent: 0 Critical findings
 ```
 
 ---
 
-### 🔍 Phase 2: Retrieval Pipeline
+### 🔍 Phase 2: Retrieval Pipeline — DESIGN_ONLY
 
-#### Prerequisite: Phase 1 Quality Gate PASSED
+Chưa triển khai. Xem [thiết kế v2](phase2_design.md) và dùng một task card mỗi lần:
 
-#### Prompt gợi ý cho RAG Engineer Agent
+1. [A: contract/fixture — P2-01,02](phase2/01_contract_fixtures.md).
+2. [B: query/exact/BM25 — P2-03,04](phase2/02_lexical.md).
+3. [C: gold/metric runner — P2-05,06](phase2/03_evaluation.md).
+4. [D: embedder/dense/RRF — P2-07,08](phase2/04_dense_hybrid.md).
+5. [E: integration/approved baseline — P2-09,10](phase2/05_acceptance.md).
 
-```
-Prompt 1 — Setup embedding:
-"Đọc Technical Design mục 3.1. Setup BGE-M3 embedding model.
-Chọn deployment option phù hợp (GPU local hoặc HF Inference API).
-Embed thử 10 chunks đầu tiên, verify vector dimensions = 1024."
-
-Prompt 2 — Index:
-"Embed toàn bộ chunks.jsonl và lưu vào Qdrant local.
-Theo Technical Design mục 3.2: tạo payload indexes cho
-status, effective_date, doc_type, topic_tags.
-Song song: build BM25 index từ content text."
-
-Prompt 3 — Hybrid search:
-"Đọc Technical Design mục 3.3. Implement hybrid search pipeline
-4 bước: Query Processing → Metadata Pre-filter → Hybrid Search
-(BM25 + Dense + RRF) → Rule-based Reranking.
-Test với 5 queries mẫu, in top 5 results."
-
-Prompt 4 — Query expansion:
-"Implement query_processor.py: entity extraction (số hiệu VB,
-tên điều khoản) + query expansion (synonym dictionary cho
-legal terms). Test: 'Điều 46' → phải match exact."
-```
-
-#### Song song: Eval/QA Agent xây eval set
-
-```
-Prompt cho Eval/QA Agent:
-"Đọc Technical Design mục 5.1. Xây eval_set_v1.json:
-- 30 câu tra cứu thông thường
-- 15 câu temporal (phải trả VB mới nhất)
-- 5 câu negative (ngoài scope)
-Format: {query, expected_articles[], expected_doc_numbers[]}"
-```
-
-#### ✅ Checklist Quality Gate 2
-
-```
-□ Qdrant DB populated với tất cả chunks
-□ BM25 index built
-□ Hybrid search trả results cho mọi test query
-□ Precision@5 ≥ 0.70 trên eval set
-□ Recall@5 ≥ 0.80 trên eval set
-□ Temporal Recall@5 ≥ 0.80
-□ 0 chunks hết hiệu lực trong top 5
-□ Latency < 3 giây
-□ Hybrid > BM25-only AND > Dense-only
-□ Reviewer Agent: 0 Critical findings
-```
+Fixture engineering chỉ khi được giao; corpus baseline bị chặn đến khi Phase 1 accepted cùng evidence digest. Không bắt đầu bằng embed cả corpus. Không rerank/expansion hoặc ép temporal trả bản mới nhất. Gate 2, splits và metrics chỉ lấy từ phase2_design §5, không sao chép tiêu chí riêng tại đây.
 
 ---
 
@@ -312,7 +278,7 @@ Test end-to-end: 1 query tra_cuu, 1 tinh_toan, 1 soan_thao."
 □ POST /api/calculate/tro_cap_thoi_viec → result + breakdown
 □ POST /api/draft/don_khieu_nai → rendered document
 □ Mọi response có citations[] và disclaimer
-□ 400 cho validation errors, 500 cho internal errors
+□ 422 validation, 429 rate limit, 503 dependency unavailable, 500 internal errors đúng contract
 □ Latency < 10 giây full pipeline
 □ Intent classifier ≥ 90% accuracy
 □ Reviewer Agent: 0 Critical findings
@@ -420,14 +386,14 @@ Phân tích root cause: retrieval miss? wrong intent? hallucination?
 #### ✅ Checklist Quality Gate 6 (FINAL)
 
 ```
-□ Precision@5 ≥ 0.70
+□ Báo Precision@5; nDCG@5 ≥ 0.70 theo technical_design v1.2
 □ Recall@5 ≥ 0.80
 □ MRR ≥ 0.70
 □ Temporal Recall@5 ≥ 0.80
 □ Citation Precision ≥ 0.90
 □ Citation Recall ≥ 0.80
 □ Calculation Accuracy = 100%
-□ Full pipeline > BM25 > LLM-no-RAG
+□ Baselines/ablations công bằng; so retrieval và generation riêng, không ép thứ tự thắng
 □ Reviewer Agent final sign-off
 □ README.md hoàn chỉnh
 ```
@@ -460,13 +426,7 @@ Sử dụng write-report-section skill."
 
 ### 4.2. Retrieval quality kém
 
-```
-→ Kiểm tra: chunks.jsonl có đúng format không? (Phase 1 issue)
-→ Kiểm tra: Qdrant có đủ payload indexes không?
-→ Thử: Tăng top_k từ 5 → 10 rồi rerank xuống 5
-→ Thử: Kiểm tra BM25 hoạt động riêng → vấn đề ở dense hay sparse?
-→ Escalate: Gọi RAG Design Agent để quyết định architecture change
-```
+Phân loại bằng case_id, snapshot/config và reproduction. Missing source/version/coverage → upstream blocker, không tự mở Phase 1 paused. Lỗi tokenize/filter/ranking → sửa đúng task. Kiểm eligibility và gold trước tuning; không mặc định tăng top-k, thêm reranker hoặc yêu cầu payload indexes. Hai vòng cùng lỗi không tiến triển → escalation packet theo Project Guide.
 
 ### 4.3. Calculation trả sai kết quả
 
@@ -487,7 +447,7 @@ Sử dụng write-report-section skill."
 
 ---
 
-## 5. Quick Start — Bắt đầu Ngay
+## 5. Quick Start — tham khảo lịch sử, không thực thi khi PAUSED/DESIGN_ONLY
 
 ### Bước 1: Setup môi trường
 

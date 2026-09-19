@@ -1,0 +1,1017 @@
+{
+  "review_date": "2026-09-16",
+  "scope": "local artifacts; official-source sign-off incomplete",
+  "counts": {
+    "word_files_recursive": 107,
+    "raw_markdown": 102,
+    "cleaned_json": 103,
+    "chunks": 2041,
+    "unique_chunk_ids": 1969,
+    "document_identifiers_not_verified_documents": 102,
+    "duplicate_id_groups": 36,
+    "duplicate_id_excess_rows": 72,
+    "duplicate_content_groups": 27,
+    "duplicate_content_excess_rows": 29,
+    "empty_effective_date": 1594,
+    "empty_source_url": 2041,
+    "malformed_decree_circular_decision_ids": 1225,
+    "invalid_canonical_doc_number": 1480,
+    "over_2000_chars": 142,
+    "max_chars": 267523,
+    "article_all_chunks": 244,
+    "non_nfc_content": 28,
+    "relations": 95,
+    "undated_relations": 90,
+    "relations_needing_review": 29,
+    "plan_rows": 30,
+    "plan_unique_doc_numbers": 28
+  },
+  "missing_original_schema_fields": {
+    "issued_date": 2041,
+    "expiry_date": 2041,
+    "clause_range": 2041,
+    "content_length": 2041,
+    "source_url": 2041,
+    "crawled_at": 2041
+  },
+  "status_counts": {
+    "het_hieu_luc": 246,
+    "con_hieu_luc": 1795
+  },
+  "doc_counts": {
+    "10/2012/QH13": 246,
+    "Luật Bảo hiểm xã hội 58-2014-QH13": 55,
+    "12/2012/QH13": 33,
+    "38/2013/QH13": 62,
+    "58/2014/QH13": 139,
+    "84/2015/QH13": 81,
+    "Mau so 01 PLI": 3,
+    "Mau so 01 PLIII": 1,
+    "Mau so 01 PLIV": 1,
+    "Mau so 01 PLV": 11,
+    "Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep": 1,
+    "Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong": 16,
+    "Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec": 2,
+    "Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai": 3,
+    "Mau so 01_PLII. Phieu dang ky du tuyen lao dong": 3,
+    "Mau so 02 PLI": 2,
+    "Mau so 02 PLIII": 1,
+    "Mau so 02 PLIV": 1,
+    "Mau so 02 PLV": 1,
+    "Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em": 1,
+    "Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep": 2,
+    "Mau so 02. Phieu thong tin nguoi tim viec": 14,
+    "Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai": 4,
+    "Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam": 3,
+    "Mau so 03 PLIII": 3,
+    "Mau so 03 PLV": 1,
+    "Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec": 1,
+    "Mau so 03. Phieu thong tin ve nguoi lao dong": 3,
+    "Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep": 2,
+    "Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai": 2,
+    "Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam": 3,
+    "Mau so 04 PLIII": 2,
+    "Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep": 3,
+    "Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec": 2,
+    "Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai": 1,
+    "Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam": 1,
+    "Mau so 05 PLIII": 1,
+    "Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec": 1,
+    "Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep": 2,
+    "Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai": 2,
+    "Mau so 06 PLIII": 1,
+    "Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep": 3,
+    "Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien": 1,
+    "Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam": 2,
+    "Mau so 07 PLIII": 2,
+    "Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep": 2,
+    "Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai": 3,
+    "Mau so 08 PLIII": 4,
+    "Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep": 3,
+    "Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai": 3,
+    "Mau so 09 PLIII": 2,
+    "Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong": 2,
+    "Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong": 2,
+    "Mau so 10 PLIII": 3,
+    "Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong": 3,
+    "Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong": 1,
+    "Mau so 11 PLIII": 1,
+    "Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong": 2,
+    "Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai": 4,
+    "Mau so 12 PLIII": 2,
+    "Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong": 3,
+    "Mau so 12_PLI. Giay phep lao dong": 1,
+    "Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep...": 2,
+    "Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai": 4,
+    "Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep": 2,
+    "Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai": 1,
+    "Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD": 2,
+    "Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi": 1,
+    "Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec": 1,
+    "115/2015/NĐ/CP": 54,
+    "12/2022/NĐ/CP": 143,
+    "135/2020/NĐ/CP": 10,
+    "143/2018/NĐ/CP": 22,
+    "145/2020/NĐ/CP": 195,
+    "152/2020/NĐ/CP": 70,
+    "191/2013/NĐ/CP": 14,
+    "28/2015/NĐ/CP": 58,
+    "35/2022/NĐ/CP": 132,
+    "39/2016/NĐ/CP": 112,
+    "43/2013/NĐ/CP": 17,
+    "70/2023/NĐ/CP": 16,
+    "74/2024/NĐ/CP": 9,
+    "88/2020/NĐ/CP": 79,
+    "Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung": 5,
+    "Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong": 1,
+    "Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam": 1,
+    "Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung": 5,
+    "Phu luc III. Cong viec khai thac than trong ham lo": 1,
+    "Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien": 6,
+    "Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien": 1,
+    "Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem": 2,
+    "Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong": 2,
+    "Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024": 5,
+    "Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con": 8,
+    "23/2021/QĐ/TTG": 78,
+    "06/2021/TT/BLĐTBXH": 21,
+    "09/2020/TT/BLĐTBXH": 28,
+    "10/2020/TT/BLĐTBXH": 28,
+    "11/2020/TT/BLĐTBXH": 4,
+    "11/2022/TT/BLĐTBXH": 30,
+    "28/2015/TT/BLĐTBXH": 31,
+    "59/2015/TT/BLĐTBXH": 74
+  },
+  "core_absent_as_canonical_ids": [
+    "45/2019/QH14",
+    "25/2008/QH12",
+    "41/2024/QH15",
+    "74/2025/QH15",
+    "293/2025/NĐ-CP"
+  ],
+  "orphan_cleaned": [
+    "data/cleaned/Bộ luật Lao động số 45-2019-QH14.json"
+  ],
+  "duplicate_ids": {
+    "145-2020-NĐ-CP_D1": [
+      1009,
+      1172,
+      1180,
+      1188
+    ],
+    "145-2020-NĐ-CP_D2": [
+      1010,
+      1173,
+      1181,
+      1189
+    ],
+    "145-2020-NĐ-CP_D3": [
+      1011,
+      1182,
+      1190
+    ],
+    "145-2020-NĐ-CP_D4_K1-K2": [
+      1012,
+      1184,
+      1185,
+      1187
+    ],
+    "145-2020-NĐ-CP_D6": [
+      1018,
+      1193
+    ],
+    "145-2020-NĐ-CP_D7": [
+      1019,
+      1194
+    ],
+    "145-2020-NĐ-CP_D10": [
+      1027,
+      1197
+    ],
+    "145-2020-NĐ-CP_D115_K1-K2": [
+      1170,
+      1171
+    ],
+    "145-2020-NĐ-CP_D3_K1-K5": [
+      1176,
+      1177
+    ],
+    "152-2020-NĐ-CP_D1": [
+      1204,
+      1264
+    ],
+    "152-2020-NĐ-CP_D30_K1-K3": [
+      1251,
+      1253,
+      1255
+    ],
+    "152-2020-NĐ-CP_D30_K1-K2": [
+      1252,
+      1254,
+      1256
+    ],
+    "152-2020-NĐ-CP_D30_K3-K8": [
+      1257,
+      1261
+    ],
+    "39-2016-NĐ-CP_D1": [
+      1478,
+      1564,
+      1567,
+      1570
+    ],
+    "39-2016-NĐ-CP_D2": [
+      1479,
+      1565,
+      1568,
+      1571
+    ],
+    "39-2016-NĐ-CP_D3": [
+      1480,
+      1566,
+      1569
+    ],
+    "39-2016-NĐ-CP_D48_K1-K2": [
+      1556,
+      1562
+    ],
+    "39-2016-NĐ-CP_D3_K1-K4": [
+      1573,
+      1576,
+      1579,
+      1582
+    ],
+    "39-2016-NĐ-CP_D3_K1-K3": [
+      1583,
+      1589
+    ],
+    "70-2023-NĐ-CP_D3_K1-K2": [
+      1618,
+      1620,
+      1621,
+      1622
+    ],
+    "88-2020-NĐ-CP_D1": [
+      1632,
+      1692,
+      1696,
+      1700,
+      1704,
+      1708
+    ],
+    "88-2020-NĐ-CP_D2": [
+      1633,
+      1693,
+      1697,
+      1701,
+      1705,
+      1709
+    ],
+    "88-2020-NĐ-CP_D47_K1-K2": [
+      1690,
+      1691
+    ],
+    "88-2020-NĐ-CP_D3_K1-K2": [
+      1695,
+      1698,
+      1699,
+      1703,
+      1707
+    ],
+    "88-2020-NĐ-CP_D3_K1": [
+      1702,
+      1706,
+      1710
+    ],
+    "23-2021-QĐ-TTG_D1": [
+      1748,
+      1802,
+      1806,
+      1809
+    ],
+    "23-2021-QĐ-TTG_D2": [
+      1749,
+      1803
+    ],
+    "23-2021-QĐ-TTG_D3": [
+      1750,
+      1804,
+      1807,
+      1810
+    ],
+    "23-2021-QĐ-TTG_D4": [
+      1751,
+      1808,
+      1811
+    ],
+    "23-2021-QĐ-TTG_D5_K1-K3": [
+      1812,
+      1813
+    ],
+    "23-2021-QĐ-TTG_D5_K1-K6": [
+      1815,
+      1822,
+      1825
+    ],
+    "23-2021-QĐ-TTG_D5_K1-K1": [
+      1817,
+      1820
+    ],
+    "09-2020-TT-BLĐTBXH_D13_K1-K2": [
+      1859,
+      1860
+    ],
+    "11-2022-TT-BLĐTBXH_D18_K1": [
+      1929,
+      1932
+    ],
+    "11-2022-TT-BLĐTBXH_D18_K2": [
+      1930,
+      1933
+    ],
+    "11-2022-TT-BLĐTBXH_D18_K3": [
+      1931,
+      1934
+    ]
+  },
+  "colliding_word_filenames": {
+    "Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx": [
+      {
+        "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "2a95b1fe7269b087f1913c69b4594396d9dd7096537c089d68447ba60c81ed03"
+      },
+      {
+        "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "5c747de27c7b4016c0de7230a3261814da71489d37b0b0fdb39dfdb643fee4e3"
+      }
+    ],
+    "Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx": [
+      {
+        "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "9abf33b97a86a9aeb56d0a4d0d9ed19c7ce2cc4f099ee0070ee32997dea3c6de"
+      },
+      {
+        "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "4e2a1d77779774e2b91e57d43b5954512f13a907b8c961d989968e0e821eabf3"
+      }
+    ],
+    "Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx": [
+      {
+        "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "4f4034c2de2f24d429a4cad7ef11c870deec59ea97afac48a2b72792527c7752"
+      },
+      {
+        "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+        "sha256": "52ff9d60f1afbf6c08b5f495158179f88f37316da756323b127c7d6d878cd89f"
+      }
+    ],
+    "Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx": [
+      {
+        "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+        "sha256": "17157e398317bb84fc444b8ce12ba6a18940c41e35b5d4d002623e99725f6f4e"
+      },
+      {
+        "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+        "sha256": "b901d2c8e45b0d129bb98d1cb17b160fac45d8e37994e3f5d9cce7eb20a5f2e5"
+      }
+    ],
+    "Nghị-định-70-2023-NĐ-CP.docx": [
+      {
+        "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Nghị-định-70-2023-NĐ-CP.docx",
+        "sha256": "6894c353fa3627109fa67e6166962b5c9f726741b7d40773a14d72c595379d45"
+      },
+      {
+        "path": "data/raw/word/Nghị-định-70-2023-NĐ-CP.docx",
+        "sha256": "773386b418cdcad578fcc55238a26ba5d35939597de15c82b4d7f4e0d91913f2"
+      }
+    ]
+  },
+  "random_seed": 20260916,
+  "random_samples": [
+    {
+      "row": 88,
+      "chunk_id": "10-2012-QH13_D85",
+      "doc_number": "10/2012/QH13",
+      "hierarchy_path": "CHƯƠNG V > Mục 4",
+      "chars": 241,
+      "raw_candidates": [
+        "data/raw/manual_md/Bộ-luật-10-2012-QH13.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": true,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 85. Thời hạn thỏa ước lao động tập thể doanh nghiệp\nThoả ước lao động tập thể doanh nghiệp có thời hạn từ 01 năm đến 03 năm. Đối với doanh nghiệp lần đầu tiên ký kết thoả ước lao động tập thể, thì có thể ký kết với thời hạn dưới 01 năm."
+    },
+    {
+      "row": 223,
+      "chunk_id": "10-2012-QH13_D219",
+      "doc_number": "10/2012/QH13",
+      "hierarchy_path": "CHƯƠNG XIV > Mục 4",
+      "chars": 749,
+      "raw_candidates": [
+        "data/raw/manual_md/Bộ-luật-10-2012-QH13.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": true,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 219. Hành vi bị cấm trước, trong và sau khi đình công\n1. Cản trở việc thực hiện quyền đình công hoặc kích động, lôi kéo, ép buộc người lao động đình công; cản trở người lao động không tham gia đình công đi làm việc.\n2. Dùng bạo lực; hủy hoại máy, thiết bị, tài sản của người sử dụng lao động.\n3. Xâm phạm trật tự, an toàn công cộng.\n4. Chấm dứt "
+    },
+    {
+      "row": 326,
+      "chunk_id": "12-2012-QH13_D25",
+      "doc_number": "12/2012/QH13",
+      "hierarchy_path": "CHƯƠNG IV > Mục 2",
+      "chars": 1343,
+      "raw_candidates": [
+        "data/raw/manual_md/Luật-12-2012-QH13.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 25. Bảo đảm cho cán bộ công đoàn\n1. Trường hợp hợp đồng lao động, hợp đồng làm việc hết hạn mà người lao động là cán bộ công đoàn không chuyên trách đang trong nhiệm kỳ thì được gia hạn hợp đồng lao động, hợp đồng làm việc đến hết nhiệm kỳ.\n2. Đơn vị sử dụng lao động không được đơn phương chấm dứt hợp đồng lao động, hợp đồng làm việc, sa thải,"
+    },
+    {
+      "row": 757,
+      "chunk_id": "Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai_DALL_P1",
+      "doc_number": "Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai",
+      "hierarchy_path": "",
+      "chars": 1522,
+      "raw_candidates": [
+        "data/raw/manual_md/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Mẫu số 11/PLI\nKính gửi: ...............(1)..................\n1. Tên doanh nghiệp/tổ chức: ................................\n2. Loại hình doanh nghiệp/tổ chức (doanh nghiệp nhà nước/doanh nghiệp có vốn đầu tư nước ngoài/doanh nghiệp ngoài nhà nước/tổ chức) .................................................\n3. Tổng số người lao động đang làm việc tại d"
+    },
+    {
+      "row": 784,
+      "chunk_id": "115-2015-NĐ-CP_D2_K5-K6",
+      "doc_number": "115/2015/NĐ/CP",
+      "hierarchy_path": "Chương I",
+      "chars": 216,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-115-2015-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 2. Đối tượng áp dụng\n5. Người sử dụng lao động quy định tại Khoản 3 Điều 2 của Luật Bảo hiểm xã hội.\n6. Cơ quan, tổ chức, cá nhân có liên quan đến bảo hiểm xã hội bắt buộc.\nMỘT SỐ CHẾ ĐỘ BẢO HIỂM XÃ HỘI BẮT BUỘC"
+    },
+    {
+      "row": 1319,
+      "chunk_id": "28-2015-NĐ-CP_D23",
+      "doc_number": "28/2015/NĐ/CP",
+      "hierarchy_path": "Chương IV > Mục 3: TRỢ CẤP THẤT NGHIỆP",
+      "chars": 458,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-28-2015-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 23. Cấp và thu hồi thẻ bảo hiểm y tế\n1. Cấp thẻ bảo hiểm y tế\nCăn cứ quyết định hưởng trợ cấp thất nghiệp, tổ chức bảo hiểm xã hội cấp thẻ bảo hiểm y tế cho người lao động.\n2. Thu hồi thẻ bảo hiểm y tế\nNgười lao động đang hưởng trợ cấp thất nghiệp hằng tháng bị chấm dứt hưởng trợ cấp thất nghiệp thì người lao động không được hưởng bảo hiểm y t"
+    },
+    {
+      "row": 1357,
+      "chunk_id": "35-2022-NĐ-CP_D5_K1-K4",
+      "doc_number": "35/2022/NĐ/CP",
+      "hierarchy_path": "Chương I QUY ĐỊNH CHUNG",
+      "chars": 2437,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-35-2022-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 5. Phương án phát triển hệ thống khu kinh tế\n1. Phương án phát triển hệ thống khu kinh tế là một nội dung của quy hoạch tỉnh theo quy định tại điểm d khoản 2 Điều 27 của Luật Quy hoạch.\n2. Nội dung phương án phát triển hệ thống khu kinh tế bao gồm:\na) Mục tiêu, định hướng, tổ chức thực hiện và giải pháp về phát triển hệ thống khu kinh tế trong"
+    },
+    {
+      "row": 1398,
+      "chunk_id": "35-2022-NĐ-CP_D26_K4",
+      "doc_number": "35/2022/NĐ/CP",
+      "hierarchy_path": "Chương III > Mục 2",
+      "chars": 1847,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-35-2022-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 26. Quy định riêng áp dụng đối với khu chế xuất, doanh nghiệp chế xuất\n4. Quan hệ trao đổi hàng hóa giữa doanh nghiệp chế xuất với các khu vực khác trên lãnh thổ Việt Nam, không phải là khu phi thuế quan, là quan hệ xuất khẩu, nhập khẩu trừ các trường hợp quy định tại điểm c khoản này và các trường hợp không phải làm thủ tục hải quan theo quy "
+    },
+    {
+      "row": 1783,
+      "chunk_id": "23-2021-QĐ-TTG_D33",
+      "doc_number": "23/2021/QĐ/TTG",
+      "hierarchy_path": "CHƯƠNG VIII > Mục 2 HỖ TRỢ HƯỚNG DẪN VIÊN DU LỊCH",
+      "chars": 492,
+      "raw_candidates": [
+        "data/raw/manual_md/Quyết-định-23-2021-QĐ-TTg.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 33. Hồ sơ đề nghị\n1. Đề nghị hỗ trợ theo Mẫu số 10 tại Phụ lục ban hành kèm theo Quyết định này;\n2. Bản sao có chứng thực hoặc bản sao kèm theo bản chính để đối chiếu của một trong các giấy tờ sau đây:\na) Bản sao hợp đồng lao động với doanh nghiệp kinh doanh dịch vụ lữ hành hoặc doanh nghiệp cung cấp dịch vụ hướng dẫn du lịch có hiệu lực trong"
+    },
+    {
+      "row": 1930,
+      "chunk_id": "11-2022-TT-BLĐTBXH_D18_K2",
+      "doc_number": "11/2022/TT/BLĐTBXH",
+      "hierarchy_path": "Chương IV TỔ CHỨC THỰC HIỆN",
+      "chars": 24779,
+      "raw_candidates": [
+        "data/raw/manual_md/Thông-tư-11-2022-TT-BLĐTBXH.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": false,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 18. Hiệu lực thi hành\n2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2. Thông tin về nhu cầu tuyển dụng lao động | 2"
+    }
+  ],
+  "boundary_samples": [
+    {
+      "row": 1188,
+      "chunk_id": "145-2020-NĐ-CP_D1",
+      "doc_number": "145/2020/NĐ/CP",
+      "hierarchy_path": "Chương XI > Mục 4",
+      "chars": 235,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-145-2020-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": false,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 1. Thời hạn hợp đồng\n- Hợp đồng lao động: Không xác định thời hạn hoặc có thời hạn tháng.\nNgày bắt đầu làm việc: Từ ngày... tháng ... năm...\n- Thời gian thử việc (nếu có): từ ngày... tháng ... năm.... đến ngày.... tháng ... năm..."
+    },
+    {
+      "row": 1171,
+      "chunk_id": "145-2020-NĐ-CP_D115_K1-K2",
+      "doc_number": "145/2020/NĐ/CP",
+      "hierarchy_path": "Chương XI > Mục 4",
+      "chars": 1344,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-145-2020-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": false,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 115. Trách nhiệm thi hành\n1. Đồng ý với đề nghị rút tiền ký quỹ hoạt động cho thuê lại lao động của ...(3)....., địa chỉ doanh nghiệp........., mã số doanh nghiệp:.............., mã số giấy phép (nếu có): ................ để thực hiện .......(5)............\n2. .........(3)..., Ngân hàng ...(4), Sở Lao động - Thương binh và Xã hội tỉnh/thành ph"
+    },
+    {
+      "row": 1906,
+      "chunk_id": "11-2020-TT-BLĐTBXH_D3_K3-K4",
+      "doc_number": "11/2020/TT/BLĐTBXH",
+      "hierarchy_path": "",
+      "chars": 267523,
+      "raw_candidates": [
+        "data/raw/manual_md/Thông-tư-11-2020-TT-BLĐTBXH.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 3. Hiệu lực thi hành\n3. Thời gian người lao động làm các nghề, công việc ban hành kèm theo các Quyết định, Thông tư bị bãi bỏ theo quy định tại Khoản 2 Điều này vẫn được tính là thời gian làm các nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm cho đến ngày Thông tư này có hiệu lực.\n4. Trong quá trình t"
+    },
+    {
+      "row": 1273,
+      "chunk_id": "152-2020-NĐ-CP_D4_K3",
+      "doc_number": "152/2020/NĐ/CP",
+      "hierarchy_path": "Chương IV ĐIỀU KHOẢN THI HÀNH > Mục 6 THU HỒI GIẤY PHÉP LAO ĐỘNG",
+      "chars": 20962,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-152-2020-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 4. Người lao động nước ngoài nêu tại Điều 1, (tên doanh nghiệp/tổ chức) nêu tại Điều 2 có trách nhiệm thi hành Quyết định này./.\n3. Các vấn đề khác.\nĐẠI DIỆN TỔ CHỨC, CÁ NHÂN NƯỚC NGOÀI\n(Ký và ghi rõ họ tên, đóng dấu)\nMẫu số 03/PLII\nBÁO CÁO\nTÌNH HÌNH TUYỂN DỤNG, QUẢN LÝ NGƯỜI LAO ĐỘNG VIỆT NAM LÀM VIỆC CHO TỔ CHỨC, CÁ NHÂN NƯỚC NGOÀI TẠI VIỆT "
+    },
+    {
+      "row": 986,
+      "chunk_id": "135-2020-NĐ-CP_D9_K8-K24",
+      "doc_number": "135/2020/NĐ/CP",
+      "hierarchy_path": "",
+      "chars": 17746,
+      "raw_candidates": [
+        "data/raw/manual_md/Nghị-định-135-2020-NĐ-CP.md"
+      ],
+      "all_content_lines_found_in_candidate_raw": true,
+      "unique_id": true,
+      "has_effective_date": false,
+      "has_source_url": false,
+      "official_source_verification": "not_completed",
+      "excerpt": "Điều 9. Trách nhiệm hướng dẫn thi hành\n8. Đo khí, đo gió, trực cửa gió, trắc địa, KCS trong hầm lò.\n9. Công nhân vận hành, sửa chữa các thiết bị trong hầm lò.\n10. Vận hành và phụ tàu điện, tàu ắc quy trong hầm lò.\n11. Vận hành, sửa chữa, nạp ắc quy trong hầm lò.\n12. Nghiệm thu các sản phẩm trong hầm lò.\n13. Thủ kho các loại trong hầm lò.\n14. Bảo vệ"
+    }
+  ],
+  "reproductions": {
+    "alphanumeric_article": {
+      "expected_articles": [
+        "1",
+        "1a"
+      ],
+      "actual_articles": [
+        "1"
+      ]
+    },
+    "chapter_reset": {
+      "expected_path": "Chương II",
+      "actual_path": "Chương II > Mục 1"
+    },
+    "watermark_removes_legal_sentence": {
+      "input": "1. Tuân thủ pháp luật Việt Nam.",
+      "expected": "1. Tuân thủ pháp luật Việt Nam.",
+      "actual": ""
+    },
+    "citation_mistaken_for_amendment": {
+      "input": "Căn cứ Hiến pháp năm 1992 đã được sửa đổi, bổ sung theo Nghị quyết số 51/2001/QH10;",
+      "expected": "no amendment issued by 10/2012/QH13",
+      "actual": [
+        {
+          "source_doc": "10/2012/QH13",
+          "target_doc": "51/2001/QH10",
+          "relation_type": "sua_doi",
+          "scope": "mot_so_dieu",
+          "target_article": null,
+          "status": "active"
+        },
+        {
+          "source_doc": "10/2012/QH13",
+          "target_doc": "51/2001/QH10",
+          "relation_type": "bo_sung",
+          "scope": "mot_so_dieu",
+          "target_article": null,
+          "status": "active"
+        }
+      ]
+    },
+    "multiple_article_target": {
+      "expected_valid": false,
+      "actual_valid": true
+    },
+    "rejected_undated_relation": {
+      "expected_valid": true,
+      "actual_valid": false
+    }
+  },
+  "docx_numbering_evidence": {
+    "path": "data/raw/word/Luật-84-2015-QH13.docx",
+    "paragraph_text": "Phạm vi điều chỉnh",
+    "num_id": "1",
+    "format": "Điều %1. "
+  },
+  "input_sha256": {
+    "data/chunks.jsonl": "14ea72761cd7cd31ec4b52e756fc3c8732d17e7016726262830102a837de0831",
+    "data/document_relations.json": "f387b2f1e5f8249b769f0ef94ea6f30052a635ae57e71034fa0eac47a3e7e991",
+    "data/relations_needs_review.json": "572fa592b1581836299aa2e19cf26927eaaf963205c9898ab49a8bd63beab6de",
+    "data/documents_metadata.json": "33492ab5ddd79b1d4737297ad37a404651e956b08448915fcf4a286b5e244def",
+    "data/raw/manual_md/Bộ-luật-10-2012-QH13.md": "ce63ee8b59c39447d3e5eabc35545dfe8f199414cd4ccd42722a144448b445aa",
+    "data/raw/manual_md/Luật Bảo hiểm xã hội 58-2014-QH13.md": "309425e5cbd82594de373067616ce5545fa530f7b66bcc6a19a415149685d28b",
+    "data/raw/manual_md/Luật-12-2012-QH13.md": "80796e84f9d1721867b2f130891f9516f70d96dc0952eb202fc07c43933130ce",
+    "data/raw/manual_md/Luật-38-2013-QH13.md": "62bccbbc4ee4a978562beb83617dae74551876fe555988ac623850775dde54c7",
+    "data/raw/manual_md/Luật-58-2014-QH13.md": "f09d55128bcaff7e0b8567e26bdb7ee14ac5ed6e04fedf42c786d249b4079095",
+    "data/raw/manual_md/Luật-84-2015-QH13.md": "a4914d1a5b31e69230d8e9c77e9707323bf82633a40ba4e8f3c14102723083e1",
+    "data/raw/manual_md/Mau so 01 PLI.md": "4f52f9d0ffe7f84304df30c1e84e65e22941b11a797e750b04594bc0bef6c322",
+    "data/raw/manual_md/Mau so 01 PLIII.md": "e14c87dd7913726d1bbccc02e535456eb3eee3a5d87d0ec81b62d982662ad476",
+    "data/raw/manual_md/Mau so 01 PLIV.md": "b54aeaa02e181e2bc192bdd0009e5c711b673d4fea5fcd5887c2ac6e74f32710",
+    "data/raw/manual_md/Mau so 01 PLV.md": "362a4a311e0eee3e41ea3c273c38e71daf4c9ae31fa66be2586d26bd2f8e59a7",
+    "data/raw/manual_md/Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep.md": "571700d4018c8ff15a291d41ec5068de22d61ba8d8876f11e228badd57a850de",
+    "data/raw/manual_md/Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong.md": "3f7314f59715ec0bebd055c42aea5b89585d66902a8fc776e4f45d9fb4d41bc7",
+    "data/raw/manual_md/Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec.md": "cc9f9498c1ce85401d4234924e1327db95d6104eedf18df99f9819fc49725ea9",
+    "data/raw/manual_md/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.md": "534308f08a805a61232d3d83ae0472557a2ca88358126d6e8ee9270fdb1e0b8a",
+    "data/raw/manual_md/Mau so 01_PLII. Phieu dang ky du tuyen lao dong.md": "381a56d04ef36bc35067a88650265c973f64447cd0e8da269906fff4a25df85a",
+    "data/raw/manual_md/Mau so 02 PLI.md": "955b9286cc8f257829ccd50cfcc1b226cda18204a684c26f67b22e5ffe5c95a6",
+    "data/raw/manual_md/Mau so 02 PLIII.md": "fa46f67f88b93c07d4262d6e5d4d929bec595df3d175c0befd15d0818a40cdbd",
+    "data/raw/manual_md/Mau so 02 PLIV.md": "b152a7cc64f0b69f99172ec5dc98f1bdc07ce3ef17d80df6b9caf08353f77c66",
+    "data/raw/manual_md/Mau so 02 PLV.md": "99322cec28704c0fab0420a744b2b16cb417e83d2c43a799eaa7581ccc7fdd09",
+    "data/raw/manual_md/Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em.md": "3f5220d541f6ff9b6589b1c36941fe12356bd5ed8f73acb9a32fa5923c83b8fd",
+    "data/raw/manual_md/Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep.md": "f48fa4b671846540b296880140bac711b8dd6f8419fe753b04c0ed5cb48b1b9a",
+    "data/raw/manual_md/Mau so 02. Phieu thong tin nguoi tim viec.md": "cb1c99ebde00d4155957448ee5e39bd5ebdb07fae7aa70d477f8ff8f2ef8dc1c",
+    "data/raw/manual_md/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.md": "6e6db1e4a5d5d5a5e694a2ad2d1b540cc780a0f20a853a7ca930d58264b908fb",
+    "data/raw/manual_md/Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam.md": "447bc2e2c0bacbce49b8db32a0242f7b52f7b6501ced0a77ae5e7e2411a32001",
+    "data/raw/manual_md/Mau so 03 PLIII.md": "d37896b0a6bb2acde93850da7bd973c4ae55300626e99b068461f557664414a6",
+    "data/raw/manual_md/Mau so 03 PLV.md": "418df669c18f2cef0b154d4b016e514eec42faf149446fcf7d1da4e37105b31d",
+    "data/raw/manual_md/Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec.md": "95a3d38612a5c3ad0d85cb8cddc54ed4c415853afa80f7725bddf5ba3f80b052",
+    "data/raw/manual_md/Mau so 03. Phieu thong tin ve nguoi lao dong.md": "07150edd479ac8fdb16ab1bd5e29da435492f86a43b75e427e174900ad624f84",
+    "data/raw/manual_md/Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep.md": "02529b970cf4e7ce59c1fe215eea682538f6fdde7d20e8b18c889856d36465e9",
+    "data/raw/manual_md/Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai.md": "ff4e6b2092c4e02aea3d55ea8da88ad6d0b57414aae887a7f53d3860cb427c8f",
+    "data/raw/manual_md/Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.md": "49502db915f70db6353ae51495d3326ce3a15328e6e16420f7a1eaa75f90e112",
+    "data/raw/manual_md/Mau so 04 PLIII.md": "866b03e1e2f11bb5474447732eb5e96186ebc3839d6c41617ef1998a2b364004",
+    "data/raw/manual_md/Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep.md": "aba215cd690996959e390057689ca58b2df6b1a6b998c5ed694dc3e0c79a2932",
+    "data/raw/manual_md/Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec.md": "0e3249c8467175f31701a9b9a6d0c77cfe0f95590b01e27190d6d86497491f6a",
+    "data/raw/manual_md/Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai.md": "4912a92fcf2fc64ff7246478e1e7374d3d51b4cae387db72020b7955d0886ec1",
+    "data/raw/manual_md/Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.md": "71ac75d2de3e2a389ef6e830e4b2e8e0309f6de2ba4f7c4d656bed42e3367fe9",
+    "data/raw/manual_md/Mau so 05 PLIII.md": "4972730dfc947ab68fff04edbfdca5010ad33d12e9c7636e539e2c9199ae100a",
+    "data/raw/manual_md/Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec.md": "f04dd137523d0f8ccba8270070c03bfb3705754af424cc20787cd197ee235052",
+    "data/raw/manual_md/Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep.md": "696510a861f9a160c97df7635c91bd65694f328cb164b30f1ea92018a82f1742",
+    "data/raw/manual_md/Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai.md": "246d38801064d0952a61deecb3a4df353d2ea13546a844b2e073239f97f522d5",
+    "data/raw/manual_md/Mau so 06 PLIII.md": "8fce668859ac757b1ecb1c3e61425414e8463bef1b4e21ecd6845bae797211ec",
+    "data/raw/manual_md/Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep.md": "995cfc4df3796184c438335aac7bff9376e9c065ec0235689f3c11ca5d458bfd",
+    "data/raw/manual_md/Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien.md": "3bbb33e7d3aaa9c8b61d44bc1451b59383bf31cae567c8b2aa2258a2d103cc21",
+    "data/raw/manual_md/Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam.md": "deae54778ba46a4e4d9b5153469b905908bc3d6a19de49028288c719258f2627",
+    "data/raw/manual_md/Mau so 07 PLIII.md": "e4b1ca8273625f5d880f1f60f92c60c5a0065ee30ad0e4d72693fa38576a13a3",
+    "data/raw/manual_md/Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep.md": "255d0466c72fd7e47db0d10ec9eb4b87296f36efc43ac75b90bb14c237c98ece",
+    "data/raw/manual_md/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.md": "c92d0857a264fcb4863af29e23ead6e768e95f8b2f368f8ca0e60121db6266c1",
+    "data/raw/manual_md/Mau so 08 PLIII.md": "3a8c658a42f6a8b61f5b38da111adda31c497df932e58d9e34046704f5cda832",
+    "data/raw/manual_md/Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep.md": "637a0dfc1d6e5309591730b47f299d262210a45a582d812424bb8ccc1c35c3bb",
+    "data/raw/manual_md/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.md": "273eaa59d256fc2dd6b6ded37941a15bc932c6cff9a42f514f13b592ca8a2153",
+    "data/raw/manual_md/Mau so 09 PLIII.md": "c0fa32043ef4336496097b09c946176590b1f47b206760d7315e1f151368b943",
+    "data/raw/manual_md/Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong.md": "ebf3d48fbfa2584aa6f5cbbe20216a8fec10b3061f5e7b127427ff5afc3f3fc3",
+    "data/raw/manual_md/Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong.md": "641f4efeb42a50214dc0cd53642632c1f97aadbea4095001caf66ef31519e1f7",
+    "data/raw/manual_md/Mau so 10 PLIII.md": "36b3219235515f0cf1a99dfb3cfe295dfac81ef51de0887ea0f84f166ddd204c",
+    "data/raw/manual_md/Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong.md": "f9bf003eaba8eb63a6c120fa80f87d8b1b0c1d4ee415b4ed9ba5214043d0affd",
+    "data/raw/manual_md/Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong.md": "1334185112989bacf3835eaaf7ef10b8b714f72f7947f73833f4637a57b63b9f",
+    "data/raw/manual_md/Mau so 11 PLIII.md": "b1c4637a22d52ac0b3d317d693accaeb4dc83328bc28baf3b80ce237d9e6ad04",
+    "data/raw/manual_md/Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong.md": "74bf9550c716d4114ed26c11465082f6fff8a00b7dbe5e9e5c785338068b1c12",
+    "data/raw/manual_md/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.md": "1d4535c2efcf52aef17dae87f46562d7dfe3422a633dd4a1ade8d29e68501956",
+    "data/raw/manual_md/Mau so 12 PLIII.md": "3ea2156317b3c1ba92ba56f60bdebb4ceb963b91d45e406913617f12b4dd93ca",
+    "data/raw/manual_md/Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong.md": "f9c858e32f5480855cd7a4f87e56196e0ba02c01c28b0c48e6bc71990c7d0579",
+    "data/raw/manual_md/Mau so 12_PLI. Giay phep lao dong.md": "194e4fea2fe32a8ebeb2c8e7470cb95e559112eb00c7ff722ff79dfa4118cd63",
+    "data/raw/manual_md/Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep....md": "09650744b0053bbdec931b14fc47240cf893b862bc1bae8523be8d1f0e93e73f",
+    "data/raw/manual_md/Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai.md": "08cf0fc7f8fa3a36bc6a38878f84ca46142445087a72cffe90b4a276381de820",
+    "data/raw/manual_md/Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep.md": "a0ab3d02b729cb8e575705c3a25d6925d6cd6a2b285298671be84b48f0fff454",
+    "data/raw/manual_md/Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai.md": "ecb23d82087fe6f6d240f1924f8dab66a4c2f927dd6916131238fcb9b862cf73",
+    "data/raw/manual_md/Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD.md": "34f682d52ca6aa8029033ea13c7c66a9c790895717408b69ff119f6acd5662ea",
+    "data/raw/manual_md/Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi.md": "30518d5a9d032ca195d3f31353dd5eda398c99e029b7d76f9078692537189824",
+    "data/raw/manual_md/Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec.md": "9529e99d1ec5944c47aa159bde1dfaa08204fd0f7fe06c8098014a8ec17a7f8b",
+    "data/raw/manual_md/Nghị-định-115-2015-NĐ-CP.md": "9f46d40071ea53132b83765ac8ad512cb4e03e5e06a6057203e80b424ab9580a",
+    "data/raw/manual_md/Nghị-định-12-2022-NĐ-CP.md": "070f66389a7ae34ddd6290a1455c68dbae47712e9b7ee9e22f2aa7b49ec6a98a",
+    "data/raw/manual_md/Nghị-định-135-2020-NĐ-CP.md": "d39f5493cead05a20362ef2e42427ba784d71843bec376e80b122288927a1072",
+    "data/raw/manual_md/Nghị-định-143-2018-NĐ-CP.md": "baa966b870575a0cbc51e01da496e46d1ddc17f83c74fe9040db99ec0682b4d1",
+    "data/raw/manual_md/Nghị-định-145-2020-NĐ-CP.md": "d784cf269da9b0f76591a5fc3c1500b915f236a81e7cf0e0496ea2d84469a47d",
+    "data/raw/manual_md/Nghị-định-152-2020-NĐ-CP.md": "0edb1435c609bd3a8c7b3f4910fe2d168a3b47710df9b4c35300248d1b44559c",
+    "data/raw/manual_md/Nghị-định-191-2013-NĐ-CP.md": "bd3218d0ab96273574165b5c94aff0efa08e2d422c4e496823cbaf43be250f6b",
+    "data/raw/manual_md/Nghị-định-28-2015-NĐ-CP.md": "8309a524cc11012da28d4512e915d48269a12f5afec51b1b6efe257d22c278c9",
+    "data/raw/manual_md/Nghị-định-35-2022-NĐ-CP.md": "05e393c2daf0041ede5bd7fbaa1259a818830992699c874fb772cfc37c67bcf0",
+    "data/raw/manual_md/Nghị-định-39-2016-NĐ-CP.md": "97e734697ab1aea285872f92f3651ab0930efcc41553ec13d166f2505ba7ad9a",
+    "data/raw/manual_md/Nghị-định-43-2013-NĐ-CP.md": "29dcb0c5d402ca86a118b0032842d07dc0105736bd434017edfebb5739e7c11c",
+    "data/raw/manual_md/Nghị-định-70-2023-NĐ-CP.md": "13195437cc1a1b3ae3f0f633721255090fd3bb986a60a05da46b4e7c56d88b87",
+    "data/raw/manual_md/Nghị-định-74-2024-NĐ-CP.md": "fe79c949f84ac47785a8a3885181b8a490aad7bd57f057d45ea8d22d361b8867",
+    "data/raw/manual_md/Nghị-định-88-2020-NĐ-CP.md": "9845a68064aadea0661afda104c78dc1c247475cd7b5cd7d1b7f95686f52b7d9",
+    "data/raw/manual_md/Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung.md": "55c68bc2722a4807a61fe3f50100260b5d3d4c39320595433b7e29f31e9b9b49",
+    "data/raw/manual_md/Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong.md": "27d1155f1a3647ed2b8bc4bcc942e237fd071e11bd024086835af962bcb4c6c0",
+    "data/raw/manual_md/Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam.md": "2722a879fc3c1ed3f9275b9020d8543c27b78f2eec7e87d3a780e58fa965bf4c",
+    "data/raw/manual_md/Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung.md": "bd278a0d52dda1e6c429daec67859add29b537e4e5decf130ff941a8169e45eb",
+    "data/raw/manual_md/Phu luc III. Cong viec khai thac than trong ham lo.md": "d94c3bab5272de6a592b8c5e558e9182e8c865dc284150cfaf013dc391f1298e",
+    "data/raw/manual_md/Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.md": "066107c08d05032a29574e674879ace1a3edb5d68a7e422267eee65c24d38569",
+    "data/raw/manual_md/Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.md": "762663a16f747170f0a28f8fbbda0cbe6b5d27848d26f4301396a876f70cddb8",
+    "data/raw/manual_md/Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem.md": "2da8e082b2dd5d910177b992ace8a6ee45efba76d9e52cc9afcc62d91aac41d7",
+    "data/raw/manual_md/Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong.md": "cc74bbb92bcb232ec6088548072aa54389080bf82f5c50ebb8c9a3ae65cfb564",
+    "data/raw/manual_md/Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024.md": "58ad23a06a939e20f049f998a53d38322a627fdba68822e2681354d59ad94bcd",
+    "data/raw/manual_md/Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con.md": "6d40b92c59df390928548f27ec1ae376382794117ab965ef14a1d8f6ddcac5ca",
+    "data/raw/manual_md/Quyết-định-23-2021-QĐ-TTg.md": "033fb5c88937b1e7b99f68a8204e262883af210a89022ee9b3065548fd065190",
+    "data/raw/manual_md/Thông-tư-06-2021-TT-BLĐTBXH.md": "949dd11ddf901d17accf12f3c56683dd118c237552a04198e6320f7b37a4dbf6",
+    "data/raw/manual_md/Thông-tư-09-2020-TT-BLĐTBXH.md": "bfe79a8ff473296abd70ec12d0ea086c8987f4cf231401e72df9761a9bcd8b67",
+    "data/raw/manual_md/Thông-tư-10-2020-TT-BLĐTBXH.md": "6222f7d0e86cdb4d286e0a27197ebcb2110032f87ef3f6149e30ceef93fe0732",
+    "data/raw/manual_md/Thông-tư-11-2020-TT-BLĐTBXH.md": "d2a5a6ee1cf8edfad9a2c92c5b14b81ae03c828c385a61f4748e86af7619d009",
+    "data/raw/manual_md/Thông-tư-11-2022-TT-BLĐTBXH.md": "8a41677cb95271ed80f67c564bcb3d4c14bfe2a212350b9c94dced2029dc4a13",
+    "data/raw/manual_md/Thông-tư-28-2015-TT-BLĐTBXH.md": "fda7859d3b28e3fc138ce8b736c2ac27e49d18dbf631c0400e6be37b2ca8df2e",
+    "data/raw/manual_md/Thông-tư-59-2015-TT-BLĐTBXH.md": "b844eef1538df28439f92dfa065c97e74c0de0cc0d8dd462033feba798ff4fb4",
+    "data/raw/word/Bộ-luật-10-2012-QH13.docx": "57ce0a5eedc9c3c5fd4916d286d562592dceba4acacae6e5bea9eb362dfc8cdc",
+    "data/raw/word/Luật Bảo hiểm xã hội 58-2014-QH13.docx": "9e940f025d6ef0f2a1f5992792c74814846cf4ace46fa780b8ee7d8e0eb8afe6",
+    "data/raw/word/Luật-12-2012-QH13.docx": "9b2fd787ff13b67b918d0d472f57bbd30a29d0d0c7a52068ffd7602e8edf7dde",
+    "data/raw/word/Luật-38-2013-QH13.docx": "7abebab7c60ce0079331712b66455304319f47e92430ad439d2771c7200821f1",
+    "data/raw/word/Luật-58-2014-QH13.docx": "8c1e58fbea8176cf70a8d940e62932c46b2242e59800ec853ef5dd2c1e0effd9",
+    "data/raw/word/Luật-84-2015-QH13.docx": "220315efb2088f4d8937486b40374716b0672a48a38e5c38872fd7d447b27223",
+    "data/raw/word/Nghị định 135-2020-NĐ-CP/Nghị-định-135-2020-NĐ-CP.docx": "d841fe006660fbb7b4ddaf66b88167f6ae3b7e7ee0b1e95751edcb0a28443653",
+    "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung.docx": "4bff8b3be71048da99c0057d0aad4b867dcc386ac3d00aa1308ac24978ecd78f",
+    "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung.docx": "6cfdbf8aaa2821e16505571f834169809c6bde0db9b5551951071dacdfdbca8c",
+    "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc III. Cong viec khai thac than trong ham lo.docx": "c92a6c0371f145737c26d5ad219342296e7330b628243def761f027920f68203",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLI.docx": "c2864b3ff9007764f8249e7f41b7472df225aaa1303605c92a1a1524a9a07082",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLIII.docx": "3e96dd93504fab851c5a9fa4adcc4528de80be8bb46862384fa5c1827c848911",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLIV.docx": "256989c96fe92b451b186b9a49c7045033a659cc6a7f7d3279c09fddec2546a9",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLV.docx": "8506eb9f661da2db1ce5237fd69636066abf483a284dbc5f70f1ea238987e8b8",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLI.docx": "cdf16aafd61f513e525249b2283f2c902418881b25de5a5361f26211660a2d22",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLIII.docx": "7df71f1e5202e9e28c1eb97baa3370b87208765a5b19dda3fae58f089db0ccd9",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLIV.docx": "9d88f5867932521da4d529295ebcf78c4d420e4da06799118f33fffc8c50bf6e",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLV.docx": "092d30ae40438a04ee37f129fdf17411f5774389b5cf0dab1df5fd4eefcef9f9",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 03 PLIII.docx": "995ef7e9f98dd1a5dcac085e8822d5663355962d4ad413963a158658e53a4c2b",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 03 PLV.docx": "c58dc52b268cea6babc4ce6d4b40ed62780f8e2361a05f798df737a843039751",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 04 PLIII.docx": "d3a8436a3609abae7a7b9157af95c0f380f28f7ceabaf3413a7f41dc24982063",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 05 PLIII.docx": "db1a30a0a8698650169424a659576a54aa63b02f576735420c1c17963164d335",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 06 PLIII.docx": "7710c3903e45c4989e46e48002c7b012f80a785d061b835355ea020f38a9ab63",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 07 PLIII.docx": "a5e5e31e441007db8d58e2a5d90e54d9c3beed8635a8f79c2d756909faa34f72",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 08 PLIII.docx": "2cad52e8ad6671085aaf2991526e619c21ae0bd1cc8962e4d62be7b5e2061374",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 09 PLIII.docx": "aba2c4a072504737050491c12c9317433c6d4aa1f793eb68c96da8bb7828b7e3",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 10 PLIII.docx": "5c719ef566ae55870b8808da5b700f6c9d58d0179f6d1328d06b6bdc4b9a674a",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 11 PLIII.docx": "61f86210e2c5604630713a499dac47f224ff6f39f12cf5e57af076e933db1972",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 12 PLIII.docx": "4b58467db0fc4c1b0b3c35cccbbdc850161148a61a6132037c2a878a6e5d35db",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Nghị-định-145-2020-NĐ-CP.docx": "30e1077b5e359452bafeea650dc56a3a812c45fbd97edc7b519752ca49a15baf",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong.docx": "91734d6c67244fcea0e8c264d8297721d8f4ab0668d31de4af34455e311d733e",
+    "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong.docx": "b52dbfde007835b417663d491377c5f7bdb4d0ba21fe60f605fdf03c0bfb06e0",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx": "2a95b1fe7269b087f1913c69b4594396d9dd7096537c089d68447ba60c81ed03",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLII. Phieu dang ky du tuyen lao dong.docx": "a0343b8717d8fcea8fb873cad9d74e6e3e3580858f735e925f67c30f325bf8b4",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx": "9abf33b97a86a9aeb56d0a4d0d9ed19c7ce2cc4f099ee0070ee32997dea3c6de",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam.docx": "356aafee74d6cb025f3838f389a8890f7642d89115dffa334c8c75fe3e17b0b3",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai.docx": "7198f1691cc64212045508cf4948d7c661cb26f757f68014312dde5bb595e4e5",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.docx": "6f020994baa71627b46d177dbf3653bb6931cf8974ae3b251eef9fbe1e9361b0",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai.docx": "4f824f16e3098f9a83f604354e1fcb7556aca043133cdb15a602577d0c9b6f61",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.docx": "6b93309061a28c0649c79ff43a186c79608462814ba5a60f1ec8fe5fca697ad9",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai.docx": "98ceef43abfeeae24de0cfa2d9c0e284104c48b45ec2136a1af9c95cb9f503b1",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam.docx": "dd9af7c666fcf09d98f39a3dd7580cba5a90fd7c5300f2aed7cff0b1f466f982",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx": "4f4034c2de2f24d429a4cad7ef11c870deec59ea97afac48a2b72792527c7752",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx": "17157e398317bb84fc444b8ce12ba6a18940c41e35b5d4d002623e99725f6f4e",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong.docx": "8c4e85f2d65d235c20974de29ecafe3cd22d6d0fc292583e60bca20cc511123c",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong.docx": "8a0d633330af06cf708c0557e2cc88cfb2b7a33abf38f2645a24fee96336496f",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.docx": "816ed494cd2eca0b8c2d7764949d7fe8ee5e2c2dbb886de1e5fd6af6030552f2",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 12_PLI. Giay phep lao dong.docx": "979f78833efb5c200bd3337bb5069e94f2e7459922fe5fa1b1ab0812ef42d763",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai.docx": "075235da75e64637623dbe9180afb7ced896f229920c0964b964e17a9df19b5e",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai.docx": "c5a10605aa20b86c22ab5393cf9d109eedafc1cf3341287afa8fe5e49f12531a",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD.docx": "76452259fda44ecd6d6da766c077b2bebc9b9531fa39b126eaff16127278952d",
+    "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Nghị-định-152-2020-NĐ-CP.docx": "7f06f2d9133ccfab4ecc20f6dbdc2d09754abcb6649e4e953912ba9fa10c5a04",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx": "5c747de27c7b4016c0de7230a3261814da71489d37b0b0fdb39dfdb643fee4e3",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx": "4e2a1d77779774e2b91e57d43b5954512f13a907b8c961d989968e0e821eabf3",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx": "52ff9d60f1afbf6c08b5f495158179f88f37316da756323b127c7d6d878cd89f",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx": "b901d2c8e45b0d129bb98d1cb17b160fac45d8e37994e3f5d9cce7eb20a5f2e5",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi.docx": "34aedd2a39bbf18bbfa3712fda9509eb1e1a7cb77c3942f6a83567fc86d90bde",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec.docx": "94a24c03a47f9f72731c316b7dd51f484ecde003ee28a3267ee5535a4d1d2439",
+    "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Nghị-định-70-2023-NĐ-CP.docx": "6894c353fa3627109fa67e6166962b5c9f726741b7d40773a14d72c595379d45",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep.docx": "d77e21c667b6c4714f0b52763a447ef8a20d2e1cf937c18ebf0c7016f8cffee9",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep.docx": "a7dbcfcf7d0063569781e871e949fbb3dfd7b0670367a7b59dc7171a4e5f86d7",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep.docx": "b876e3b5d346a0b43f00f37ff91ae9551fb68df6e3281809f0b657af0907c4c5",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep.docx": "9f4cbc906af1557851b8b9e3ba36297747bc4e200bc7d08ee7b1adaa47a166da",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep.docx": "5b2aee57c44558f76e0d072896cb26c790981d3e20f6c36705c7fc3d1f50ca74",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep.docx": "2179a090b8199ec667cf9b2810c7438f99e88a58cc703e9b2846f552920cfaf4",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep.docx": "c0d9c186fa92aaa0726431cf325f26aef2848e75ac78cd072afaa3f294525c9b",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep.docx": "05da2c48925644041fbc9dd9bc74c33a51eb562dc2f5fd3aed0470359ae388d0",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong.docx": "d59c4d0a9033efa37ae92f5f7195ca9139eb1d07b2b39c8fb7b14a31fd6c4274",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong.docx": "6b56ab3f11a4d63460ba49db60751c4a18e19946d2595474bf374cc391e5084d",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong.docx": "5beff27eb9a81f4c08358648429cdfaef7f7167caca209c622a09cae6fabcd9a",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong.docx": "850f61d0a6feba414fdfd6afbc153c0467c4ce6f7befe5e76bda1f61c44353a0",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep....docx": "fbe3d0e3732059bb91f4fd0f9e71d0ed496758982a9b0e2b5cdcf52486f08732",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep.docx": "393efe9a84b1d0c93675564f9eded966eae11e92d6244e743b0e0ff9d47757c9",
+    "data/raw/word/Nghị định 88-2020-NĐ-CP/Nghị-định-88-2020-NĐ-CP.docx": "a6fd822baace856767d3d2a7bc222fc94ce217214c3224a98f3e66454c92e84b",
+    "data/raw/word/Nghị-định-115-2015-NĐ-CP.docx": "f22cb4001f40b4506cc798f77aeea8f1d7c365144496c6e19b527bbea528743f",
+    "data/raw/word/Nghị-định-12-2022-NĐ-CP.docx": "1af2217b5d21609241c0a242bd77684745c8bb976f0e2b892f5dc942bb76e881",
+    "data/raw/word/Nghị-định-143-2018-NĐ-CP.docx": "6108274e475b695e552821fe7059fdcb9b66c376c28970913d103dfae8a35145",
+    "data/raw/word/Nghị-định-191-2013-NĐ-CP.docx": "c7fb70a5807f8cccca5510cf9f4ecd2f3322cecc264d7c9805f7b71fa8c3e5d1",
+    "data/raw/word/Nghị-định-28-2015-NĐ-CP.docx": "c5dec3c2d5b90330f6b46245050f11024bdf5a39856fe7b3f6811a5a11911b2a",
+    "data/raw/word/Nghị-định-35-2022-NĐ-CP.docx": "4d06039c5733eb9c44e662af2b45576d83f4db8d2c29662fbe9faaaaacdb44da",
+    "data/raw/word/Nghị-định-39-2016-NĐ-CP.docx": "ad29d4e426a32ee15ee65920b82d720acf733aa96fc31ccb21e21badf818e41f",
+    "data/raw/word/Nghị-định-43-2013-NĐ-CP.docx": "e5a3809a13d49a580da460008d651ddd38c926356471d5d252c49bb6c51f4440",
+    "data/raw/word/Nghị-định-70-2023-NĐ-CP.docx": "773386b418cdcad578fcc55238a26ba5d35939597de15c82b4d7f4e0d91913f2",
+    "data/raw/word/Nghị-định-74-2024-NĐ-CP.docx": "2e263bd4d1f0fed92b49e55d3f712ed061afdd3fdae2d708dff182be2856311b",
+    "data/raw/word/Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024.docx": "2405ecc2135f7862642ee226b165b555c6c2822630cfed8e731cfdaaf7c44557",
+    "data/raw/word/Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con.docx": "818b431d94dced4fe3a23d6c41d5552d79a337c756b1d6dabe89376f69a88a80",
+    "data/raw/word/Quyết-định-23-2021-QĐ-TTg.docx": "e9652170568b1fd01794c2d8571f49d6a1640817aad0b649802b9ef989732aca",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec.docx": "05e9ce3924d2b6b0825227e67dfb2e0b927b575d6897645614825418b5da9a59",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em.docx": "fc09845c360f2018597396df8f4cc2a2b384c6513fa93c77059a76f7f00e1f15",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec.docx": "813473b99cbfb2c79e90852603420d8cc6fd4bedf0f66540f5f0d0da1c987439",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec.docx": "9272f0fa4fa8e41e9880f833c83d98a6682833db0ea0dd92a4dbfd947015d1d6",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec.docx": "a706a3a88a606a57e4f775764300cd8dbd712959ea0d5872c9fe1bb185f67a91",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien.docx": "ae4b66e15584f96e5782acd76a081c2dc370982410af7b7933d680e275a6da22",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam.docx": "4fe50dcc8bfc99ef204db7f0549cf86f51eb3584fd06c087fb3b63d5afbd4c42",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.docx": "ac85e1ee1c4b6a0b8c5083e48ecd3e44016147801dbb9e529046f75bcfd45663",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.docx": "a32679e400a806e22ffe1906aa78e6c273bf204f6b3be738bd1163600d6a28fd",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem.docx": "b080286a5507fc5c5e4696db32e6778443ac172931f6423fe2f97796d8f24317",
+    "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Thông-tư-09-2020-TT-BLĐTBXH.docx": "703ef37e6b469a859c4d359825c0701e1daab4c8add0cf3c5236440e7c402624",
+    "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong.docx": "cc17648154b3bd017028f07b67ef84325ccf4b03d15bbc00f01790bbe3492e28",
+    "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 02. Phieu thong tin nguoi tim viec.docx": "df066a66b995ee0187b99b2ead0d99ca8ee3dfe9eccedbd3910c3795fbed25ef",
+    "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 03. Phieu thong tin ve nguoi lao dong.docx": "eaf0c250e3c2bbffbeced086e046f6c3d46fa4b94535cb24a4973b630d8bb707",
+    "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Thông-tư-11-2022-TT-BLĐTBXH.docx": "5279bfac9057628b6f5ed13f33a0c91009db0797f79cb8e662b901dad786c7b4",
+    "data/raw/word/Thông-tư-06-2021-TT-BLĐTBXH.docx": "062531c862d02d34f3f56644c4a4856adfebc365b40fac05c22e0f1ba6356013",
+    "data/raw/word/Thông-tư-10-2020-TT-BLĐTBXH.docx": "7a9c9f3f555f1c7b973d303ce4ff8a15a555aa348d07b1f670628e39d40d20da",
+    "data/raw/word/Thông-tư-11-2020-TT-BLĐTBXH.docx": "7a3247d8828d7dff9c1936371fef7015dbd9e1a75ce3e281b9a318584a6dc6af",
+    "data/raw/word/Thông-tư-28-2015-TT-BLĐTBXH.docx": "6751114eb074adb0cab1d1a4d23f9703f58627a50a78707646b4c0b03df6e96a",
+    "data/raw/word/Thông-tư-59-2015-TT-BLĐTBXH.docx": "99f7226ffe29ff26579d26e1dcddfa502f8582ca89da6a7ccb16e591b183a0fc",
+    "data/cleaned/Bộ luật Lao động số 45-2019-QH14.json": "412381fffbf408028f1eedf26ce4b5b4d02b6c17e4a145b4af4379c18ddbf1b6",
+    "data/cleaned/Bộ-luật-10-2012-QH13.json": "30e0cd7063eedb23112f38a77c2c6bc731e07e103bacadf28b44788b06ffee4a",
+    "data/cleaned/Luật Bảo hiểm xã hội 58-2014-QH13.json": "4c989da9681bd3fe622c6a467ecc77ffe2ead5aadf195b63f6c4df9f187a91fe",
+    "data/cleaned/Luật-12-2012-QH13.json": "45c5a43dc445d1a3b9e42a1503451dcc79ea4ac5b32cd56c5a88b8dd5eab6001",
+    "data/cleaned/Luật-38-2013-QH13.json": "0272f52b06646d5674a444dcd6aaaf8dc5121cb1978f4a23c0492a06d4190975",
+    "data/cleaned/Luật-58-2014-QH13.json": "eac78da6d1240aa3e1466f830d2295884d52d01ba364e68ed7fece5966b54531",
+    "data/cleaned/Luật-84-2015-QH13.json": "8254168d12d510fc5096bd5127825280c260c44cd903ad495a72b4f3adb0b407",
+    "data/cleaned/Mau so 01 PLI.json": "577b81d08702bee7d08b2c9f9d5c1b38be72fb1b522722c1e30e0084c1873c47",
+    "data/cleaned/Mau so 01 PLIII.json": "244f08490170087b29974f10cba878d5c2f2f5d6c66dc62ba65bd49cc5cfbac6",
+    "data/cleaned/Mau so 01 PLIV.json": "3e585835b9811f584e354189cf330d2a67c05eae9ee6e7eb1951bccac77b9ad0",
+    "data/cleaned/Mau so 01 PLV.json": "7442f6621e7213bf3905c406c01e1cbd8c5cdab0ccb135976804d705419ee2db",
+    "data/cleaned/Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep.json": "e9b496ac30d097ce1e652f8bbe1dd2551d28a4229331fcf4bdd99b451d07d94a",
+    "data/cleaned/Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong.json": "d3d541ead21ff9de08b25a7765cb14bea16e0ac1428e0259116ec1f9eaaa13cb",
+    "data/cleaned/Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec.json": "716f287b3d3ffca31ce93bdfd7c476192b98e55497efcba1c11d3e4f56647442",
+    "data/cleaned/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.json": "2d86045b5dafcf7ae895261300eb26f58a741b82074fe36fc45dfde5378f60b6",
+    "data/cleaned/Mau so 01_PLII. Phieu dang ky du tuyen lao dong.json": "3480720edf34410b581c7a9a8411c5310e7c436c2c889f90399b83685ee2dafb",
+    "data/cleaned/Mau so 02 PLI.json": "770502c2504e28492bae9fd03f6e4f6c69b48bccdafc7fce01f7cd09337e3776",
+    "data/cleaned/Mau so 02 PLIII.json": "99755fd5a21db673b87336d77a00d18b26cb33e6666ff71f6405dd1c22888b8c",
+    "data/cleaned/Mau so 02 PLIV.json": "ee15ab0f5b078d86d6eeb33921462ae86647725c838883ae6bf36169f7f72dbe",
+    "data/cleaned/Mau so 02 PLV.json": "1d08c8e2719197e3d19efa26a9d04de9a57d3950fbefea97dab64d2bfe151b57",
+    "data/cleaned/Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em.json": "597f7ad8d54445f262298a7ea319d2cfa1a5216f9c7bafa47063c828911c2fd0",
+    "data/cleaned/Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep.json": "e2c6f36b9886faec64b1b5012b139887d96e9c3fe7bfa2500acfde1b0b31129c",
+    "data/cleaned/Mau so 02. Phieu thong tin nguoi tim viec.json": "c67a26bb8884106ed0fce8e8f27106fda4c730906d5d306bef8342003a93d2d6",
+    "data/cleaned/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.json": "8d675d547061d3d70c7d186762164c92eb2955773e6420e4589ffb6c0414b59c",
+    "data/cleaned/Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam.json": "d6f79419636742664ac4f8212b0b88938d6d5e3477b1c3863c63ae93aa227e8f",
+    "data/cleaned/Mau so 03 PLIII.json": "a24a2afde0fe1d62023c3d8272aa628bdb8991a1e512f9f3c6e994b3744f7c3a",
+    "data/cleaned/Mau so 03 PLV.json": "064a3b6ae675550ed7ae0655a1800478b232a5f9cfe0b5be2df36dc19c300c85",
+    "data/cleaned/Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec.json": "fb1cd3e203a4031e68603b55b5b6d3a6cbabee617080d938efbd897a19376589",
+    "data/cleaned/Mau so 03. Phieu thong tin ve nguoi lao dong.json": "d8f477fb45201696a427bc9d596fd74d48ffd060100ca2a44c6cda1deda769f3",
+    "data/cleaned/Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep.json": "c9a7a4edb0d39dbfca4c861d66591e11506cdbd3fb7eeec937501bbef25bec73",
+    "data/cleaned/Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai.json": "b2624c9c72f52cdc9f2d641cecf6747067760b376a6cc463a6522d7339bce568",
+    "data/cleaned/Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.json": "a4539166796e4514c1cd4a94a50945bb8aa47abf1a1f7da42164fe43b56db9f1",
+    "data/cleaned/Mau so 04 PLIII.json": "3cf12d9430730212b037009145330a7c323f58284a12691d500db53959cc3146",
+    "data/cleaned/Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep.json": "e8645170a702609da0b31ad97c22a03f3a5372f0fc8b1ede6f050b00531cd5af",
+    "data/cleaned/Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec.json": "43ed21e16d3d5003ff3338cf1740bd96dfd47b3fce7c0bee2f6317c1fed4fe96",
+    "data/cleaned/Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai.json": "adebbff4ff7ba4eb7dd1362047ab5f7872509da3b60d93fb007648037c7a1841",
+    "data/cleaned/Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.json": "c7c9e5bdf74df749b1b8b557fcf20edfd92d345f7fa2e566fb8ef27718269d54",
+    "data/cleaned/Mau so 05 PLIII.json": "408bcc9c0be2de18306ca913d3e9f93bb92caeaf3201eaa3e73635ac19960f08",
+    "data/cleaned/Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec.json": "ef8d2819b49eb02f820724bba2a5d5f2732c43aaa50a4e173d9d9f4bbb9098fb",
+    "data/cleaned/Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep.json": "f285c80920fd2378bdec00424b122def67d01cd705375315473d08fa0509169d",
+    "data/cleaned/Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai.json": "a6ca6d7874aa4399c2bc73bfca0dc04c64a15d918c883938f2b78571c78397c1",
+    "data/cleaned/Mau so 06 PLIII.json": "a7cfe7792f5a6333b008ca8a3e2c4aacd2bef28535ac9707b6d7a0191a4c8c8d",
+    "data/cleaned/Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep.json": "d9572794d984fed01420e2a0a45db89b727d9b3da3f5499df654ee7f3d7108a8",
+    "data/cleaned/Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien.json": "a46ad6f1dc62c8abbb8f646124ae8eb6a7f6786778cfedf775d44456ec9875db",
+    "data/cleaned/Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam.json": "4d745c5a3b8958600bfb6d5ce3bce990fe4aceeb31bfcb5beac593b2a258b8ff",
+    "data/cleaned/Mau so 07 PLIII.json": "d1f01674260a80154722c4b08327578bb28f35b3cbfe2c0cc82c7df5129c9bf9",
+    "data/cleaned/Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep.json": "38820545cc754d95a442f173f8d5f3c56fe6dda8dca285ae43f132a6eaaf8d9a",
+    "data/cleaned/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.json": "ec3c2afdd847685ca0b30ef699d925d595c932065e115d1935a1dfa2d2e1ad76",
+    "data/cleaned/Mau so 08 PLIII.json": "13b44dea57c0e792efe0c0801789f211fee00b6986021b6eb39126fdf242d013",
+    "data/cleaned/Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep.json": "c2bb8eef8bc9212c788ab6e2a1f6b80d834c8ed590ab76e86b0d3c826e46a034",
+    "data/cleaned/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.json": "5ae36120a5c6d75122ba209666d31e5d0b316912aaa18338a046af53b47acfce",
+    "data/cleaned/Mau so 09 PLIII.json": "8a19b631adee07fb368f48de985e15d56cc25b325e76bed33f82a7282404e28b",
+    "data/cleaned/Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong.json": "46bdb7c1ad32f97a226faa0ef2c07f5528a0b224b6a10755a23ae58fd4b8edd0",
+    "data/cleaned/Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong.json": "58a0a2185b85d162302b8060cad6de5b68989ef7b2677dd288c4129259007924",
+    "data/cleaned/Mau so 10 PLIII.json": "4f85850da5c91766c311be0004abdb759d0d3c99b531b8ef8d28b46cd728c422",
+    "data/cleaned/Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong.json": "392ed24e37030d049291797a553da7012620d0c1a55bcc4295f855689cb54283",
+    "data/cleaned/Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong.json": "d1b59260c589f1da51f163a4431ec1e631d17260f70255a741b8b90c5cbae4e4",
+    "data/cleaned/Mau so 11 PLIII.json": "0f96bd463e5486976f45479283711928538f19fb43284d7b708dfade705bfb25",
+    "data/cleaned/Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong.json": "737cdc34b88cbe5b716ac1a552d3ee37c8b453a13c3a83dd49a1f8eddedb95a9",
+    "data/cleaned/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.json": "9511ad2d051312c7f8b86d651e6d038d2f5013bd5b4af1b309f4ffbf0531ed80",
+    "data/cleaned/Mau so 12 PLIII.json": "f45aecc418b044aedecf9abacdc022454e2b357d08dbe84d0dc702c89489daff",
+    "data/cleaned/Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong.json": "bb705fd26af8613e21d9ed76d179daf227c7f0d99742725b7346f14cdce66afe",
+    "data/cleaned/Mau so 12_PLI. Giay phep lao dong.json": "bdfdcc52702c16b6a105a63ee3a6e17d3890596df5f5107e795cfc48e7b339b9",
+    "data/cleaned/Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep....json": "664b34ecb7e9a04e163022b0f6357ffb527225c04bd10c63f4f2e20bb2b87453",
+    "data/cleaned/Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai.json": "52f6dd95275d19fa1d9aed9eb144770f1f95eb391f8fc88fa420620ca263470e",
+    "data/cleaned/Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep.json": "4b2e2e9051fef2f4f649396bbf8b96fc5cf6bf8a259b7ad2cffb18ad6847327a",
+    "data/cleaned/Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai.json": "085841d9396bcebe9acdd0522b0f87d759dda6877a02672d71c9b0a5a59fd1ca",
+    "data/cleaned/Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD.json": "9c18498ea1d947c008fbed4d1547263f7a7ebbc092fedca7441fd493e212b720",
+    "data/cleaned/Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi.json": "a295f358385fb6a138cc9d3b1b7e0cc241c89ef15ac5ab29a70d44f4c644a315",
+    "data/cleaned/Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec.json": "af7c60d4954c2ef92e2afec64bd12e0b1bb4a3fc94efdd9fdb08835b5b377164",
+    "data/cleaned/Nghị-định-115-2015-NĐ-CP.json": "60060f27a2c049f80bb50631aa86c6e63c2e65a995cb343f5045d65caedc9051",
+    "data/cleaned/Nghị-định-12-2022-NĐ-CP.json": "defaff82647bc4b7adb7a3b8da868220bc53a5c2c29dba6695d65efade9010c2",
+    "data/cleaned/Nghị-định-135-2020-NĐ-CP.json": "9a90013dfdad8dfb3dce2b90cbb5f56a1768181e202b999fbeabcf8d6afb916c",
+    "data/cleaned/Nghị-định-143-2018-NĐ-CP.json": "f49b3aef47fb582c1b7b013c1443f982832c766d32e65f153293619478a33aeb",
+    "data/cleaned/Nghị-định-145-2020-NĐ-CP.json": "edc40710457cb2c021b568ca37500ad5861221ce8bd02e5cd693209a8aed48e4",
+    "data/cleaned/Nghị-định-152-2020-NĐ-CP.json": "c59c4c69157dd24dc4c0216d1761269c6de245ac54713e5bc2d5df32d1dfe04a",
+    "data/cleaned/Nghị-định-191-2013-NĐ-CP.json": "d9b8a8650eb2754657ab39657837966d9a962383146e527c63e1de3ac8f50bcf",
+    "data/cleaned/Nghị-định-28-2015-NĐ-CP.json": "02b067e25413db84829026496d665b61623cbc99cfaec47b097c3ee2f61a452e",
+    "data/cleaned/Nghị-định-35-2022-NĐ-CP.json": "22f84dfaf7d8ad8c49086d51f406c0be669ed67c9b75f69fa9a3947f71cd514d",
+    "data/cleaned/Nghị-định-39-2016-NĐ-CP.json": "2ee7d65c73998a0592eae5dfcfd96a3bdd92592a337e852358d721e194d0a284",
+    "data/cleaned/Nghị-định-43-2013-NĐ-CP.json": "18fc51142fffb7ba26fa3bb6393c55d0f7c23f3a837a270b3f83c4b581dad09c",
+    "data/cleaned/Nghị-định-70-2023-NĐ-CP.json": "d54db4cd19a810b6c8cd1e30b22a7de6553dc5327bcf11bd48a8fde17dae8bc7",
+    "data/cleaned/Nghị-định-74-2024-NĐ-CP.json": "890f7ae19ebe2a9fc03e898e8273a81f07e3f64beb7ac40c30dfc3c98b5a7f0d",
+    "data/cleaned/Nghị-định-88-2020-NĐ-CP.json": "b8a595312d788448c6c4b9bb083d238e15b3791345b0d869b78b2a62f5ec1148",
+    "data/cleaned/Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung.json": "5577313d2aba8e0a891043c90c324f196c992ff1ba1d710905e92557f039bc20",
+    "data/cleaned/Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong.json": "72b2112df2853114b5bc569199c76442f650a43e2344b718d5c3ea2890e8fadf",
+    "data/cleaned/Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam.json": "82a7fcd7e8ad88cde593c77a9e4bd9dbf041cf445cf44220d34d48d2593c3b03",
+    "data/cleaned/Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung.json": "845537a47de0dcaae97c43b62b589862644ef7af9f7a79352db0abf670c6614f",
+    "data/cleaned/Phu luc III. Cong viec khai thac than trong ham lo.json": "1cbd3e3cd20d5d41a9577d2756bcf62d7700df072b0e56c0c80c6793980c54b4",
+    "data/cleaned/Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.json": "b3f616f2f8a59d30638a1be6465906c45de378e4cc83184b46f811ef5950fec8",
+    "data/cleaned/Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.json": "703c802227365a0424a7aad077e0124eb0faf1cbc5dde587d6690d58f131f33f",
+    "data/cleaned/Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem.json": "1cff54afa5a33ccbafdb5c6b23be3c64e6482758f01e3c8a9b4c98ca6bac1876",
+    "data/cleaned/Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong.json": "9aed40ee931704104f18c53e93482cf854754c74006be21642bd739b2f89e02d",
+    "data/cleaned/Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024.json": "ce5b2f941d53d4a68ddfe66500275b26ddccad1643e209bc0158f8f0408beb32",
+    "data/cleaned/Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con.json": "28d4d3ee9611f466e72cf3f5761c57be3846d11a77311dab9357fa1eb1ce2d46",
+    "data/cleaned/Quyết-định-23-2021-QĐ-TTg.json": "eadcf1cfa3df1dc832af1689738f99f014242143c35dda03b73b8703d7065e0d",
+    "data/cleaned/Thông-tư-06-2021-TT-BLĐTBXH.json": "6a7be76cf195be3fa3d98ab59ed1eb4602e697972d5073f450ad5bf97438f141",
+    "data/cleaned/Thông-tư-09-2020-TT-BLĐTBXH.json": "c311d13747a554ef2a2b6c475940ce198cef8ea0e9ecdf116391b162cd3fa54e",
+    "data/cleaned/Thông-tư-10-2020-TT-BLĐTBXH.json": "0b18f3c354eb0d34d88da7c5f56b8a496292670b771932cd5772e6b37f76d084",
+    "data/cleaned/Thông-tư-11-2020-TT-BLĐTBXH.json": "309f6f5e84b5be2601c547f5581c21405721a4ce04efb5c31c368eadf7174c25",
+    "data/cleaned/Thông-tư-11-2022-TT-BLĐTBXH.json": "a4330b692d1ac9b829aa5682e5bbb96733b95b4342bc8d9ad52c0b707407ebe8",
+    "data/cleaned/Thông-tư-28-2015-TT-BLĐTBXH.json": "ad24e07b28353cbeb946b940d688be6ab2a83d21adaff5493e33f0130c143cd0",
+    "data/cleaned/Thông-tư-59-2015-TT-BLĐTBXH.json": "d4d3051b39dc134abb12550bad5811a460d50bb734534ba20b9a17c99813cddc",
+    "backend/ingestion/chunker.py": "cd169973aaaf26009755c3046c255aef73a040002bac7d9fd5e94d5dd1990e41",
+    "backend/ingestion/extract_relations.py": "c2c56cf977717bb83c955f98a0aa68fa055d0b905f288bb0452fe8015e04beb4",
+    "backend/ingestion/parser.py": "72ea0ebd95258e885e8d21248e84e984eb9f345970a63b03bcbb4c4ba2b1b286",
+    "backend/ingestion/pipeline.py": "fb18108b63f73948db5f8635c1aa6a53b8d5584c70086d27630bd0c3a06771b1",
+    "backend/ingestion/relations_builder.py": "994e3f93c97c36f7db9a1bf1a99c92f316339e1c92d5b326583635b1a32827f5",
+    "backend/retrieval/graph_utils.py": "313862c524036e45cbe0d2a73145e6716ab0ca7bb19bdbe28c054671f5398a1f",
+    "tests/test_chunker.py": "dd555e192b588bb683204f031a45e5bd0ad60087e8c0eed756422dee7e536875",
+    "tests/test_data_quality.py": "492fdb1f87b68d8aaca0ff030afafc2e6b561efc6ea12ede27091dfaa3f83222",
+    "tests/test_parser.py": "8e94542db2b6131aceb4edafea9c28314246c356a067f306f5611aff3b4ca172"
+  }
+}

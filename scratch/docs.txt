@@ -1,0 +1,1 @@
+{"doc_id": "doc:02/2025/NĐ-CP", "doc_number": "02/2025/NĐ-CP", "title": "Văn bản 02/2025/NĐ-CP", "doc_type": "nghi_dinh", "issued_date": "2020-01-01", "valid_from": "2020-01-01", "source_ids": ["src:49caaa57b7af3fc78e68db5f236809c8e12a31e73a24296e3e8899be4b4912d2"], "aliases": [], "verification_status": "verified"}

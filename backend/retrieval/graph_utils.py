@@ -43,18 +43,21 @@ def is_valid(doc_id: str, article: str, relations: list,
         reference_date = date.today().isoformat()
 
     for rel in relations:
-        if rel.get('target_doc') != doc_id:
+        if rel.get('review_status') != 'verified':
             continue
-        if rel.get('relation_type') not in ('sua_doi', 'thay_the', 'bai_bo'):
+        target_doc = rel.get('target_doc') or rel.get('target_doc_id', '').removeprefix('doc:')
+        if target_doc != doc_id:
+            continue
+        if rel.get('relation_type') not in ('thay_the', 'bai_bo', 'replaces', 'repeals'):
             continue
 
         # Issue 7: Bỏ qua nếu quan hệ chưa có hiệu lực ───────────────────────
-        eff_date = rel.get('effective_date')
-        if eff_date and eff_date > reference_date:
+        eff_date = rel.get('effective_date') or rel.get('effective_from')
+        if not eff_date or eff_date > reference_date:
             continue
 
         scope = rel.get('scope', 'toan_bo')
-        if scope == 'toan_bo':
+        if scope in ('toan_bo', 'document'):
             return False
         if scope == 'dieu_khoan_cu_the' and rel.get('target_article') == article:
             return False
@@ -74,6 +77,7 @@ def get_supplementary_docs(doc_id: str, relations: list) -> list:
     """
     supp_docs = set()
     for rel in relations:
-        if rel.get('target_doc') == doc_id and rel.get('relation_type') in ('huong_dan', 'bo_sung'):
-            supp_docs.add(rel['source_doc'])
-    return list(supp_docs)
+        target_doc = rel.get('target_doc') or rel.get('target_doc_id', '').removeprefix('doc:')
+        if rel.get('review_status') == 'verified' and target_doc == doc_id and rel.get('relation_type') in ('huong_dan', 'bo_sung', 'guides', 'supplements'):
+            supp_docs.add(rel.get('source_doc') or rel.get('source_doc_id', '').removeprefix('doc:'))
+    return sorted(supp_docs)

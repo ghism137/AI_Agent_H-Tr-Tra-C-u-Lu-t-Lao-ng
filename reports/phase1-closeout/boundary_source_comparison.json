@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "candidate_release_id": "candidate-9e7537ae29f814a5",
+  "reviewer": "Codex /root",
+  "reviewed_at": "2026-09-17",
+  "scope": "Five deterministic article/annex boundaries; verifies raw source adjacency at recorded locators and content-kind transition. Does not verify legal currency.",
+  "results": [
+    {
+      "doc_number": "51/2024/QH15",
+      "source_path": "data/raw/official/51-2024-QH15.html",
+      "source_id": "src:b4bee6916e931a5e97926dc672d26f90ad42199ba380ae94a3d81bca7f9a8419",
+      "source_sha256": "c1b3d59b979d3e0b2247bf0d27d58301eb594832cd4d32b1a2a65af534b14dbd",
+      "before_locator": "html/p:626",
+      "after_locator": "html/h4:628",
+      "before_raw_end": "b) Thay cụm từ \"Hội đồng quản lý bảo hiểm xã hội Việt Nam\" bằng cụm từ \"Hội đồng quản lý bảo hiểm xã hội\" tại khoản 1 Điều 34.",
+      "after_raw_start": "Điều 2. Sửa đổi, bổ sung Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15",
+      "adjacent_in_source_extraction": true,
+      "before_path": [
+        "body",
+        "article:1"
+      ],
+      "after_path": [
+        "body",
+        "article:2"
+      ]
+    },
+    {
+      "doc_number": "188/2025/NĐ-CP",
+      "source_path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+      "source_id": "src:7bccc554c3b064e0491cf64079391029575e4188c3cf803a2079dcff66970cf6",
+      "source_sha256": "04ab0a7e57f5bb6574a75298783377b56544cdd0ae47e9d47c7d05c5d2a998fb",
+      "before_locator": "pdf/page:82/line:40",
+      "after_locator": "pdf/page:83/line:4",
+      "before_raw_end": "Lê Thành Long",
+      "after_raw_start": "Phụ lục",
+      "adjacent_in_source_extraction": true,
+      "before_path": [
+        "body",
+        "article:72"
+      ],
+      "after_path": [
+        "annex",
+        "item:1"
+      ]
+    },
+    {
+      "doc_number": "219/2025/NĐ-CP",
+      "source_path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "source_sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "before_locator": "body/table:372/row:1",
+      "after_locator": "body/p:374",
+      "before_raw_end": "[['', 'TM. CHÍNH PHỦ\\nKT. THỦ TƯỚNG\\nPHÓ THỦ TƯỚNG\\n\\n \\nNguyễn Hòa Bình']]",
+      "after_raw_start": "Phụ lục",
+      "adjacent_in_source_extraction": true,
+      "before_path": [
+        "body",
+        "article:36"
+      ],
+      "after_path": [
+        "annex",
+        "item:1"
+      ]
+    },
+    {
+      "doc_number": "374/2025/NĐ-CP",
+      "source_path": "data/raw/official/374-2025-ND-CP-congbao.pdf",
+      "source_id": "src:b62f2f339d6001bd6ee68c525c2309cad6e3fc4081aeaeff5fe0f6617405bea3",
+      "source_sha256": "35c18218c653bfffc59301ed411718d01a798e19d982de3bb254e81f7da1d5fc",
+      "before_locator": "pdf/page:46/line:15",
+      "after_locator": "pdf/page:47/line:3",
+      "before_raw_end": "Hồ Đức Phớc",
+      "after_raw_start": "Phụ lục",
+      "adjacent_in_source_extraction": true,
+      "before_path": [
+        "body",
+        "article:46"
+      ],
+      "after_path": [
+        "annex",
+        "item:1"
+      ]
+    },
+    {
+      "doc_number": "84/2015/QH13",
+      "source_path": "data/raw/word/Luật-84-2015-QH13.docx",
+      "source_id": "src:58b07f17da0855b2ce0f7e4d457b34374a259595bc3d18e3601681c4313a271e",
+      "source_sha256": "220315efb2088f4d8937486b40374716b0672a48a38e5c38872fd7d447b27223",
+      "before_locator": "body/p:430",
+      "after_locator": "body/p:431",
+      "before_raw_end": " nghiệp do Bộ trưởng Bộ Y tế ban hành theo quy định tại khoản 1 Điều 37 của Luật này mà phát hiện bị bệnh nghề nghiệp trong thời gian quy định thì được giám định để xem xét, giải quyết chế độ theo quy định của Chính phủ.",
+      "after_raw_start": "Điều 47.  Giám định mức suy giảm khả năng lao động",
+      "adjacent_in_source_extraction": true,
+      "before_path": [
+        "body",
+        "article:46"
+      ],
+      "after_path": [
+        "body",
+        "article:47"
+      ]
+    }
+  ]
+}

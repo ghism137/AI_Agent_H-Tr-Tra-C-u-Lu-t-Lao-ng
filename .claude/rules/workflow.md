@@ -1,49 +1,36 @@
-# Workflow — AI Agent Luật Lao Động
+# Workflow — task nhỏ, bằng chứng rõ
 
-## Đầu phiên làm việc
+## Phạm vi hiện hành
 
-1. Đọc `session_state.md` để nắm context hiện tại
-2. Xác nhận task hôm nay thuộc WP nào (WP1/WP2/WP3)
-3. Kiểm tra `open_issues.md` xem có blocker nào liên quan không
+- Phase 1 PAUSED; Phase 2 DESIGN_ONLY cho đến khi người dùng giao triển khai.
+- Chỉ sửa docs khi được yêu cầu design; không chạy code/fixtures/embedding/index/eval trước.
+- Routing/model/prompt/handoff dùng `.claude/project/project_guide.md`, không sao chép mapping sang nhiều file.
 
-## Trong phiên làm việc
+## Đầu phiên
 
-### Khi viết code mới
-1. Xác định module (retrieval / calculation / drafting / orchestration / frontend)
-2. Kiểm tra API contract đã thống nhất chưa (input/output format giữa các module)
-3. Viết code → viết test → chạy test → commit
+1. Đọc bootstrap, trạng thái hiện hành và task card; đọc thêm đúng input allowlist.
+2. Xác định owner, dependency, outputs, tests, stop condition trước khi sửa.
+3. Kiểm working tree; giữ nguyên thay đổi ngoài scope. Không tự commit/reset/stash toàn repo.
 
-### Khi thay đổi calculation module
-- PHẢI chạy toàn bộ unit test sau khi thay đổi
-- PHẢI nêu rõ căn cứ pháp lý cho mọi công thức
-- KHÔNG merge nếu có test fail
+## Trong phiên
 
-### Khi thay đổi retrieval pipeline
-- Chạy eval set retrieval (precision/recall) trước và sau thay đổi
-- Ghi nhận metric vào `session_state.md`
+- Một task, một writer/file. Vai trò trong plan không tự cho phép spawn hay song song.
+- Contract đổi cần quyết định hẹp của designer; thiếu data chuyển upstream issue, không tự sửa Phase 1 paused.
+- Hai vòng cùng lỗi không tiến triển: ghi reproduction và blocker, tách/chuyển task đúng vai trò.
+- Không thay metadata/evidence để vượt gate. Không đổi snapshot giữa một lần chạy.
 
-### Khi gặp vấn đề kiến trúc / design decision
-- Log vào `open_issues.md` với format `[OPEN]`
-- Phân loại: `[RETRIEVAL]`, `[CALCULATION]`, `[DRAFTING]`, `[INTEGRATION]`, `[EVAL]`
+## Kiểm tra theo thay đổi
 
-## Cuối phiên làm việc
+- Docs: links, task dependencies, consistency; không chạy pytest/full eval.
+- Code retrieval: targeted tests; checkpoint chạy retrieval integration suite.
+- Full corpus eval chỉ ở P2-10 sau accepted release + frozen gold/config.
+- Calculation khi được giao sau này: toàn bộ calculation unit tests và căn cứ nguồn.
+- Không chạy lại kiểm tra đã đạt nếu không có diff/input/config mới hoặc vấn đề chưa giải.
 
-1. Cập nhật `session_state.md`:
-   - Đánh dấu task hoàn thành `[x]`
-   - Cập nhật "Đang làm" cho phiên tiếp theo
-   - Ghi nhận quyết định quan trọng (append-only)
-2. Commit code với message rõ ràng
-3. Nếu có vấn đề chưa giải quyết → log vào `open_issues.md`
+## Handoff
 
-## Quy trình tích hợp (tuần 5-6)
-
-- WP1 output: API endpoint `/api/retrieve` → trả JSON chunks có metadata
-- WP2 output: API endpoint `/api/calculate/{type}` và `/api/draft/{template}`
-- WP3 input: nhận output từ WP1+WP2, orchestrate thành response hoàn chỉnh
-- Đồng bộ API contract TRƯỚC khi code — thống nhất schema request/response
-
-## Git workflow
-
-- Branch naming: `wp1/feature-name`, `wp2/feature-name`, `wp3/feature-name`
-- PR review: cross-WP review khi thay đổi ảnh hưởng API contract
-- Main branch: chỉ merge khi tests pass
+- Packet riêng mỗi task: actual model, input/diff hashes, outputs, commands/exit codes, tests, unresolved issues.
+- Builder done và reviewer sign-off tách biệt; review gộp theo checkpoint, không review mọi edit.
+- Reviewer chỉ xác nhận scope/digest đã kiểm; ghi NOT_RUN cho kiểm tra chưa chạy.
+- Coordinator cập nhật session_state hiện hành; lịch sử append-only không phải trạng thái hiện tại.
+- Commit/PR khi thuộc phạm vi được giao; branch mới mặc định `codex/` hoặc tên người dùng yêu cầu.

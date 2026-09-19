@@ -1,0 +1,37 @@
+{
+  "gate1": "PASS",
+  "manifest_release_id": "candidate-febf5129f0e33d40",
+  "counts": {
+    "sources": 258,
+    "documents": 61,
+    "coverage": 15,
+    "chunks": 3110,
+    "quarantined_sources": 0,
+    "provision_versions": 2745,
+    "verified_relations": 31,
+    "documents_by_status": {
+      "verified": 61
+    },
+    "chunks_by_status": {
+      "verified": 3110
+    }
+  },
+  "source_hash_mismatches": [],
+  "missing_source_references": [],
+  "duplicate_chunk_ids": 0,
+  "bad_version_references": [],
+  "bad_version_content": [],
+  "missing_issued_dates": 0,
+  "placeholder_titles": 0,
+  "pending_reviews": {
+    "random_chunks": 0,
+    "boundaries": 0,
+    "relations": 0,
+    "required_artifacts": 0
+  },
+  "stale_reviews": [],
+  "unsupported_signoffs": [],
+  "bad_source_dispositions": [],
+  "unresolved_dependencies": [],
+  "blockers": []
+}

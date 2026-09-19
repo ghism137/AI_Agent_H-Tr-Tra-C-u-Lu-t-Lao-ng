@@ -1,0 +1,1 @@
+[('op-nd188-70-4-a', 'doc:146/2018/NĐ-CP:body/article:14'), ('op-nd75-3-4', 'doc:146/2018/NĐ-CP:body/article:14'), ('op-nd74-4-5', 'doc:146/2018/NĐ-CP:body/article:14/item:5/point:a')]

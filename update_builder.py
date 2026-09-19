@@ -1,0 +1,129 @@
+import codecs
+import re
+
+content = """\"\"\"Build traceable base provision candidates without inferring legal currency.\"\"\"
+
+from __future__ import annotations
+
+import hashlib
+from collections import defaultdict
+from typing import Any
+
+from backend.ingestion.schema import ProvisionVersion
+
+
+def base_versions(parsed: dict[str, dict[str, Any]], chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_version: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for chunk in chunks:
+        by_version[chunk["provision_version_id"]].append(chunk)
+
+    versions = []
+    for doc_id, document in sorted(parsed.items()):
+        for article in document["articles"]:
+            path = article["structural_path"]
+            provision_id = f"{doc_id}:{'/'.join(path)}"
+            content = article["content"]
+            digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
+            version_id = f"{provision_id}@{digest[:16]}"
+            members = by_version.pop(version_id, None)
+            if not members or any(row["provision_id"] != provision_id for row in members):
+                raise ValueError(f"Missing or mismatched chunks for {version_id}")
+            refs = list({(ref["source_id"], ref["locator"], ref.get("source_url")): ref
+                         for row in members for ref in row["source_refs"]}.values())
+            if not refs:
+                raise ValueError(f"No source provenance for {version_id}")
+            versions.append(ProvisionVersion.model_validate({
+                "provision_id": provision_id,
+                "provision_version_id": version_id,
+                "doc_id": doc_id,
+                "structural_path": path,
+                "content_kind": article["content_kind"],
+                "content": content,
+                "valid_from": members[0].get("valid_from"),
+                "valid_to": members[0].get("valid_to"),
+                "proposed_valid_from": members[0].get("proposed_valid_from"),
+                "proposed_valid_to": members[0].get("proposed_valid_to"),
+                "verification_status": "pending",
+                "source_refs": refs,
+                "applied_relation_ids": [],
+            }).model_dump(mode="json"))
+    if by_version:
+        raise ValueError(f"Orphan chunks without a base provision: {len(by_version)}")
+    return versions
+
+
+def materialize_versions(base_versions: list[dict[str, Any]], operations: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    materialized = list(base_versions)
+    
+    # Sort operations by effective_from
+    ops = [op for op in operations if op.get("review_status") == "verified"]
+    ops.sort(key=lambda x: (x.get("effective_from") or "", x.get("operation_id", "")))
+    
+    for op in ops:
+        target_locator = op.get("target_locator")
+        verb = op.get("verb")
+        effective_from = op.get("effective_from")
+        effective_to = op.get("effective_to")
+        relation_id = op.get("relation_id")
+        
+        if not effective_from:
+            raise ValueError(f"Conflict: Missing effective_from in operation {op['operation_id']}")
+            
+        target_doc = target_locator.split(":")[1] if ":" in target_locator else target_locator
+        target_path_parts = target_locator.split(":")[2].split("/") if len(target_locator.split(":")) > 2 else []
+            
+        is_document_scope = len(target_path_parts) == 0 or (len(target_path_parts) == 1 and target_path_parts[0] == "body")
+        
+        found = False
+        new_versions = []
+        for v in materialized:
+            if v["doc_id"] != f"doc:{target_doc}":
+                continue
+                
+            # Check if v is active at effective_from
+            v_from = v.get("valid_from") or ""
+            v_to = v.get("valid_to")
+            
+            # If op is retroactive, we might still apply it, but it must intersect.
+            if v_to and v_to <= effective_from:
+                continue
+                
+            # Check path match
+            match = False
+            if is_document_scope:
+                match = True
+            else:
+                v_path = v["structural_path"]
+                if len(target_path_parts) <= len(v_path) and v_path[:len(target_path_parts)] == target_path_parts:
+                    match = True
+                    
+            if match:
+                found = True
+                # End old version
+                v["valid_to"] = effective_from
+                
+                # If replacing or scoped amendment, create new version
+                if verb in ["replace", "scoped_amendment"]:
+                    new_v = dict(v)
+                    new_v["valid_from"] = effective_from
+                    new_v["valid_to"] = effective_to
+                    if relation_id:
+                        new_v["applied_relation_ids"] = list(new_v.get("applied_relation_ids", [])) + [relation_id]
+                    
+                    content = op.get("payload", v["content"])
+                    new_v["content"] = content
+                    digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
+                    # New ID
+                    new_v["provision_version_id"] = f"{new_v['provision_id']}@{digest[:16]}"
+                    new_versions.append(new_v)
+        
+        if not found:
+            raise ValueError(f"Conflict: Target {target_locator} not found or not active at {effective_from} for op {op['operation_id']}")
+            
+        materialized.extend(new_versions)
+        
+    return materialized
+"""
+with codecs.open('backend/ingestion/version_builder.py', 'w', 'utf-8') as fh:
+    fh.write(content)
+print('Updated version_builder.py')

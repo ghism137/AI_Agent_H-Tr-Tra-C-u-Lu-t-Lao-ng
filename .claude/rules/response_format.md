@@ -30,16 +30,12 @@ Theo thứ tự:
 - Nếu thay đổi file có sẵn: chỉ show phần thay đổi + context đủ để hiểu vị trí
 - Mọi hàm tính toán phải có docstring nêu rõ căn cứ pháp lý
 
-## Khi đề xuất approach
+## Khi đề xuất cách làm và chia task
 
-- Nếu có nhiều cách: liệt kê và nêu trade-off, KHÔNG tự chọn hộ
-- Format: **Option A** (ưu/nhược) vs **Option B** (ưu/nhược)
-- Đặc biệt chú ý ràng buộc budget $0 khi so sánh
-- Hỏi bạn chọn gì trước khi implement
-
-## Khi task > 3 bước
-
-List plan trước, confirm với bạn, rồi mới làm từng bước.
+- Chọn mặc định hợp lý trong scope/contract đã được giao, nêu ngắn lý do và trade-off quan trọng.
+- Không hỏi xác nhận lại chỉ vì task hơn 3 bước. Chỉ hỏi khi thiếu dữ kiện ảnh hưởng kết quả hoặc có quyết định ngoài phạm vi được giao.
+- Với Phase 2: dùng task card + Project Guide; không viết lại toàn plan ở mỗi phản hồi.
+- Handoff gồm kết quả, files, kiểm tra, blocker; log dài lưu file. Không biến báo cáo builder thành independent sign-off.
 
 ## Khi gặp điều chưa chắc chắn
 
@@ -52,4 +48,4 @@ tỷ lệ đóng BHXH hiện tại (thay đổi theo năm).
 - Câu hỏi đơn giản → ngắn gọn, đi thẳng vào vấn đề
 - Giải thích pháp lý → đầy đủ, kèm trích dẫn nguồn
 - Review code → structured: [VẤN ĐỀ] → [LÝ DO] → [GỢI Ý SỬA]
-- Thiết kế kiến trúc → sơ đồ + trade-off table
+- Thiết kế kiến trúc → quyết định, contract và task cards đủ triển khai; chỉ thêm sơ đồ/so sánh khi giúp hiểu.

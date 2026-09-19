@@ -71,7 +71,7 @@ def extract_relations(text: str, source_doc: str) -> Tuple[List[Dict[str, Any]],
                             "relation_type": rel_type,
                             "scope": "dieu_khoan_cu_the",
                             "target_article": t_art.capitalize(),
-                            "status": "active"
+                            "review_status": "candidate"
                         }
                         if rel not in relations:
                             relations.append(rel)
@@ -81,9 +81,9 @@ def extract_relations(text: str, source_doc: str) -> Tuple[List[Dict[str, Any]],
                         "source_doc": source_doc,
                         "target_doc": t_doc_upper,
                         "relation_type": rel_type,
-                        "scope": "mot_so_dieu" if rel_type in ["sua_doi", "bo_sung"] else "toan_bo",
+                            "scope": "unknown",
                         "target_article": None,
-                        "status": "active"
+                            "review_status": "candidate"
                     }
                     if rel not in relations:
                         relations.append(rel)
@@ -123,7 +123,7 @@ def build_relations_corpus(
     from backend.ingestion.relations_builder import SEED_RELATIONS
 
     raw_dir = raw_dir or os.getenv("RAW_MD_DIR", "data/raw/manual_md")
-    relations_file = relations_file or os.getenv("RELATIONS_FILE", "data/document_relations.json")
+    relations_file = relations_file or os.getenv("RELATIONS_FILE", "data/relations_candidates.json")
     review_file = review_file or os.getenv("REVIEW_FILE", "data/relations_needs_review.json")
 
     md_files = glob.glob(os.path.join(raw_dir, '*.md'))
@@ -131,17 +131,18 @@ def build_relations_corpus(
     all_relations = []
     all_needs_review = []
 
-    # ── Seed trước — đảm bảo các quan hệ quan trọng không bị bỏ sót ─────────
-    # Dùng set of (source, target, type) để dedup
+    # Seeds and regex output are candidates until evidence, scope and dates are reviewed.
     seen = set()
     for rel in SEED_RELATIONS:
-        key = (rel['source_doc'], rel['target_doc'], rel['relation_type'])
+        rel = {**rel, "review_status": "candidate"}
+        rel.pop("status", None)
+        key = (rel['source_doc'], rel['target_doc'], rel['relation_type'], rel.get('scope'), rel.get('target_article'), rel.get('effective_date'))
         if key not in seen:
             all_relations.append(rel)
             seen.add(key)
     
     # ── Auto-extract từ corpus ─────────────────────────────────────────────────
-    for file_path in md_files:
+    for file_path in sorted(md_files):
         file_name = os.path.basename(file_path)
 
         # FIX Bug 2: chỉ replace 2 dấu '-' đầu tiên để giữ nguyên suffix (NĐ-CP, TT-BLĐTBXH...)
@@ -157,7 +158,7 @@ def build_relations_corpus(
         rels, reviews = extract_relations(text, doc_number)
 
         for rel in rels:
-            key = (rel['source_doc'], rel['target_doc'], rel['relation_type'])
+            key = (rel['source_doc'], rel['target_doc'], rel['relation_type'], rel.get('scope'), rel.get('target_article'), rel.get('effective_date'))
             if key not in seen:
                 all_relations.append(rel)
                 seen.add(key)

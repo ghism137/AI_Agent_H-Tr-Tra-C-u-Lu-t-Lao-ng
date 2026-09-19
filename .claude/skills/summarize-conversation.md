@@ -98,7 +98,13 @@ Sau khi tạo handoff summary, cập nhật `session_state.md`:
 |---|---|---|
 | [Tên file] | [path] | [Tại sao cần đọc] |
 
-## 7. Prompt để bootstrap conversation mới
+## 7. Xác nhận chuyển tiếp (Handoff Sign-off)
+
+- **Người thực hiện:** `[Tên Model/Agent của bạn]` đã hoàn thành các công việc trên.
+- **Cơ sở thiết kế:** Dựa trên `[Tên file design/plan]`.
+- **Chuyển tiếp / Kiểm tra:** Giao lại cho `[Tên Reviewer/Agent tiếp theo]` để xử lý các bước ở mục 3.
+
+## 8. Prompt để bootstrap conversation mới
 
 Paste đoạn sau vào đầu conversation mới:
 
@@ -106,7 +112,7 @@ Paste đoạn sau vào đầu conversation mới:
 Đọc các file theo thứ tự:
 1. `.claude/CLAUDE.local.md` — phase hiện tại, bản đồ tài liệu
 2. `.claude/project/session_state.md` — task chi tiết, quyết định đã chốt
-3. `.claude/project/handoff_YYYY-MM-DD.md` — tóm tắt session vừa rồi
+3. `.claude/project/handoff_YYYY-MM-DD.md` — tóm tắt session vừa rồi (bao gồm Sign-off)
 
 Sau đó tiếp tục từ: **[Task tiếp theo cụ thể]**
 ---
@@ -145,15 +151,22 @@ Sau đó tiếp tục từ: **[Task tiếp theo cụ thể]**
    - Input: `data/cleaned/145_2020_ND-CP.json`
    - Vấn đề Điều 32: tách bảng thành 4 chunks riêng, mỗi chunk = 1 hàng
    - Tham chiếu: Technical Design § 2.2
+   - **Yêu cầu bắt buộc (Handoff Sign-off):** Khi hoàn thành, phải để lại xác nhận rõ ràng: "Người thực hiện: [Model] hoàn thành [Task]. Cơ sở thiết kế: Dựa trên [File]. Chuyển tiếp/Kiểm tra: Giao cho [Reviewer/Agent] kiểm tra".
 
 2. **Crawl 15 VB còn lại** — Ingestion Agent
    - Xem danh sách: `data/crawl_plan.md` (cột status = "pending")
+   - **Yêu cầu bắt buộc (Handoff Sign-off):** Tương tự như trên.
 
 ## 5. Blockers
 - ⚠️ thuvienphapluat.vn rate limit sau 50 requests/hour
   → Dùng vanban.chinhphu.vn làm primary source thay thế
 
-## 7. Bootstrap prompt
+## 7. Xác nhận chuyển tiếp (Handoff Sign-off)
+- **Người thực hiện:** Gemini 3.1 pro đã hoàn thành crawl và parse 15/30 VB.
+- **Cơ sở thiết kế:** Dựa trên plan trong `operations_guide.md`.
+- **Chuyển tiếp / Kiểm tra:** Giao lại cho Ingestion Agent phiên sau xử lý tiếp Điều 32, sau đó Reviewer (Sol-Medium) vào kiểm tra toàn bộ chunks.
+
+## 8. Bootstrap prompt
 
 Đọc:
 1. `.claude/CLAUDE.local.md`
@@ -175,3 +188,6 @@ Tiếp tục: **Hoàn tất chunking NĐ 145/2020** (Điều 32 đang dở)
 
 > [!NOTE]
 > Mỗi session chỉ cần 1 handoff file. Nếu session ngắn (< 2 giờ) và ít thay đổi, chỉ cần cập nhật `session_state.md` là đủ, không cần tạo handoff file riêng.
+
+> [!NOTE]
+> Nếu summary vào một hand-off đã có thì không ghi đè hay xóa, cập nhật thêm vào file đó đồng thời luôn ghi mốc thời gian được summary.

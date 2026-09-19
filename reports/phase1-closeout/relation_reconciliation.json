@@ -1,0 +1,486 @@
+{
+  "total_verified": 31,
+  "total_queue": 29,
+  "dispositions": [
+    {
+      "relation_id": "rel:1df7f2b7f4c4320ca3a86e55",
+      "source_doc_id": "doc:45/2019/QH14",
+      "target_doc_id": "doc:10/2012/QH13",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:8fd49244727060307c45e07f",
+      "source_doc_id": "doc:41/2024/QH15",
+      "target_doc_id": "doc:58/2014/QH13",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:14f526d2681e5ed8e8429f30",
+      "source_doc_id": "doc:293/2025/NĐ-CP",
+      "target_doc_id": "doc:74/2024/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:a353703389154d3a943d28ee",
+      "source_doc_id": "doc:46/2014/QH13",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:5c461a60fe8b457c898695b6",
+      "source_doc_id": "doc:104/2022/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:8e1b46e607834d18a0fb55aa",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:e710eaad43254089bdf35a2c",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:23ed078c2c214157b8360151",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:0fcf3124c0ac4ef9b5e133bd",
+      "source_doc_id": "doc:02/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:1d7901d87d834a1d98d5745e",
+      "source_doc_id": "doc:74/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:e2488dce21354c698904cc1a",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:896563529d394944ad43d541",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:75/2023/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:fd765b072a634666a4533be2",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:02/2025/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:10558cc7648e5fecb6b757a9",
+      "source_doc_id": "doc:104/2022/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:43d83029d53059f086416a32",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:5bf01309dd27563bb1485d8c",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:b7fadc6514775cf7891f42e2",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:5d5e1afe977159ab85d176d2",
+      "source_doc_id": "doc:75/2023/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:f012cbf515d356a5afcfac0b",
+      "source_doc_id": "doc:02/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:4a11d5d277d2527cb0230538",
+      "source_doc_id": "doc:74/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:ea913999352057899e79f7f4",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:febdd65e84fe52dd8a1ec200",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:146/2018/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:f2df898417ed5cc097246d7b",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:75/2023/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:d11ac52d9522576c98fe4927",
+      "source_doc_id": "doc:188/2025/NĐ-CP",
+      "target_doc_id": "doc:02/2025/NĐ-CP",
+      "original_status": "verified",
+      "new_status": "verified",
+      "disposition": "verified"
+    },
+    {
+      "relation_id": "rel:11f93ea9cb275ff2a75b2bf5",
+      "source_doc_id": "doc:32/2013/QH13",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:279c704c36635985872b051a",
+      "source_doc_id": "doc:46/2014/QH13",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:81fc8631f76b57d58a145511",
+      "source_doc_id": "doc:97/2015/QH13",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:c41e354246c555088e5c9ddb",
+      "source_doc_id": "doc:35/2018/QH14",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:0799070b072a5474a758725f",
+      "source_doc_id": "doc:68/2020/QH14",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:ebeebb0c4f765aad8169024a",
+      "source_doc_id": "doc:30/2023/QH15",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "rel:83345ad21738566fab24dcd2",
+      "source_doc_id": "doc:51/2024/QH15",
+      "target_doc_id": "doc:25/2008/QH12",
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "demoted_to_pending"
+    },
+    {
+      "relation_id": "queue_rel_31",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_32",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_33",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_34",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_35",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_36",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_37",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_38",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_39",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_40",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_41",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_42",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_43",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_44",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_45",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_46",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_47",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_48",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_49",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_50",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_51",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_52",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_53",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_54",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_55",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_56",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_57",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_58",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    },
+    {
+      "relation_id": "queue_rel_59",
+      "source_doc_id": null,
+      "target_doc_id": null,
+      "original_status": "pending",
+      "new_status": "pending",
+      "disposition": "in_queue"
+    }
+  ]
+}

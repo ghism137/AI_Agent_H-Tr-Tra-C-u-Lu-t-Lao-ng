@@ -1,0 +1,3493 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "src:929de94f5b6d278ac7b6047e0db4d448bbc710836ac88ee6f71cf1c124a076c6",
+      "path": "data/raw/hf/01_45-2019-QH14.md",
+      "format": "md",
+      "sha256": "c46b75982f0d256673a9d43e6efa213a8bf8df251e72c06b8dc3b7759f210b54",
+      "bytes": 255322,
+      "filename_numbers": [
+        "45/2019/QH14"
+      ],
+      "header_numbers": [
+        "45/2019/QH14"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ccee5dbc2df8dfcf57ce2bcd29dbd8dfec9ee90c1a68f44e1b34781c3882d58d",
+      "path": "data/raw/hf/07_25-2008-QH12.md",
+      "format": "md",
+      "sha256": "ad3c5ee6a192680c54a39a67b4c6414d7d33846ab393bb35e6da81f1e1d1085e",
+      "bytes": 57886,
+      "filename_numbers": [
+        "25/2008/QH12"
+      ],
+      "header_numbers": [
+        "25/2008/QH12",
+        "51/2001/QH10"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:183c1d83c682c10a700dd32b0c9cb90e010141c76f54d25f739f21013d39fddc",
+      "path": "data/raw/hf/16_143-2018-NĐ-CP.md",
+      "format": "md",
+      "sha256": "c2630884d2df43209119626e7f92fa9ddaee14a322847342cce02114b3a623f5",
+      "bytes": 24234,
+      "filename_numbers": [
+        "143/2018/NĐ-CP"
+      ],
+      "header_numbers": [
+        "11/2016/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:1bfb5e685ecd89e66e1b74a8a842e3e52cedc3e7f57ceae715a4b6588a046351",
+      "path": "data/raw/hf/21_39-2016-NĐ-CP.md",
+      "format": "md",
+      "sha256": "e01d4cf8d417b739887c20e5753345ce8c0fb308dd4b51ea8ace27f411c56d53",
+      "bytes": 189452,
+      "filename_numbers": [
+        "39/2016/NĐ-CP"
+      ],
+      "header_numbers": [
+        "39/2016/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:bac6cb7880cda5df136c28a20e29de8131ace19280bcd93d32a011953c6a1eaa",
+      "path": "data/raw/manual_md/Bộ-luật-10-2012-QH13.md",
+      "format": "md",
+      "sha256": "ce63ee8b59c39447d3e5eabc35545dfe8f199414cd4ccd42722a144448b445aa",
+      "bytes": 217819,
+      "filename_numbers": [
+        "10/2012/QH13"
+      ],
+      "header_numbers": [
+        "51/2001/QH10"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:153b8d76899e66ea7360a394a03539593188774eebf0e4a9bdf961beae7d8866",
+      "path": "data/raw/manual_md/Luật Bảo hiểm xã hội 58-2014-QH13.md",
+      "format": "md",
+      "sha256": "309425e5cbd82594de373067616ce5545fa530f7b66bcc6a19a415149685d28b",
+      "bytes": 58242,
+      "filename_numbers": [
+        "58/2014/QH13"
+      ],
+      "header_numbers": [
+        "25/2008/QH12",
+        "51/2001/QH10"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:838a979bac966c3e1871f66edfb555f06259a89a11c965660752096b2a26579f",
+      "path": "data/raw/manual_md/Luật-12-2012-QH13.md",
+      "format": "md",
+      "sha256": "80796e84f9d1721867b2f130891f9516f70d96dc0952eb202fc07c43933130ce",
+      "bytes": 31905,
+      "filename_numbers": [
+        "12/2012/QH13"
+      ],
+      "header_numbers": [
+        "51/2001/QH10"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:504f44db39699fb15cf08b30e55d808564c128e1957b5d11b970bad242d85c0f",
+      "path": "data/raw/manual_md/Luật-38-2013-QH13.md",
+      "format": "md",
+      "sha256": "62bccbbc4ee4a978562beb83617dae74551876fe555988ac623850775dde54c7",
+      "bytes": 54092,
+      "filename_numbers": [
+        "38/2013/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f4cff894a248bc4f8365a29af4cbe59c7b9b044222213a14592172d3875e36ef",
+      "path": "data/raw/manual_md/Luật-58-2014-QH13.md",
+      "format": "md",
+      "sha256": "f09d55128bcaff7e0b8567e26bdb7ee14ac5ed6e04fedf42c786d249b4079095",
+      "bytes": 151338,
+      "filename_numbers": [
+        "58/2014/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:bd4ab3c2f683ba962a7faf8f8891b3dadd3d935710eb4d3eb0e7bf4e5b5f5e4f",
+      "path": "data/raw/manual_md/Luật-84-2015-QH13.md",
+      "format": "md",
+      "sha256": "a4914d1a5b31e69230d8e9c77e9707323bf82633a40ba4e8f3c14102723083e1",
+      "bytes": 178407,
+      "filename_numbers": [
+        "84/2015/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4b4b65f6ff3d240fdda223ab7881ebe806947d21ba74655c19b068f3acbd9a59",
+      "path": "data/raw/manual_md/Mau so 01 PLI.md",
+      "format": "md",
+      "sha256": "4f52f9d0ffe7f84304df30c1e84e65e22941b11a797e750b04594bc0bef6c322",
+      "bytes": 4601,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c5638f5e703f759b9bab09cb8374a3453e447bb5530d8f3d6db19ff8fbcfc6b9",
+      "path": "data/raw/manual_md/Mau so 01 PLIII.md",
+      "format": "md",
+      "sha256": "e14c87dd7913726d1bbccc02e535456eb3eee3a5d87d0ec81b62d982662ad476",
+      "bytes": 1467,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c03719fd8769d18cc4b7b219a3bba182e9323d015cf8287ca47d6b5fe3ddc27c",
+      "path": "data/raw/manual_md/Mau so 01 PLIV.md",
+      "format": "md",
+      "sha256": "b54aeaa02e181e2bc192bdd0009e5c711b673d4fea5fcd5887c2ac6e74f32710",
+      "bytes": 1406,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3a0bd9d9de81875d25177a3bb89508eda2dd464347cfd5e2d74ba8c7dc88ce43",
+      "path": "data/raw/manual_md/Mau so 01 PLV.md",
+      "format": "md",
+      "sha256": "362a4a311e0eee3e41ea3c273c38e71daf4c9ae31fa66be2586d26bd2f8e59a7",
+      "bytes": 8809,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5e345581fd8a773c86d2da0c530b884d375f996c72f9d2f0684b6b97d86ec20c",
+      "path": "data/raw/manual_md/Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "571700d4018c8ff15a291d41ec5068de22d61ba8d8876f11e228badd57a850de",
+      "bytes": 2462,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ac82081ba893f481c81e8c2461337440b4d5ce2a499187458341e9db74c57e43",
+      "path": "data/raw/manual_md/Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong.md",
+      "format": "md",
+      "sha256": "3f7314f59715ec0bebd055c42aea5b89585d66902a8fc776e4f45d9fb4d41bc7",
+      "bytes": 51515,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:485201500c0256ac4dafa22375c35122dac8158d05fef97f9bbdc41009264665",
+      "path": "data/raw/manual_md/Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec.md",
+      "format": "md",
+      "sha256": "cc9f9498c1ce85401d4234924e1327db95d6104eedf18df99f9819fc49725ea9",
+      "bytes": 3541,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4be5e6a93386d96fa0017ef44095858544fb9fa4cccc9f391581b14410e4104a",
+      "path": "data/raw/manual_md/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "534308f08a805a61232d3d83ae0472557a2ca88358126d6e8ee9270fdb1e0b8a",
+      "bytes": 4289,
+      "filename_numbers": [],
+      "header_numbers": [
+        "152/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:42ba3e5aedbe5b2a28efe44d747da3e9bbb02eed2a335d21c023e8bc7e9cabd1",
+      "path": "data/raw/manual_md/Mau so 01_PLII. Phieu dang ky du tuyen lao dong.md",
+      "format": "md",
+      "sha256": "381a56d04ef36bc35067a88650265c973f64447cd0e8da269906fff4a25df85a",
+      "bytes": 3971,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3278e7b9a2d04b57655b898f9ef815802c9e7c7974bdc1294c6da63b29e48e68",
+      "path": "data/raw/manual_md/Mau so 02 PLI.md",
+      "format": "md",
+      "sha256": "955b9286cc8f257829ccd50cfcc1b226cda18204a684c26f67b22e5ffe5c95a6",
+      "bytes": 2620,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:15bf8588179883d5f16aa1d70e77c9765231c637e259272350cc9ae6b3e01618",
+      "path": "data/raw/manual_md/Mau so 02 PLIII.md",
+      "format": "md",
+      "sha256": "fa46f67f88b93c07d4262d6e5d4d929bec595df3d175c0befd15d0818a40cdbd",
+      "bytes": 1962,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:16ed3d85eee1b3ac088340342a50e5868be548e5a5623bf699872c71d2e1c2c8",
+      "path": "data/raw/manual_md/Mau so 02 PLIV.md",
+      "format": "md",
+      "sha256": "b152a7cc64f0b69f99172ec5dc98f1bdc07ce3ef17d80df6b9caf08353f77c66",
+      "bytes": 1787,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ec7608eedfaa9f692eb37d95805766ce71f0e3be4e1af4f212d7034be4d1b561",
+      "path": "data/raw/manual_md/Mau so 02 PLV.md",
+      "format": "md",
+      "sha256": "99322cec28704c0fab0420a744b2b16cb417e83d2c43a799eaa7581ccc7fdd09",
+      "bytes": 1659,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9b8bd024c8d40b64c4a7105e850408e7ed9300abcd2b6295789d61160b44e8e9",
+      "path": "data/raw/manual_md/Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em.md",
+      "format": "md",
+      "sha256": "3f5220d541f6ff9b6589b1c36941fe12356bd5ed8f73acb9a32fa5923c83b8fd",
+      "bytes": 973,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4784602776ec9949955675822cc640230f2ed98c43f8a9683ec8b71d344fe42f",
+      "path": "data/raw/manual_md/Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "f48fa4b671846540b296880140bac711b8dd6f8419fe753b04c0ed5cb48b1b9a",
+      "bytes": 2956,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3ae392b6cf58e5bbbdacd4536c0251ba09e46544f7a336c4e604680e196831eb",
+      "path": "data/raw/manual_md/Mau so 02. Phieu thong tin nguoi tim viec.md",
+      "format": "md",
+      "sha256": "cb1c99ebde00d4155957448ee5e39bd5ebdb07fae7aa70d477f8ff8f2ef8dc1c",
+      "bytes": 34457,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:16ee9e247909f1a359bac2caa18149503f1376be8ff53c798f1f80559613c750",
+      "path": "data/raw/manual_md/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "6e6db1e4a5d5d5a5e694a2ad2d1b540cc780a0f20a853a7ca930d58264b908fb",
+      "bytes": 7914,
+      "filename_numbers": [],
+      "header_numbers": [
+        "152/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:27d1ac95624ec5bb08c9792eaee61566ecd723054e4809ae6e859f2b5534fb8d",
+      "path": "data/raw/manual_md/Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam.md",
+      "format": "md",
+      "sha256": "447bc2e2c0bacbce49b8db32a0242f7b52f7b6501ced0a77ae5e7e2411a32001",
+      "bytes": 4055,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1dd6e5b2e6d3e4d9b6bfa05a3751e8d9ad98cb5e010c38c6899cfa646941171c",
+      "path": "data/raw/manual_md/Mau so 03 PLIII.md",
+      "format": "md",
+      "sha256": "d37896b0a6bb2acde93850da7bd973c4ae55300626e99b068461f557664414a6",
+      "bytes": 2874,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d66e40d8b835c0b7124e582d2f19e3508d5f27947902f99a1731f7e4e8ec82f3",
+      "path": "data/raw/manual_md/Mau so 03 PLV.md",
+      "format": "md",
+      "sha256": "418df669c18f2cef0b154d4b016e514eec42faf149446fcf7d1da4e37105b31d",
+      "bytes": 929,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2c65d287e1868e1312bd6610f5ef75759e6f23382cedcdf0c8e01b52ae4c26e3",
+      "path": "data/raw/manual_md/Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec.md",
+      "format": "md",
+      "sha256": "95a3d38612a5c3ad0d85cb8cddc54ed4c415853afa80f7725bddf5ba3f80b052",
+      "bytes": 1081,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2f7a93faff01ace7d03fe7d07f82ddbbfa9a80a826dd761458f8d18883b69b5d",
+      "path": "data/raw/manual_md/Mau so 03. Phieu thong tin ve nguoi lao dong.md",
+      "format": "md",
+      "sha256": "07150edd479ac8fdb16ab1bd5e29da435492f86a43b75e427e174900ad624f84",
+      "bytes": 4850,
+      "filename_numbers": [],
+      "header_numbers": [
+        "01/2017/QĐ-TTG"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1d96845883a9acf31b3b13785553a78975f966ed93a1b6a5bfd972ab708ee998",
+      "path": "data/raw/manual_md/Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep.md",
+      "format": "md",
+      "sha256": "02529b970cf4e7ce59c1fe215eea682538f6fdde7d20e8b18c889856d36465e9",
+      "bytes": 3331,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cdafb2f324c2b0a4beddffbf078bf63e4c39698d8f857caef0e38eb0358439b7",
+      "path": "data/raw/manual_md/Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "ff4e6b2092c4e02aea3d55ea8da88ad6d0b57414aae887a7f53d3860cb427c8f",
+      "bytes": 2569,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ec191490ffc073b329aeb9afc68a11ea38cd161d73af3968a450fdc30b3cea3d",
+      "path": "data/raw/manual_md/Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.md",
+      "format": "md",
+      "sha256": "49502db915f70db6353ae51495d3326ce3a15328e6e16420f7a1eaa75f90e112",
+      "bytes": 6343,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8d25c7ee1cf05f2a3ffe2ecb06cbf41c727610d1b3d46b4fc4ca47862531615f",
+      "path": "data/raw/manual_md/Mau so 04 PLIII.md",
+      "format": "md",
+      "sha256": "866b03e1e2f11bb5474447732eb5e96186ebc3839d6c41617ef1998a2b364004",
+      "bytes": 2867,
+      "filename_numbers": [],
+      "header_numbers": [
+        "29/2019/NĐ-CP",
+        "55/2013/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:055a46c0cb4309f395d09601230d2176f16ca44e81bdffcefe84d0af507a2ae6",
+      "path": "data/raw/manual_md/Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep.md",
+      "format": "md",
+      "sha256": "aba215cd690996959e390057689ca58b2df6b1a6b998c5ed694dc3e0c79a2932",
+      "bytes": 3202,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:05eaaf43b1a272f38eb8a95355590adc62946297de389630b8aff5574bf35478",
+      "path": "data/raw/manual_md/Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec.md",
+      "format": "md",
+      "sha256": "0e3249c8467175f31701a9b9a6d0c77cfe0f95590b01e27190d6d86497491f6a",
+      "bytes": 3064,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f95c200a68e5bf99f6266724b21133779d8b2934018949411bd14d25cfd8b673",
+      "path": "data/raw/manual_md/Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "4912a92fcf2fc64ff7246478e1e7374d3d51b4cae387db72020b7955d0886ec1",
+      "bytes": 1795,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:38899cc759a5622773496db6a1372b171b8d6d51d8eb3b69430a2a9e3c12d261",
+      "path": "data/raw/manual_md/Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.md",
+      "format": "md",
+      "sha256": "71ac75d2de3e2a389ef6e830e4b2e8e0309f6de2ba4f7c4d656bed42e3367fe9",
+      "bytes": 1621,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2264f0e4e3d69600e728deedc4ab58946ccf3c0bc920c5b6f15179dbc2ac8649",
+      "path": "data/raw/manual_md/Mau so 05 PLIII.md",
+      "format": "md",
+      "sha256": "4972730dfc947ab68fff04edbfdca5010ad33d12e9c7636e539e2c9199ae100a",
+      "bytes": 2512,
+      "filename_numbers": [],
+      "header_numbers": [
+        "29/2019/NĐ-CP",
+        "55/2013/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:113347152ea95ce7c5694fe1b48e4946f692a8a75160c9f0d64a536c46896aca",
+      "path": "data/raw/manual_md/Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec.md",
+      "format": "md",
+      "sha256": "f04dd137523d0f8ccba8270070c03bfb3705754af424cc20787cd197ee235052",
+      "bytes": 1257,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:02547b1a0679b0d7a2b965beb8a2eec94418f2a364cee17d08ffa102e6e1b329",
+      "path": "data/raw/manual_md/Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "696510a861f9a160c97df7635c91bd65694f328cb164b30f1ea92018a82f1742",
+      "bytes": 3223,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b5dea5c5b107ccaec733845233079f295d8bb717d8af6581e71eec4b965fe627",
+      "path": "data/raw/manual_md/Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "246d38801064d0952a61deecb3a4df353d2ea13546a844b2e073239f97f522d5",
+      "bytes": 3113,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cb8c1185b7b3ba124566668bc388adc7e8e0d30110d072d1ec982088785bc3ec",
+      "path": "data/raw/manual_md/Mau so 06 PLIII.md",
+      "format": "md",
+      "sha256": "8fce668859ac757b1ecb1c3e61425414e8463bef1b4e21ecd6845bae797211ec",
+      "bytes": 1774,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cf31ba31fb4c66b42d74c98c3b153c5d1500a40b36e7db506867566d26b5257c",
+      "path": "data/raw/manual_md/Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "995cfc4df3796184c438335aac7bff9376e9c065ec0235689f3c11ca5d458bfd",
+      "bytes": 4810,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ccca615ffef9b5ca253b87e86bfb9b3ad849f73aa593d5fd50eb72fc99ccc5cc",
+      "path": "data/raw/manual_md/Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien.md",
+      "format": "md",
+      "sha256": "3bbb33e7d3aaa9c8b61d44bc1451b59383bf31cae567c8b2aa2258a2d103cc21",
+      "bytes": 1881,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5ea10cbbedad5e64bf697b9728c1e3df8efc150810a3413206624e7a2778d3dc",
+      "path": "data/raw/manual_md/Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam.md",
+      "format": "md",
+      "sha256": "deae54778ba46a4e4d9b5153469b905908bc3d6a19de49028288c719258f2627",
+      "bytes": 2605,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2b79883274b3dfba4c85262a65d07a691ccb48e5bf528d0bdc0b6232f0489740",
+      "path": "data/raw/manual_md/Mau so 07 PLIII.md",
+      "format": "md",
+      "sha256": "e4b1ca8273625f5d880f1f60f92c60c5a0065ee30ad0e4d72693fa38576a13a3",
+      "bytes": 2391,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9a17ab933aaaceb7d4180bca7ac250213478fa15dca9bc5f9b980f3bb67270ef",
+      "path": "data/raw/manual_md/Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "255d0466c72fd7e47db0d10ec9eb4b87296f36efc43ac75b90bb14c237c98ece",
+      "bytes": 3673,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3957ad183d04633a4ec2bdb5ca2a1432d60360711ce1875a3c790f7b450526e7",
+      "path": "data/raw/manual_md/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "c92d0857a264fcb4863af29e23ead6e768e95f8b2f368f8ca0e60121db6266c1",
+      "bytes": 4136,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:796d5b33c5bc2223278035539cb742833cda065a97d2497c755b4435d89256d5",
+      "path": "data/raw/manual_md/Mau so 08 PLIII.md",
+      "format": "md",
+      "sha256": "3a8c658a42f6a8b61f5b38da111adda31c497df932e58d9e34046704f5cda832",
+      "bytes": 2651,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:fa03ee84f40f539cf9ec99108b54d5b8ccebc160700d9006f5b7c7879452c468",
+      "path": "data/raw/manual_md/Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "637a0dfc1d6e5309591730b47f299d262210a45a582d812424bb8ccc1c35c3bb",
+      "bytes": 5326,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5bf175a6b16f445c4683355e054440f51e29ec654b0f73c06ea0b32909d0db85",
+      "path": "data/raw/manual_md/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "273eaa59d256fc2dd6b6ded37941a15bc932c6cff9a42f514f13b592ca8a2153",
+      "bytes": 4094,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:96486960c52851987ec4fd2961fb232a3c894f41a5335c0f6dcf204fa9ca19a9",
+      "path": "data/raw/manual_md/Mau so 09 PLIII.md",
+      "format": "md",
+      "sha256": "c0fa32043ef4336496097b09c946176590b1f47b206760d7315e1f151368b943",
+      "bytes": 3913,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:04cdaa5999f4c0bb800a3bc797da1dc1f9d9542fb6b9682e99396bdb38af8922",
+      "path": "data/raw/manual_md/Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong.md",
+      "format": "md",
+      "sha256": "ebf3d48fbfa2584aa6f5cbbe20216a8fec10b3061f5e7b127427ff5afc3f3fc3",
+      "bytes": 3663,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:6f34b8ce90bd0185dc7a2f6e5b489d17e9286060d7af1e6f45a312febb96b2af",
+      "path": "data/raw/manual_md/Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong.md",
+      "format": "md",
+      "sha256": "641f4efeb42a50214dc0cd53642632c1f97aadbea4095001caf66ef31519e1f7",
+      "bytes": 3645,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:37472f315b81b1f0098914db3025e6cde28a1132ea4571b68037328d79d37ebe",
+      "path": "data/raw/manual_md/Mau so 10 PLIII.md",
+      "format": "md",
+      "sha256": "36b3219235515f0cf1a99dfb3cfe295dfac81ef51de0887ea0f84f166ddd204c",
+      "bytes": 5025,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cb4a2035f8dae7385116f98fe628fffa77521a2b5954633204a64c5afd9ad79c",
+      "path": "data/raw/manual_md/Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong.md",
+      "format": "md",
+      "sha256": "f9bf003eaba8eb63a6c120fa80f87d8b1b0c1d4ee415b4ed9ba5214043d0affd",
+      "bytes": 3570,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e49e96d77073461b8a4f98392d6a5c249daa5fd43be22c87b3d5c906f2152240",
+      "path": "data/raw/manual_md/Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong.md",
+      "format": "md",
+      "sha256": "1334185112989bacf3835eaaf7ef10b8b714f72f7947f73833f4637a57b63b9f",
+      "bytes": 2054,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:778f1fb9772ac7758ba9b02448d58421fcd6e51510950f505c25ebd304c48cf4",
+      "path": "data/raw/manual_md/Mau so 11 PLIII.md",
+      "format": "md",
+      "sha256": "b1c4637a22d52ac0b3d317d693accaeb4dc83328bc28baf3b80ce237d9e6ad04",
+      "bytes": 1059,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:02d8da26341139a8b6ff838ecf073f5325cd9e89a880537f640b35ab4afb6f91",
+      "path": "data/raw/manual_md/Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong.md",
+      "format": "md",
+      "sha256": "74bf9550c716d4114ed26c11465082f6fff8a00b7dbe5e9e5c785338068b1c12",
+      "bytes": 3692,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:46735b02b05eb71a4d794602b076d82030b2efa0f997e47aeea94a6e58beaae9",
+      "path": "data/raw/manual_md/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "1d4535c2efcf52aef17dae87f46562d7dfe3422a633dd4a1ade8d29e68501956",
+      "bytes": 6347,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c89b8cc234a5629fa65acc2316a671ef255093ab2730e2149918324c3e0797ac",
+      "path": "data/raw/manual_md/Mau so 12 PLIII.md",
+      "format": "md",
+      "sha256": "3ea2156317b3c1ba92ba56f60bdebb4ceb963b91d45e406913617f12b4dd93ca",
+      "bytes": 2338,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b6fbbf0bc469982f18b8295fd463312fdbc07886ae7bfc7d92987869bd685bfd",
+      "path": "data/raw/manual_md/Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong.md",
+      "format": "md",
+      "sha256": "f9c858e32f5480855cd7a4f87e56196e0ba02c01c28b0c48e6bc71990c7d0579",
+      "bytes": 3396,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ca7a980689e5d0ff13d33e95f8ee06178c1f18a97d1480ed2639fd9f947836bc",
+      "path": "data/raw/manual_md/Mau so 12_PLI. Giay phep lao dong.md",
+      "format": "md",
+      "sha256": "194e4fea2fe32a8ebeb2c8e7470cb95e559112eb00c7ff722ff79dfa4118cd63",
+      "bytes": 238,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5f1ddc3cefbe25b4f48938338b72d8847fbe24f3078f847dbb430ceb6600194d",
+      "path": "data/raw/manual_md/Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep....md",
+      "format": "md",
+      "sha256": "09650744b0053bbdec931b14fc47240cf893b862bc1bae8523be8d1f0e93e73f",
+      "bytes": 3155,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:eed495bfe57b71c1ba9ac45a15941ac4a928f2b82bf7e40b0a02a611ac9cba6b",
+      "path": "data/raw/manual_md/Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "08cf0fc7f8fa3a36bc6a38878f84ca46142445087a72cffe90b4a276381de820",
+      "bytes": 2595,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1dfe6e051fd0c330fc25b4fa2a5f8c0ad8547f5f6be79f0fbaa84d2f2c7c9556",
+      "path": "data/raw/manual_md/Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep.md",
+      "format": "md",
+      "sha256": "a0ab3d02b729cb8e575705c3a25d6925d6cd6a2b285298671be84b48f0fff454",
+      "bytes": 2882,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c989ba031d5b3a9281bfd59504ca81471bb014dfd6e24af034be674b8cd13a2f",
+      "path": "data/raw/manual_md/Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai.md",
+      "format": "md",
+      "sha256": "ecb23d82087fe6f6d240f1924f8dab66a4c2f927dd6916131238fcb9b862cf73",
+      "bytes": 2187,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0481b9ae8e5b81bc778812563b84eb243e560df61ff9518f69802bd8eabd719e",
+      "path": "data/raw/manual_md/Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD.md",
+      "format": "md",
+      "sha256": "34f682d52ca6aa8029033ea13c7c66a9c790895717408b69ff119f6acd5662ea",
+      "bytes": 2763,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0b8adfe23648e79b4ca8957ad33a4b0bc6af8ace2d2c351cc8eb42b5b5379bf8",
+      "path": "data/raw/manual_md/Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi.md",
+      "format": "md",
+      "sha256": "30518d5a9d032ca195d3f31353dd5eda398c99e029b7d76f9078692537189824",
+      "bytes": 1817,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:6e8d9ef1aa13f2faf11734d55c81d6bf0e63c2a556cba9dc69d9bba5aa3b7e3b",
+      "path": "data/raw/manual_md/Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec.md",
+      "format": "md",
+      "sha256": "9529e99d1ec5944c47aa159bde1dfaa08204fd0f7fe06c8098014a8ec17a7f8b",
+      "bytes": 1866,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:dbc2615053c40856a1f22d78ea3a95fd9c2b011174885258552f623776eee73a",
+      "path": "data/raw/manual_md/Nghị-định-115-2015-NĐ-CP.md",
+      "format": "md",
+      "sha256": "9f46d40071ea53132b83765ac8ad512cb4e03e5e06a6057203e80b424ab9580a",
+      "bytes": 92471,
+      "filename_numbers": [
+        "115/2015/NĐ-CP"
+      ],
+      "header_numbers": [
+        "93/2015/QH13"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:97c8dc395a9895be6e2813a03c011499e054a9fa07c66943e8ecb2a4c980db56",
+      "path": "data/raw/manual_md/Nghị-định-12-2022-NĐ-CP.md",
+      "format": "md",
+      "sha256": "070f66389a7ae34ddd6290a1455c68dbae47712e9b7ee9e22f2aa7b49ec6a98a",
+      "bytes": 240346,
+      "filename_numbers": [
+        "12/2022/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:03c3a025260db2ee974eb457eaf7630fd4298ebbffebc23ee3a4563e04bb744f",
+      "path": "data/raw/manual_md/Nghị-định-135-2020-NĐ-CP.md",
+      "format": "md",
+      "sha256": "d39f5493cead05a20362ef2e42427ba784d71843bec376e80b122288927a1072",
+      "bytes": 32296,
+      "filename_numbers": [
+        "135/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c4bc449579343d84460c4a5c65b9b1bed505a2662ddc311db3f3d27c0d214fc1",
+      "path": "data/raw/manual_md/Nghị-định-143-2018-NĐ-CP.md",
+      "format": "md",
+      "sha256": "baa966b870575a0cbc51e01da496e46d1ddc17f83c74fe9040db99ec0682b4d1",
+      "bytes": 25555,
+      "filename_numbers": [
+        "143/2018/NĐ-CP"
+      ],
+      "header_numbers": [
+        "11/2016/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:9e242a840e3da640e92ce6e4c2cb818a8f7002b862215a25f4d03a27edce4bce",
+      "path": "data/raw/manual_md/Nghị-định-145-2020-NĐ-CP.md",
+      "format": "md",
+      "sha256": "d784cf269da9b0f76591a5fc3c1500b915f236a81e7cf0e0496ea2d84469a47d",
+      "bytes": 315314,
+      "filename_numbers": [
+        "145/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8fadad14afefe8d0992ecbbf003f74152b13b2e903610db2298ef7ef461e9d91",
+      "path": "data/raw/manual_md/Nghị-định-152-2020-NĐ-CP.md",
+      "format": "md",
+      "sha256": "0edb1435c609bd3a8c7b3f4910fe2d168a3b47710df9b4c35300248d1b44559c",
+      "bytes": 136207,
+      "filename_numbers": [
+        "152/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:fde223435a6521aebc3daae3c106e0ea2b637bef1e3568f1963e39a83d6c97ad",
+      "path": "data/raw/manual_md/Nghị-định-191-2013-NĐ-CP.md",
+      "format": "md",
+      "sha256": "bd3218d0ab96273574165b5c94aff0efa08e2d422c4e496823cbaf43be250f6b",
+      "bytes": 18905,
+      "filename_numbers": [
+        "191/2013/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b1c3c554ddbf18748ccd4be0f34349d379b54fa415b99b634174a07e65140ad2",
+      "path": "data/raw/manual_md/Nghị-định-28-2015-NĐ-CP.md",
+      "format": "md",
+      "sha256": "8309a524cc11012da28d4512e915d48269a12f5afec51b1b6efe257d22c278c9",
+      "bytes": 83565,
+      "filename_numbers": [
+        "28/2015/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:10e17b5e7a865de25950628baba891e87f860959ddc6581243cdb8257d3568da",
+      "path": "data/raw/manual_md/Nghị-định-35-2022-NĐ-CP.md",
+      "format": "md",
+      "sha256": "05e393c2daf0041ede5bd7fbaa1259a818830992699c874fb772cfc37c67bcf0",
+      "bytes": 210296,
+      "filename_numbers": [
+        "35/2022/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:017521c1e3679f02dded45d89ad4721a3aae1d04b875150afc42686d522a14e8",
+      "path": "data/raw/manual_md/Nghị-định-39-2016-NĐ-CP.md",
+      "format": "md",
+      "sha256": "97e734697ab1aea285872f92f3651ab0930efcc41553ec13d166f2505ba7ad9a",
+      "bytes": 201247,
+      "filename_numbers": [
+        "39/2016/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d552f31aee21d5419eaefe211515fd3fdcd4fe8e162492a700684db0fb61c431",
+      "path": "data/raw/manual_md/Nghị-định-43-2013-NĐ-CP.md",
+      "format": "md",
+      "sha256": "29dcb0c5d402ca86a118b0032842d07dc0105736bd434017edfebb5739e7c11c",
+      "bytes": 17786,
+      "filename_numbers": [
+        "43/2013/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ad234e3e0ae1cde4ed511da77df2993f5b25f558f4fc6a8ca5855df2e723c0f2",
+      "path": "data/raw/manual_md/Nghị-định-70-2023-NĐ-CP.md",
+      "format": "md",
+      "sha256": "13195437cc1a1b3ae3f0f633721255090fd3bb986a60a05da46b4e7c56d88b87",
+      "bytes": 51103,
+      "filename_numbers": [
+        "70/2023/NĐ-CP"
+      ],
+      "header_numbers": [
+        "152/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:98f2f17bd9981953366e145e2a82739476316a826719f7d2061bb85909199cea",
+      "path": "data/raw/manual_md/Nghị-định-74-2024-NĐ-CP.md",
+      "format": "md",
+      "sha256": "fe79c949f84ac47785a8a3885181b8a490aad7bd57f057d45ea8d22d361b8867",
+      "bytes": 18638,
+      "filename_numbers": [
+        "74/2024/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e4054b742b033ec3ac4fc07ee80380807512c6e03d5ed6d9a2abcc8adc919dba",
+      "path": "data/raw/manual_md/Nghị-định-88-2020-NĐ-CP.md",
+      "format": "md",
+      "sha256": "9845a68064aadea0661afda104c78dc1c247475cd7b5cd7d1b7f95686f52b7d9",
+      "bytes": 129814,
+      "filename_numbers": [
+        "88/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3f46bdee36715186218bd29b301920278880b3a5bff8259ccd23fed9b8a1e982",
+      "path": "data/raw/manual_md/Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung.md",
+      "format": "md",
+      "sha256": "55c68bc2722a4807a61fe3f50100260b5d3d4c39320595433b7e29f31e9b9b49",
+      "bytes": 8406,
+      "filename_numbers": [],
+      "header_numbers": [
+        "135/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e6f6b9280ffbb6a8d0479469882897ceca5394424f4c8747e3fff06f6b82caa9",
+      "path": "data/raw/manual_md/Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong.md",
+      "format": "md",
+      "sha256": "27d1155f1a3647ed2b8bc4bcc942e237fd071e11bd024086835af962bcb4c6c0",
+      "bytes": 1321,
+      "filename_numbers": [],
+      "header_numbers": [
+        "145/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:900f9e3c34d7c1c0ce4a9bfcfcc54306edfabaf8948b7716b4743b749f37fc12",
+      "path": "data/raw/manual_md/Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam.md",
+      "format": "md",
+      "sha256": "2722a879fc3c1ed3f9275b9020d8543c27b78f2eec7e87d3a780e58fa965bf4c",
+      "bytes": 2132,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:bd15c20077f49395b350b4bd904c2cc25bb7abee499e76bee02c1d5d26ffeff5",
+      "path": "data/raw/manual_md/Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung.md",
+      "format": "md",
+      "sha256": "bd278a0d52dda1e6c429daec67859add29b537e4e5decf130ff941a8169e45eb",
+      "bytes": 8360,
+      "filename_numbers": [],
+      "header_numbers": [
+        "135/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e096aea25241408eeab7fa3217bc56039ab3ca328c613ce2c3dac72c75a5fc06",
+      "path": "data/raw/manual_md/Phu luc III. Cong viec khai thac than trong ham lo.md",
+      "format": "md",
+      "sha256": "d94c3bab5272de6a592b8c5e558e9182e8c865dc284150cfaf013dc391f1298e",
+      "bytes": 1623,
+      "filename_numbers": [],
+      "header_numbers": [
+        "135/2020/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:204b64c70cfda86e955bf287c705346a63d42ca70f843a4b034c146be6658e8c",
+      "path": "data/raw/manual_md/Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.md",
+      "format": "md",
+      "sha256": "066107c08d05032a29574e674879ace1a3edb5d68a7e422267eee65c24d38569",
+      "bytes": 10412,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:438f1d03c17d65fff11f7e7a17cd980d38d69d9e5c20cd2a18e92d08d79d3ea3",
+      "path": "data/raw/manual_md/Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.md",
+      "format": "md",
+      "sha256": "762663a16f747170f0a28f8fbbda0cbe6b5d27848d26f4301396a876f70cddb8",
+      "bytes": 1356,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:57716e587c4b61ca5dfa1d8ada21528c192547c7dae2a6a05fcd52643568a7db",
+      "path": "data/raw/manual_md/Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem.md",
+      "format": "md",
+      "sha256": "2da8e082b2dd5d910177b992ace8a6ee45efba76d9e52cc9afcc62d91aac41d7",
+      "bytes": 3092,
+      "filename_numbers": [],
+      "header_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f8383cf6acb24d4a2fd26d8c3eb65f19c74305a64640836ff0c383f26db12f43",
+      "path": "data/raw/manual_md/Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong.md",
+      "format": "md",
+      "sha256": "cc74bbb92bcb232ec6088548072aa54389080bf82f5c50ebb8c9a3ae65cfb564",
+      "bytes": 2982,
+      "filename_numbers": [],
+      "header_numbers": [
+        "145/2020/NĐ-CP",
+        "93/2015/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b6399b481ccb441496f43d0be4fd1cca4f13be081902e7e734acf0c706cceeb2",
+      "path": "data/raw/manual_md/Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024.md",
+      "format": "md",
+      "sha256": "58ad23a06a939e20f049f998a53d38322a627fdba68822e2681354d59ad94bcd",
+      "bytes": 8543,
+      "filename_numbers": [],
+      "header_numbers": [
+        "74/2024/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:43b153b08fc424f535f255270722882ef5a0541802f7df583199c2c277723667",
+      "path": "data/raw/manual_md/Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con.md",
+      "format": "md",
+      "sha256": "6d40b92c59df390928548f27ec1ae376382794117ab965ef14a1d8f6ddcac5ca",
+      "bytes": 15523,
+      "filename_numbers": [],
+      "header_numbers": [
+        "10/2020/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d775e9e294f55cf27d50508c3e1ed27d455168618635e6bb17c100bf9da45c5b",
+      "path": "data/raw/manual_md/Quyết-định-23-2021-QĐ-TTg.md",
+      "format": "md",
+      "sha256": "033fb5c88937b1e7b99f68a8204e262883af210a89022ee9b3065548fd065190",
+      "bytes": 109746,
+      "filename_numbers": [
+        "23/2021/QĐ-TTG"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a44b5fbd85ad2b4322a0470d5f826b7d27714513be3e75b01d534af2e26a641a",
+      "path": "data/raw/manual_md/Thông-tư-06-2021-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "949dd11ddf901d17accf12f3c56683dd118c237552a04198e6320f7b37a4dbf6",
+      "bytes": 41579,
+      "filename_numbers": [
+        "06/2021/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "115/2015/NĐ-CP",
+        "135/2020/NĐ-CP",
+        "14/2017/NĐ-CP",
+        "59/2015/TT-BLĐTBXH",
+        "93/2015/QH13"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:21f8d6d9c6637b1a95a5655c37c218c6351df84974322252cdf3c8b7c5979d7d",
+      "path": "data/raw/manual_md/Thông-tư-09-2020-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "bfe79a8ff473296abd70ec12d0ea086c8987f4cf231401e72df9761a9bcd8b67",
+      "bytes": 45823,
+      "filename_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "14/2017/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:598a6e0e75eb1b2f17256a6711ed2ca153d35e49c9ead1565008ca0b421afb2f",
+      "path": "data/raw/manual_md/Thông-tư-10-2020-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "6222f7d0e86cdb4d286e0a27197ebcb2110032f87ef3f6149e30ceef93fe0732",
+      "bytes": 44090,
+      "filename_numbers": [
+        "10/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "14/2017/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:98fc1e2fdd54ee0cc332cc7bfc43411dfa8d5f7562213419c3ed37cda5b0bce9",
+      "path": "data/raw/manual_md/Thông-tư-11-2020-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "d2a5a6ee1cf8edfad9a2c92c5b14b81ae03c828c385a61f4748e86af7619d009",
+      "bytes": 357023,
+      "filename_numbers": [
+        "11/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "14/2017/NĐ-CP",
+        "36/2012/TT-BLĐTBXH"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:8e827b3a7d1657a0452484b3a41fbfa81316e842294a14b9b802ac6386ba85bd",
+      "path": "data/raw/manual_md/Thông-tư-11-2022-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "8a41677cb95271ed80f67c564bcb3d4c14bfe2a212350b9c94dced2029dc4a13",
+      "bytes": 118972,
+      "filename_numbers": [
+        "11/2022/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "02/2022/QĐ-TTG",
+        "14/2017/NĐ-CP",
+        "27/2022/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:d87a4a6ac57f4e9c2e4a7a4e1f0c75ab19e717c9cd20549c07ebfa1ac19faacd",
+      "path": "data/raw/manual_md/Thông-tư-28-2015-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "fda7859d3b28e3fc138ce8b736c2ac27e49d18dbf631c0400e6be37b2ca8df2e",
+      "bytes": 62725,
+      "filename_numbers": [
+        "28/2015/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "106/2012/NĐ-CP",
+        "28/2015/NĐ-CP"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:96fd06dd7ef607fe324b82557e31d3ff7fc9a78b9abe1d0c34c95b229b2c47b0",
+      "path": "data/raw/manual_md/Thông-tư-59-2015-TT-BLĐTBXH.md",
+      "format": "md",
+      "sha256": "b844eef1538df28439f92dfa065c97e74c0de0cc0d8dd462033feba798ff4fb4",
+      "bytes": 172565,
+      "filename_numbers": [
+        "59/2015/TT-BLĐTBXH"
+      ],
+      "header_numbers": [
+        "106/2012/NĐ-CP",
+        "115/2015/NĐ-CP",
+        "126/2015/NĐ-CP",
+        "82/2013/NĐ-CP",
+        "93/2015/QH13"
+      ],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending",
+      "identity_conflict": true
+    },
+    {
+      "source_id": "src:49caaa57b7af3fc78e68db5f236809c8e12a31e73a24296e3e8899be4b4912d2",
+      "path": "data/raw/official/02-2025-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "e7d5d66154cd8f43c0d7ac441e312d9511cfc2dac0005e3fcebf58048a0d9072",
+      "bytes": 305236,
+      "filename_numbers": [
+        "02/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:16daca587f20beb7f565e586565f4adf8b4fe30efe7cc094de3a55422e4a2f8f",
+      "path": "data/raw/official/104-2022-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "15b057dabc31b8f3379b32be352ea3abde4306c4e52c51c38ace9d9f2e9681a0",
+      "bytes": 431778,
+      "filename_numbers": [
+        "104/2022/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:dfa5fd03e507572804c595b0a7e6cf6ad691d7d329c6f9dbef636c6cf4728bba",
+      "path": "data/raw/official/108-2021-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "9e35d14f64351698500ba26427d1e52d61831d857b42b58930339ec63d8726ab",
+      "bytes": 358419,
+      "filename_numbers": [
+        "108/2021/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cd968fd5beca988960eae13d17d93f4841c1b12178cfe12d747415355be6d0b6",
+      "path": "data/raw/official/113-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "0990f33d17b1f1be3577c3f5176fdc10026eae5de11e212772ae6316beb71a29",
+      "bytes": 2252442,
+      "filename_numbers": [
+        "113/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:102e290a775e86a87d1e1fb4c47c6e1fe06de4ca73de4b9db157302e5146ad87",
+      "path": "data/raw/official/124-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "48f89542a1be6495333740fb0bca8cc0f6ad827d6123365eb0c9fe59ae81a50b",
+      "bytes": 3053802,
+      "filename_numbers": [
+        "124/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0b54a605762afb9ac5d22be518652681881ba1e528c94ec514b8cbfb1af33bf3",
+      "path": "data/raw/official/142-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "e1dd1eea40bc2c9af74d1e66591a303002357673613750ab35f82e1cb958c1f9",
+      "bytes": 2326989,
+      "filename_numbers": [
+        "142/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2dbf81b533f22dc8226fb5dbca6acd923a08e701a2ec01d0724de1b9857c309f",
+      "path": "data/raw/official/146-2018-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "552aa754db437935c6eabd4fa76aa1b26bca565c68b93d5726644a96273b4222",
+      "bytes": 768599,
+      "filename_numbers": [
+        "146/2018/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a318dc83f58ee61011990f833b006987a0fb7eaf7005af7ae1479e932c98254c",
+      "path": "data/raw/official/158-2025-ND-CP.html",
+      "format": "html",
+      "sha256": "46518ade5d7c8562335149a9ef766f5e13c954b2ac68df9e58ffbd04cbaeed1c",
+      "bytes": 868000,
+      "filename_numbers": [
+        "158/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:50b3e38ffb93ed01253d9326844222d1c766f7f84a34c8d87397839eda5214fb",
+      "path": "data/raw/official/162-2026-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "0bfcf34621ca82e2e9bbf8ae5f3ab397b535e5fd4466b9ab70555e2a01f8f771",
+      "bytes": 2121134,
+      "filename_numbers": [
+        "162/2026/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:7bccc554c3b064e0491cf64079391029575e4188c3cf803a2079dcff66970cf6",
+      "path": "data/raw/official/188-2025-ND-CP-congbao-part1.pdf",
+      "format": "pdf",
+      "sha256": "04ab0a7e57f5bb6574a75298783377b56544cdd0ae47e9d47c7d05c5d2a998fb",
+      "bytes": 1601513,
+      "filename_numbers": [
+        "188/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b287bba712525223ab46816fdcc089c1f65abe4fd86b035bd0bc354542c9332e",
+      "path": "data/raw/official/188-2025-ND-CP-congbao-part2.pdf",
+      "format": "pdf",
+      "sha256": "eb790e52919b3b08f3456e10cc7e1fc2434e16eb0c247f258eba5c8467d48acc",
+      "bytes": 1813425,
+      "filename_numbers": [
+        "188/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0be4736cf8e68af4cfc9c964db7aef3412a09ee0ff88c4c037ab49cb1c190d08",
+      "path": "data/raw/official/219-2025-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "6a40ffbe511b18170fe7effa42f63b544961381bbc1fa279e0f9bebb641e8d01",
+      "bytes": 1827462,
+      "filename_numbers": [
+        "219/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2d95a309695b29bc29f9d0d56e620308ad2d974db3cf892d9e5a5eee23d9a25c",
+      "path": "data/raw/official/219-2025-ND-CP.html",
+      "format": "html",
+      "sha256": "d1a1294db94379491d1f17a2e14013960328bbbb37284176c645ceff00227477",
+      "bytes": 566885,
+      "filename_numbers": [
+        "219/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d2b1ace4397ea13fd2507f7977c0fc1a82f79dc89adc848560cb8194e9ff293a",
+      "path": "data/raw/official/293-2025-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "8ebf219debf9224796c98670d1eb5b8e5757d8ed74590c45ff5eab0dfc4fdbd0",
+      "bytes": 307194,
+      "filename_numbers": [
+        "293/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9cf70ee65d91bf758f1c55e55735eae9c7937ad192c23332e4b4e2e0952b0503",
+      "path": "data/raw/official/293-2025-ND-CP.html",
+      "format": "html",
+      "sha256": "d5f5db667104bc83ef05d99cffa9ea4b758805f75458a2a2e6de0d2effd73816",
+      "bytes": 572169,
+      "filename_numbers": [
+        "293/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a07a8f30112e0308759f6521f9b16356e0df03a7e8cd5724fffa9402450b2d7d",
+      "path": "data/raw/official/30-2023-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "bea5756fef66028ca9e6c9a88c388ebe3f5abe7a886ecad7556c7ea2388c2947",
+      "bytes": 309204,
+      "filename_numbers": [
+        "30/2023/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f793405496cf4efd631b3e87ad9bef489598c934ef75a7712ce3db4e77a1b756",
+      "path": "data/raw/official/32-2013-QH13-congbao.pdf",
+      "format": "pdf",
+      "sha256": "d74a73184e59dd507117dd6994fd2bef31f8d9b54c1571e2baabf386024ae87c",
+      "bytes": 393338,
+      "filename_numbers": [
+        "32/2013/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:abdcbb3eed2152c7a51a4827ffc32210a76757b2625f59a4b4c9f1908dd716fe",
+      "path": "data/raw/official/35-2018-QH14-congbao.pdf",
+      "format": "pdf",
+      "sha256": "6ebe64e782f429196cc20821e7ee091ee90187de9451e6f55c2a12f2b428527b",
+      "bytes": 843788,
+      "filename_numbers": [
+        "35/2018/QH14"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:87bd966a8c0f34bcdc02641ae86c9a934d6c621ae8c9d63f9fb3b8aa1299b42e",
+      "path": "data/raw/official/374-2025-ND-CP-1.pdf",
+      "format": "pdf",
+      "sha256": "4d315f8dabefed454759302b45921f4c02e9fc3426682a377306b8982918e3dd",
+      "bytes": 2164611,
+      "filename_numbers": [
+        "374/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d286a1a503a645ebcabca2d81ab6f335738e1d77cd6ad1fbb689556d2bf11dde",
+      "path": "data/raw/official/374-2025-ND-CP-2.pdf",
+      "format": "pdf",
+      "sha256": "ab7dc63be389a9f5ac4fb23c6cfedd86d7c6437b19fac739a3b164c33215d448",
+      "bytes": 1377241,
+      "filename_numbers": [
+        "374/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b62f2f339d6001bd6ee68c525c2309cad6e3fc4081aeaeff5fe0f6617405bea3",
+      "path": "data/raw/official/374-2025-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "35c18218c653bfffc59301ed411718d01a798e19d982de3bb254e81f7da1d5fc",
+      "bytes": 2351967,
+      "filename_numbers": [
+        "374/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:84fded56d8a5c905b94a01671295be1e32da9c1f127c8acdf04abf851f9ff549",
+      "path": "data/raw/official/41-2024-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "dfc181c0fffc2a3576f65fbdf8c907dd42ee14bee317a2df758b4c346e19a04b",
+      "bytes": 3599502,
+      "filename_numbers": [
+        "41/2024/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c6addf925fddc87b6d6323103f4c84dc5d3ce6e2d0d3240a13b6fc7848f9ebc1",
+      "path": "data/raw/official/41-2024-QH15.html",
+      "format": "html",
+      "sha256": "bd6d9ee47562d5045662cd37243918f35a8f807950a48f40b6ff1c1023170574",
+      "bytes": 814574,
+      "filename_numbers": [
+        "41/2024/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1a9a563988ea1d2afddd35aa85cff7b0cd0ece4af4a88064ed089cc302378799",
+      "path": "data/raw/official/42-2023-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "fa37ad3c06c9fecc7daf52dde54602a9eaf7c713fdecafedcabcf685dde3e087",
+      "bytes": 363185,
+      "filename_numbers": [
+        "42/2023/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a99cadb9c5ee8f6184eef7006714d08445461afca0be5bb85ecf2bc739740a63",
+      "path": "data/raw/official/44-2019-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "937a3c286f4d24f4af5aee31f29019b139ef08e52192cb9e8fc2cb9c0faf0c2b",
+      "bytes": 346867,
+      "filename_numbers": [
+        "44/2019/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:7507baf883890092b2f288cc57ebd53ae2ce3d5661a29a8150507097d47eba9a",
+      "path": "data/raw/official/45-2019-QH14-congbao.pdf",
+      "format": "pdf",
+      "sha256": "ffbccfde45723e8eb876cb50a1158d8de911f6a91b724ec12fdedc724177948e",
+      "bytes": 2255087,
+      "filename_numbers": [
+        "45/2019/QH14"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:108aa7e03c2a205e8786e6769c6ac2e7c12ce9960b27eba3a37d65353dd6d91e",
+      "path": "data/raw/official/45-2019-QH14.signed.pdf",
+      "format": "pdf",
+      "sha256": "a0c0fcc3b9e040bcdcab70191f0ab95952183be94a6f5bc6424e8d3e85697139",
+      "bytes": 5232503,
+      "filename_numbers": [
+        "45/2019/QH14"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9dd7d62ec6b461f31fea4e5fbf2fb47d119dfe1ebdbe354a27c4b79311216f28",
+      "path": "data/raw/official/46-2014-QH13-congbao.pdf",
+      "format": "pdf",
+      "sha256": "bc5f942f92a0891b0090576fd8119ae8f11288cf4950d7075635e9f1d9a9e7e0",
+      "bytes": 530994,
+      "filename_numbers": [
+        "46/2014/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b4bee6916e931a5e97926dc672d26f90ad42199ba380ae94a3d81bca7f9a8419",
+      "path": "data/raw/official/51-2024-QH15.html",
+      "format": "html",
+      "sha256": "c1b3d59b979d3e0b2247bf0d27d58301eb594832cd4d32b1a2a65af534b14dbd",
+      "bytes": 588651,
+      "filename_numbers": [
+        "51/2024/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a3bd2d637932a588459a2c1143de5ab161a359fc09c1ff6dc13550a9cfdbe562",
+      "path": "data/raw/official/61-2020-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "96d9570d72cb698894392248baae9cf3d904a33f1eb7a9d2039a3b1a8e61ba23",
+      "bytes": 511336,
+      "filename_numbers": [
+        "61/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1758c50b526766cdc11241742a629040cd4cc0530b63c61e7d23903cf1717fc9",
+      "path": "data/raw/official/68-2020-QH14-congbao.pdf",
+      "format": "pdf",
+      "sha256": "740784336d365ca3116a505afd2734a04c6619f57fd761ecf883a4949abea07a",
+      "bytes": 518537,
+      "filename_numbers": [
+        "68/2020/QH14"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:323e2124de0449a6cbfdad60d138454901ee5a220c97ad494bfb99a2d41d8e61",
+      "path": "data/raw/official/70-2015-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "ee3ad65820af7a6500ffd701a9e67a301938380a7941933c6b2ada70ee25ecde",
+      "bytes": 476383,
+      "filename_numbers": [
+        "70/2015/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b79d8a86c8a7c7d8046421f1db78404f079cf8e231d7081f60a3822494994e20",
+      "path": "data/raw/official/71-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "42b72d237c9531c257b56165c86c18967d9772294e3a7236822cd3f4e7d3d17d",
+      "bytes": 2679424,
+      "filename_numbers": [
+        "71/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9c9da8149919fadc2de37c0844f3ddbf7030f15de2606d0c3234e83de8eeec98",
+      "path": "data/raw/official/71-2025-QH15.signed.pdf",
+      "format": "pdf",
+      "sha256": "b80b983f152d364e0e3299d20ef967cb646df5d75d02caff661d1dd88ae8df51",
+      "bytes": 1355976,
+      "filename_numbers": [
+        "71/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:26282fec0c5ce13d2543ba23cc24e69d12ff3716c46195403241ec838d87fb9b",
+      "path": "data/raw/official/73-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "2b7535f43224225b1360c888d5447d9291301c220aaa689e2d5063fe467877dd",
+      "bytes": 1698364,
+      "filename_numbers": [
+        "73/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f9b472b66bbbc7f53ae956b9e4e639e959ed5d5b6ef7bc2581c0708f785008b4",
+      "path": "data/raw/official/74-2025-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "c181cbb10136dc9e856e45e1134487d5d77278179308b7552da48dc322511d4d",
+      "bytes": 359119,
+      "filename_numbers": [
+        "74/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:14b441a138c711df838df00cc971c1fb15c2c120fea7b85199d69973c781011d",
+      "path": "data/raw/official/74-2025-QH15-1.pdf",
+      "format": "pdf",
+      "sha256": "64bc8c066afea584cd661d040b5e12996e797a9dc7460f1a0c12181d98f7e3c7",
+      "bytes": 1230315,
+      "filename_numbers": [
+        "74/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a3c5cb151d13aa6475f3389ba25eae7206762552443ae1df4a3667e93edb3a17",
+      "path": "data/raw/official/74-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "2b7535f43224225b1360c888d5447d9291301c220aaa689e2d5063fe467877dd",
+      "bytes": 1698364,
+      "filename_numbers": [
+        "74/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:bd59d443443f1b2091efd07f72cf25e959f70de6f38d504f317666e337f8db2c",
+      "path": "data/raw/official/74-2025-QH15.html",
+      "format": "html",
+      "sha256": "c7db2f0cfdb9f650a99ca674749bc17b3d8c4a7361de16885cfcd65d64d62b7a",
+      "bytes": 609285,
+      "filename_numbers": [
+        "74/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:11f2f5371d64fb90885b9cb9b6bdd0b041f261cf7d2f009011d1b7aae646eb06",
+      "path": "data/raw/official/75-2023-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "51bc62df450576f3df55455e9eb95b1a03e23e31e738a4ec4e6feb3b3adb013b",
+      "bytes": 456992,
+      "filename_numbers": [
+        "75/2023/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ed46aa975b43465df4badd4898700b8b926c085e55cfbbb6a8c154f0e5d4ab7a",
+      "path": "data/raw/official/75-2024-ND-CP-congbao.pdf",
+      "format": "pdf",
+      "sha256": "afeba2041ac2761ea1b1d4bba01a6808f3102048b12a0d8bb4f66b58b215b1dd",
+      "bytes": 365335,
+      "filename_numbers": [
+        "75/2024/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a198c491fb634a142b42ae562024a14012c85340eaa12742795b69db37bd8930",
+      "path": "data/raw/official/84-2025-QH15-congbao.pdf",
+      "format": "pdf",
+      "sha256": "ab0c445c3003754d36430c2ecf6d091b326dc3ace65f91136292689450088f81",
+      "bytes": 1661950,
+      "filename_numbers": [
+        "84/2025/QH15"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:81da25dc6b04639a1043f35e275228c9aa455b87dbfb8dde8b81ecebb49224b2",
+      "path": "data/raw/official/97-2015-QH13-congbao.pdf",
+      "format": "pdf",
+      "sha256": "370076673296d99991665b07e8846b8a705557d4caf3fcd2e41e181056076a72",
+      "bytes": 590211,
+      "filename_numbers": [
+        "97/2015/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8d1d12dda675503fe891fa56ea46b19850d3ab9e5ddc980872d661ea8dcea8cd",
+      "path": "data/raw/word/2025_1073 + 1074_219-2025-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "a19cc41c0546d99db0b02e4032421b0077e9e452dca8f522dbc3af4c00a84991",
+      "bytes": 142154,
+      "filename_numbers": [
+        "219/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c5fe691754a78f1831ae3ae89e4a84e627d73d80ac578f314a426217e8b90a5d",
+      "path": "data/raw/word/2025_979 + 980_188-2025-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "4cedb18a4a86bf33e8834ab50fed5d5076c2573bc207dd5c2776c98d6e78a5a4",
+      "bytes": 261248,
+      "filename_numbers": [
+        "188/2025/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:10238198abc4db153bbbd37952cf8ce4f3331c1289715dede44f8305b0091edd",
+      "path": "data/raw/word/Bộ-luật-10-2012-QH13.docx",
+      "format": "docx",
+      "sha256": "57ce0a5eedc9c3c5fd4916d286d562592dceba4acacae6e5bea9eb362dfc8cdc",
+      "bytes": 277471,
+      "filename_numbers": [
+        "10/2012/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:928ce7d7d823e8096d3b37d10a03567ca99be5813098b7a333ae391c164251e0",
+      "path": "data/raw/word/Luật Bảo hiểm xã hội 58-2014-QH13.docx",
+      "format": "docx",
+      "sha256": "9e940f025d6ef0f2a1f5992792c74814846cf4ace46fa780b8ee7d8e0eb8afe6",
+      "bytes": 51099,
+      "filename_numbers": [
+        "58/2014/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b537f31e839222f80bcb56f723ce26b118cdf5809924d6ebaa53870891f0d87e",
+      "path": "data/raw/word/Luật-12-2012-QH13.docx",
+      "format": "docx",
+      "sha256": "9b2fd787ff13b67b918d0d472f57bbd30a29d0d0c7a52068ffd7602e8edf7dde",
+      "bytes": 205452,
+      "filename_numbers": [
+        "12/2012/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:917cb7030eeed985643d76e70c91758b86a8086fd2853c9599ed3b9c3f1a778b",
+      "path": "data/raw/word/Luật-38-2013-QH13.docx",
+      "format": "docx",
+      "sha256": "7abebab7c60ce0079331712b66455304319f47e92430ad439d2771c7200821f1",
+      "bytes": 149697,
+      "filename_numbers": [
+        "38/2013/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:1429587cfefb082ec5dd1de19aab2a326da2f84f3c23d97a631fef3ecb9fa078",
+      "path": "data/raw/word/Luật-58-2014-QH13.docx",
+      "format": "docx",
+      "sha256": "8c1e58fbea8176cf70a8d940e62932c46b2242e59800ec853ef5dd2c1e0effd9",
+      "bytes": 181815,
+      "filename_numbers": [
+        "58/2014/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:58b07f17da0855b2ce0f7e4d457b34374a259595bc3d18e3601681c4313a271e",
+      "path": "data/raw/word/Luật-84-2015-QH13.docx",
+      "format": "docx",
+      "sha256": "220315efb2088f4d8937486b40374716b0672a48a38e5c38872fd7d447b27223",
+      "bytes": 194087,
+      "filename_numbers": [
+        "84/2015/QH13"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:924d424357fdb99a66a89a15e77a4c80f2995ce816f2aa7488b9cd58d1545f28",
+      "path": "data/raw/word/Nghị định 135-2020-NĐ-CP/Nghị-định-135-2020-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "d841fe006660fbb7b4ddaf66b88167f6ae3b7e7ee0b1e95751edcb0a28443653",
+      "bytes": 131235,
+      "filename_numbers": [
+        "135/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:390cbf9ce1be398eca99b02aa2d51ef15b4da2b93211eaf29b7b28984c9dd69b",
+      "path": "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc I. Lo trinh tuoi nghi huu trong dieu kien lao dong binh thuong gan voi thang nam sinh tuong ung.docx",
+      "format": "docx",
+      "sha256": "4bff8b3be71048da99c0057d0aad4b867dcc386ac3d00aa1308ac24978ecd78f",
+      "bytes": 35694,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b578840d2869883ffac4d46ad05c3f718fb4bb5f87b9d5ce6a0eef41902532ee",
+      "path": "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc II. Tuoi nghi huu thap nhat gan voi thang nam sinh tuong ung.docx",
+      "format": "docx",
+      "sha256": "6cfdbf8aaa2821e16505571f834169809c6bde0db9b5551951071dacdfdbca8c",
+      "bytes": 35661,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f2091c02d9df46586362890ac27f34eafa7451d5f52b5cd97c7cf50f4cd7d970",
+      "path": "data/raw/word/Nghị định 135-2020-NĐ-CP/Phu luc III. Cong viec khai thac than trong ham lo.docx",
+      "format": "docx",
+      "sha256": "c92a6c0371f145737c26d5ad219342296e7330b628243def761f027920f68203",
+      "bytes": 14860,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e23ebf09323163b34d00134b7858952c9e8393c73b788e6370d558a09610a351",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLI.docx",
+      "format": "docx",
+      "sha256": "c2864b3ff9007764f8249e7f41b7472df225aaa1303605c92a1a1524a9a07082",
+      "bytes": 24272,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:906d19f1089c7f986b4dbe097ca66ba263cca82f4b4eeb2d1c82568b842a6d45",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLIII.docx",
+      "format": "docx",
+      "sha256": "3e96dd93504fab851c5a9fa4adcc4528de80be8bb46862384fa5c1827c848911",
+      "bytes": 16972,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:164da072370ee9d289bb9b1fe4c17f29996459b2cd1ff6438a7a416e75c371f3",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLIV.docx",
+      "format": "docx",
+      "sha256": "256989c96fe92b451b186b9a49c7045033a659cc6a7f7d3279c09fddec2546a9",
+      "bytes": 17278,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8a9ad34a4870e324780e0c85a6a6c032050a4a9516fa0a1d1242a4f765f50482",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 01 PLV.docx",
+      "format": "docx",
+      "sha256": "8506eb9f661da2db1ce5237fd69636066abf483a284dbc5f70f1ea238987e8b8",
+      "bytes": 20480,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5a196c83f42032fe94a6e0592ab30b73c27d9efba49d8af53544f715ba3bea9a",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLI.docx",
+      "format": "docx",
+      "sha256": "cdf16aafd61f513e525249b2283f2c902418881b25de5a5361f26211660a2d22",
+      "bytes": 19726,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:71639ed2dd02e389a47feec96d43f1ff62569c220abdbcf67700bb9b4b7ee83a",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLIII.docx",
+      "format": "docx",
+      "sha256": "7df71f1e5202e9e28c1eb97baa3370b87208765a5b19dda3fae58f089db0ccd9",
+      "bytes": 17621,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:abf2e4b92211e7af8b6e9fc463ebbf0e0770ed415e79ffcc7e7a4cede7dcc65d",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLIV.docx",
+      "format": "docx",
+      "sha256": "9d88f5867932521da4d529295ebcf78c4d420e4da06799118f33fffc8c50bf6e",
+      "bytes": 16896,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ca4a4f7207c517206acd5cd8eb71c764a2bff9ba523b70ea24cbde381a1f4ca3",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 02 PLV.docx",
+      "format": "docx",
+      "sha256": "092d30ae40438a04ee37f129fdf17411f5774389b5cf0dab1df5fd4eefcef9f9",
+      "bytes": 16210,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8ac84651155ed25193c02b15b12ef686160d63c6934b34f26b6a56403b4b95ed",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 03 PLIII.docx",
+      "format": "docx",
+      "sha256": "995ef7e9f98dd1a5dcac085e8822d5663355962d4ad413963a158658e53a4c2b",
+      "bytes": 18554,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3b5e74e306b3031dda259a716a007b2bcabc98243182b8e639067dd0dcb18d8a",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 03 PLV.docx",
+      "format": "docx",
+      "sha256": "c58dc52b268cea6babc4ce6d4b40ed62780f8e2361a05f798df737a843039751",
+      "bytes": 15086,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:945ff77d4e99df29bb8ef4dab9afa5d188a1ae6ce625eddfb9ebf27dbeab8b53",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 04 PLIII.docx",
+      "format": "docx",
+      "sha256": "d3a8436a3609abae7a7b9157af95c0f380f28f7ceabaf3413a7f41dc24982063",
+      "bytes": 18627,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4ac9f7ae33b101c78441bbe916df1bcc948233d4d7dd4b4dade297ee1435463a",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 05 PLIII.docx",
+      "format": "docx",
+      "sha256": "db1a30a0a8698650169424a659576a54aa63b02f576735420c1c17963164d335",
+      "bytes": 18196,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e4ceb2efee5abc1a528b4a4bf76907a5c68eb7ea09e17b1cf2ca331b3ced3ea9",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 06 PLIII.docx",
+      "format": "docx",
+      "sha256": "7710c3903e45c4989e46e48002c7b012f80a785d061b835355ea020f38a9ab63",
+      "bytes": 17484,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9955a971922bf5be85fba6460bbdcee3bc0a9957f506c5956e71e9db782ecfbc",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 07 PLIII.docx",
+      "format": "docx",
+      "sha256": "a5e5e31e441007db8d58e2a5d90e54d9c3beed8635a8f79c2d756909faa34f72",
+      "bytes": 17367,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0716cd23b1020ca84e6846e9e96c9ff19667a1daeadd11ec3fe6ade8188baada",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 08 PLIII.docx",
+      "format": "docx",
+      "sha256": "2cad52e8ad6671085aaf2991526e619c21ae0bd1cc8962e4d62be7b5e2061374",
+      "bytes": 18004,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:dd210368dcbb2260317456328cea21b7ffe90f323a49b4ee940e05e2184f8c43",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 09 PLIII.docx",
+      "format": "docx",
+      "sha256": "aba2c4a072504737050491c12c9317433c6d4aa1f793eb68c96da8bb7828b7e3",
+      "bytes": 21910,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:dcd7c0a61676295bf5fc31649e02b328c20779411b6a78ef2847ca554a620751",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 10 PLIII.docx",
+      "format": "docx",
+      "sha256": "5c719ef566ae55870b8808da5b700f6c9d58d0179f6d1328d06b6bdc4b9a674a",
+      "bytes": 22763,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c88ac54dcde0508ce0ab7cf39fdb89bc9447cfd92e50ca3fd60f00e3626e5815",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 11 PLIII.docx",
+      "format": "docx",
+      "sha256": "61f86210e2c5604630713a499dac47f224ff6f39f12cf5e57af076e933db1972",
+      "bytes": 17067,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2785d3469df24534fd5bcd7230d20635e2299872584bd4e699172254fdc767f1",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Mau so 12 PLIII.docx",
+      "format": "docx",
+      "sha256": "4b58467db0fc4c1b0b3c35cccbbdc850161148a61a6132037c2a878a6e5d35db",
+      "bytes": 20149,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:7d95b08d244c418e42c5ec81655e4c77f38cb518588d0f2733ca0e88780fd646",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Nghị-định-145-2020-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "30e1077b5e359452bafeea650dc56a3a812c45fbd97edc7b519752ca49a15baf",
+      "bytes": 581184,
+      "filename_numbers": [
+        "145/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:674e2e92148bc43bde22d302fd93c04faef0e077d201820254e39af35a38dc9f",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Phu luc II. Danh muc cong viec duoc thuc hien cho thue lai lao dong.docx",
+      "format": "docx",
+      "sha256": "91734d6c67244fcea0e8c264d8297721d8f4ab0668d31de4af34455e311d733e",
+      "bytes": 17206,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:50e117e5ec4d49142cc3b39d451ce5c607a5d9f16382f11aec5e1f828a92bee5",
+      "path": "data/raw/word/Nghị định 145-2020-NĐ-CP và phụ lục/Phu luc VI. Danh muc noi su dung lao dong khong duoc dinh cong.docx",
+      "format": "docx",
+      "sha256": "b52dbfde007835b417663d491377c5f7bdb4d0ba21fe60f605fdf03c0bfb06e0",
+      "bytes": 16884,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:baf1fb6d84af9f916780931d1dbacbd20f54be552e864d3e97d6ea34da9a8c69",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "2a95b1fe7269b087f1913c69b4594396d9dd7096537c089d68447ba60c81ed03",
+      "bytes": 16213,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f0d78ff08713b896b4bbc2a3f868d6abf84eb18b30838949f0ed305aeea65045",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLII. Phieu dang ky du tuyen lao dong.docx",
+      "format": "docx",
+      "sha256": "a0343b8717d8fcea8fb873cad9d74e6e3e3580858f735e925f67c30f325bf8b4",
+      "bytes": 17644,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:16d440924c7ae9df77b75c00617cf932ab87726f2388afdd79849dcd0d0e48ea",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "9abf33b97a86a9aeb56d0a4d0d9ed19c7ce2cc4f099ee0070ee32997dea3c6de",
+      "bytes": 15661,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e5b470835d6322f9de912c830ae7e0a3e13edb503a1dcbc8b8bb5af4c3b0dee6",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLII. Bao cao tinh hinh tuyen dung su dung NLD Viet Nam.docx",
+      "format": "docx",
+      "sha256": "356aafee74d6cb025f3838f389a8890f7642d89115dffa334c8c75fe3e17b0b3",
+      "bytes": 23542,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9af3a6adc481d015d4ab0ae86a7769c9889431bb06f44cd10904a67d8b99869d",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 03_PLI. Ve viec chap thuan vi tri cong viec su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "7198f1691cc64212045508cf4948d7c661cb26f757f68014312dde5bb595e4e5",
+      "bytes": 15522,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c1ea6432afeb06b830d608651df67df2f153e36a4731bb95a3d601e7e6819df0",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 03_PLII. Bao cao tinh hinh tuyen dung quan ly NLD Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.docx",
+      "format": "docx",
+      "sha256": "6f020994baa71627b46d177dbf3653bb6931cf8974ae3b251eef9fbe1e9361b0",
+      "bytes": 20648,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:86fae8f9fad600edf4ff0110e061143d5ef7482171922f9f4e7657d2f931e37d",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 04_PLI. Ve viec de nghi tuyen nguoi lao dong Viet Nam vao cac vi tri cong viec du kien tuyen nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "4f824f16e3098f9a83f604354e1fcb7556aca043133cdb15a602577d0c9b6f61",
+      "bytes": 15364,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2a7e4762f95ad78887af4d4bcb19fc7055ec4291a732596835ec6fc7906029bb",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 04_PLII. Bao cao tinh hinh cung ung cho thue lai lao dong Viet Nam lam viec cho to chuc ca nhan nuoc ngoai tai Viet Nam.docx",
+      "format": "docx",
+      "sha256": "6b93309061a28c0649c79ff43a186c79608462814ba5a60f1ec8fe5fca697ad9",
+      "bytes": 17120,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:aa754509f85a7a511e4d886a0b7e9fda88f323446579aa6a4338ad8f5cdcec14",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 05_PLI. Ve viec dieu chinh bo sung nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "98ceef43abfeeae24de0cfa2d9c0e284104c48b45ec2136a1af9c95cb9f503b1",
+      "bytes": 15669,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b9e908da47fd87a81f68e72862d2e4aee5569bc6a986ee28df87f4f5fdb8cc21",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 06_PLI. Ve viec tuyen NLD nuoc ngoai vao cac vi tri cong viec khong tuyen duoc NLD Viet Nam.docx",
+      "format": "docx",
+      "sha256": "dd9af7c666fcf09d98f39a3dd7580cba5a90fd7c5300f2aed7cff0b1f466f982",
+      "bytes": 15414,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e3ce8fa10cbe641c865cca0d7d9a7a3f81275be4763b45887dea099192101aa9",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "4f4034c2de2f24d429a4cad7ef11c870deec59ea97afac48a2b72792527c7752",
+      "bytes": 18896,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:361a6305cd7960fd0e1ac0008849899219c15f4dce4cfc545c40537ebb9f6c87",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "17157e398317bb84fc444b8ce12ba6a18940c41e35b5d4d002623e99725f6f4e",
+      "bytes": 18949,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:8a3853f562bb2c7016237bd4870d675d1d09bb2c7f6ba9a490aa1141398e8cdc",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 09_PLI. Ve viec xac nhan nguoi lao dong nuoc ngoai khong thuoc dien cap giay phep lao dong.docx",
+      "format": "docx",
+      "sha256": "8c4e85f2d65d235c20974de29ecafe3cd22d6d0fc292583e60bca20cc511123c",
+      "bytes": 16080,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c3d442e6824b26868e79524857549f5d37471c80fa7a836fa0a63341cd574dc2",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 10_PLI. Giay xac nhan khong thuoc dien cap giay phep lao dong.docx",
+      "format": "docx",
+      "sha256": "8a0d633330af06cf708c0557e2cc88cfb2b7a33abf38f2645a24fee96336496f",
+      "bytes": 15597,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:e3316be729d08ca303d49de9aa6a5dbafcfc92b7638bb05d05c6844d3e9b42f3",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 11_PLI. Ve viec cap cap lai gia han giay phep lao dong cho nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "816ed494cd2eca0b8c2d7764949d7fe8ee5e2c2dbb886de1e5fd6af6030552f2",
+      "bytes": 17564,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:637785f42aa961e4b89f56a1b5e6f76d23ef197205b04b80d1c90e54dac7a88b",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 12_PLI. Giay phep lao dong.docx",
+      "format": "docx",
+      "sha256": "979f78833efb5c200bd3337bb5069e94f2e7459922fe5fa1b1ab0812ef42d763",
+      "bytes": 505148,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:bf0b78dd4f6407a2b190489512ed255384a69a51ab8b56aa50e49959315485ce",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 13_PLI. Quyet dinh ve viec thu hoi giay phep lao dong cua nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "075235da75e64637623dbe9180afb7ced896f229920c0964b964e17a9df19b5e",
+      "bytes": 15673,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:46650b2da0af427af1905ad20561d1a23af24aef1d60b69765648d5b028e8e38",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 14_PLI. So theo doi nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "c5a10605aa20b86c22ab5393cf9d109eedafc1cf3341287afa8fe5e49f12531a",
+      "bytes": 17615,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d51acdd0c60f8de251a77d5c1a5bbdaccec818ed872b068c51166b3fb3fb94a7",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 15_PLI. Ve viec khong duoc xac nhan khong thuoc dien cap GPLD khong cap cap lai gia han GPLD.docx",
+      "format": "docx",
+      "sha256": "76452259fda44ecd6d6da766c077b2bebc9b9531fa39b126eaff16127278952d",
+      "bytes": 15620,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:da050a05d1be4b64b7ea1728d1a3bf8e7ead45458f6e2ceaa9372880efc29b37",
+      "path": "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Nghị-định-152-2020-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "7f06f2d9133ccfab4ecc20f6dbdc2d09754abcb6649e4e953912ba9fa10c5a04",
+      "bytes": 628509,
+      "filename_numbers": [
+        "152/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cd30ebcbc00d379678cae9167786aa8c3ad9127383c566806c217a6da64bb7f5",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "5c747de27c7b4016c0de7230a3261814da71489d37b0b0fdb39dfdb643fee4e3",
+      "bytes": 15163,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:33189176e9296dfca93b81279c55b71993b19766865ebf601dd35986611c1f3c",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "4e2a1d77779774e2b91e57d43b5954512f13a907b8c961d989968e0e821eabf3",
+      "bytes": 16662,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c0417524ed20825c65f5aa16b93691de8ede995349b344c8327b19ba7463feae",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "52ff9d60f1afbf6c08b5f495158179f88f37316da756323b127c7d6d878cd89f",
+      "bytes": 17945,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c53504f0f0d4194ecfabaf589563ea86bebdf542366c2c93305986a53e1b0a6d",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+      "format": "docx",
+      "sha256": "b901d2c8e45b0d129bb98d1cb17b160fac45d8e37994e3f5d9cce7eb20a5f2e5",
+      "bytes": 18216,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:b3070d9796c8572e3d1393bc65e4843d3795648a2da05d89f91c241e2c37a034",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 16_PLI. Ma so tinh thanh pho truc thuoc trung uong va ma so Bo Lao dong Thuong binh va Xa hoi.docx",
+      "format": "docx",
+      "sha256": "34aedd2a39bbf18bbfa3712fda9509eb1e1a7cb77c3942f6a83567fc86d90bde",
+      "bytes": 16807,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0b8b7317736cdb79f95fba47828161c78d7766938e0329a8df056da0a522e491",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 17_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai den lam viec.docx",
+      "format": "docx",
+      "sha256": "94a24c03a47f9f72731c316b7dd51f484ecde003ee28a3267ee5535a4d1d2439",
+      "bytes": 15650,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:386feb9ae2240f7dd81893270436ae3249fc64319843fae960fe1533a028c2a4",
+      "path": "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Nghị-định-70-2023-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "6894c353fa3627109fa67e6166962b5c9f726741b7d40773a14d72c595379d45",
+      "bytes": 123089,
+      "filename_numbers": [
+        "70/2023/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ce37e73f6ed976346072f2a9fb69aa6a714ff3b95e11b6e1e7f21170b9d3cf4b",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 01. Don de nghi ve viec huong che do benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "d77e21c667b6c4714f0b52763a447ef8a20d2e1cf937c18ebf0c7016f8cffee9",
+      "bytes": 14996,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:63400c7cc5b6a768dbed56f4f6a2cd7711bdc907ff1493c0e89ceb490e9dc86f",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 02. Don de nghi ve viec ho tro kinh phi kham chua benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "a7dbcfcf7d0063569781e871e949fbb3dfd7b0670367a7b59dc7171a4e5f86d7",
+      "bytes": 15197,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5c3e57e026851bc706975b87944fab653dd7b8b7c2dae828d1b6370dc8797149",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 03. Van ban de nghi ho tro kinh phi dao tao chuyen doi nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "b876e3b5d346a0b43f00f37ff91ae9551fb68df6e3281809f0b657af0907c4c5",
+      "bytes": 16938,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f23866a4d2aa1dd5379e951d63ffaab9502a3a5f96c36482fb6d97466fa6d27a",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 04. Quyet dinh ve viec ho tro kinh phi dao tao chuyen doi nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "9f4cbc906af1557851b8b9e3ba36297747bc4e200bc7d08ee7b1adaa47a166da",
+      "bytes": 17088,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:edb16d40f3dd0722cea39df66ef4813b94beee65940e419debb7c1a9d9fd89c7",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 05. Van ban de nghi ho tro kinh phi kham benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "5b2aee57c44558f76e0d072896cb26c790981d3e20f6c36705c7fc3d1f50ca74",
+      "bytes": 16827,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:527ffbb89f7fb18ee5deafe746a0066577a8e0f2a2c009af64b04dca057f8209",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 06. Quyet dinh ve viec ho tro kinh phi kham benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "2179a090b8199ec667cf9b2810c7438f99e88a58cc703e9b2846f552920cfaf4",
+      "bytes": 19326,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:d04f04970018f02fbaa306aa9545f8b3b6eabc07a5ba8d7f68892ce39708bcc6",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 07. Van ban de nghi ho tro kinh phi chua benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "c0d9c186fa92aaa0726431cf325f26aef2848e75ac78cd072afaa3f294525c9b",
+      "bytes": 17503,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c812b7fee04028fe5f32b285daaee0a9ac72bd0811f3b41143de5d59c79aa465",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 08. Quyet dinh ve viec ho tro kinh phi chua benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "05da2c48925644041fbc9dd9bc74c33a51eb562dc2f5fd3aed0470359ae388d0",
+      "bytes": 17911,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a5de410fa9efaa262de4bf406b4dcfd9d7bf16c297dbec7be4acce0c2b7d08a1",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 09. Van ban de nghi ho tro kinh phi phuc hoi chuc nang lao dong.docx",
+      "format": "docx",
+      "sha256": "d59c4d0a9033efa37ae92f5f7195ca9139eb1d07b2b39c8fb7b14a31fd6c4274",
+      "bytes": 17347,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c9b6f8fa237248745afaec62f79bf1e5d58d71252320b000b535556327cd04d8",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 10. Quyet dinh ve viec ho tro kinh phi phuc hoi chuc nang lao dong.docx",
+      "format": "docx",
+      "sha256": "6b56ab3f11a4d63460ba49db60751c4a18e19946d2595474bf374cc391e5084d",
+      "bytes": 16814,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:a79d15db492266c6e9acd8584022a32192f5bb61d312dd4e0eb6a4d9864b61a1",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 11. Van ban de nghi ho tro kinh phi huan luyen an toan ve sinh lao dong.docx",
+      "format": "docx",
+      "sha256": "5beff27eb9a81f4c08358648429cdfaef7f7167caca209c622a09cae6fabcd9a",
+      "bytes": 18637,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:3948467254434dabd256b80ee8dedb8d0af214be48e090620ff48250fe2c6126",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 12. Quyet dinh ve viec ho tro kinh phi huan luyen an toan ve sinh lao dong.docx",
+      "format": "docx",
+      "sha256": "850f61d0a6feba414fdfd6afbc153c0467c4ce6f7befe5e76bda1f61c44353a0",
+      "bytes": 18195,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:10451a849a8a5ff052ecf4977186f72afabd2142096168fd6cd615b3b844c8ad",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 13. Ke hoach kinh phi ho tro chuyen doi nghe nghiep phong ngua chia se rui ro ve tai nan lao dong benh nghe nghiep....docx",
+      "format": "docx",
+      "sha256": "fbe3d0e3732059bb91f4fd0f9e71d0ed496758982a9b0e2b5cdcf52486f08732",
+      "bytes": 16358,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:85095cb813bb65f8bfdd8b4964b42aeeeeab2c0f8c324a35ed9a8ce8cbd591a7",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Mau so 14. Bao cao tong hop tinh hinh thuc hien bao hiem xa hoi ve tai nan lao dong benh nghe nghiep.docx",
+      "format": "docx",
+      "sha256": "393efe9a84b1d0c93675564f9eded966eae11e92d6244e743b0e0ff9d47757c9",
+      "bytes": 17090,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f629fda9d30554d16ef037634e1c96c5bf90abab043ddc4a4f00fba183a084d4",
+      "path": "data/raw/word/Nghị định 88-2020-NĐ-CP/Nghị-định-88-2020-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "a6fd822baace856767d3d2a7bc222fc94ce217214c3224a98f3e66454c92e84b",
+      "bytes": 160888,
+      "filename_numbers": [
+        "88/2020/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:978a8eac0d4a778ed3c5e035c0414887c3a19540d67db0fcc5a4cd624ecb9b91",
+      "path": "data/raw/word/Nghị-định-115-2015-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "f22cb4001f40b4506cc798f77aeea8f1d7c365144496c6e19b527bbea528743f",
+      "bytes": 172923,
+      "filename_numbers": [
+        "115/2015/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:284be90ae6fb4cec2b0a39255784fa0c76c60e6889989b5d91a424fe001c40e4",
+      "path": "data/raw/word/Nghị-định-12-2022-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "1af2217b5d21609241c0a242bd77684745c8bb976f0e2b892f5dc942bb76e881",
+      "bytes": 116470,
+      "filename_numbers": [
+        "12/2022/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c45d331578223c256f25ac425bfa9883a1a514c569f78f8e887a39d657a0c61a",
+      "path": "data/raw/word/Nghị-định-143-2018-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "6108274e475b695e552821fe7059fdcb9b66c376c28970913d103dfae8a35145",
+      "bytes": 162604,
+      "filename_numbers": [
+        "143/2018/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9076474b532a6e41b95199e75f13090c020c57e950b89d526c1116252d5f5226",
+      "path": "data/raw/word/Nghị-định-191-2013-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "c7fb70a5807f8cccca5510cf9f4ecd2f3322cecc264d7c9805f7b71fa8c3e5d1",
+      "bytes": 135584,
+      "filename_numbers": [
+        "191/2013/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ebf9f8059c62510e66fdcb28cd95f33744c55abf6357a372dfd79615437264d6",
+      "path": "data/raw/word/Nghị-định-28-2015-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "c5dec3c2d5b90330f6b46245050f11024bdf5a39856fe7b3f6811a5a11911b2a",
+      "bytes": 170590,
+      "filename_numbers": [
+        "28/2015/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:9cd0b18ad2fe40008270b931acdca691cc9768d11c9fa66433e9353bc6766565",
+      "path": "data/raw/word/Nghị-định-35-2022-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "4d06039c5733eb9c44e662af2b45576d83f4db8d2c29662fbe9faaaaacdb44da",
+      "bytes": 99322,
+      "filename_numbers": [
+        "35/2022/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:147ae14c455a2cdf3e0990d9346cfe317ee8ced57932d1fcf5460db82d3ae52d",
+      "path": "data/raw/word/Nghị-định-39-2016-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "ad29d4e426a32ee15ee65920b82d720acf733aa96fc31ccb21e21badf818e41f",
+      "bytes": 273488,
+      "filename_numbers": [
+        "39/2016/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2cb8a0f59441e46899a46f5ad863beea49ce13070ae1e739b451aef42b0c910b",
+      "path": "data/raw/word/Nghị-định-43-2013-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "e5a3809a13d49a580da460008d651ddd38c926356471d5d252c49bb6c51f4440",
+      "bytes": 134336,
+      "filename_numbers": [
+        "43/2013/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:07ff3602e9ba50c3ba6c35834362672d36edfd93efda3efb1efc4612f06d93d5",
+      "path": "data/raw/word/Nghị-định-70-2023-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "773386b418cdcad578fcc55238a26ba5d35939597de15c82b4d7f4e0d91913f2",
+      "bytes": 123095,
+      "filename_numbers": [
+        "70/2023/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:6e729b16978650b8d59564b92ee347761629ec0fde2da25016f01c6bf6580d12",
+      "path": "data/raw/word/Nghị-định-74-2024-NĐ-CP.docx",
+      "format": "docx",
+      "sha256": "2e263bd4d1f0fed92b49e55d3f712ed061afdd3fdae2d708dff182be2856311b",
+      "bytes": 32114,
+      "filename_numbers": [
+        "74/2024/NĐ-CP"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:34e80698b50b6fc668bf24cc57bb0c3703f80be2bf743ca0d2c654c51e91e51f",
+      "path": "data/raw/word/Phu luc. Danh muc dia ban ap dung muc luong toi thieu tu ngay 01 thang 7 nam 2024.docx",
+      "format": "docx",
+      "sha256": "2405ecc2135f7862642ee226b165b555c6c2822630cfed8e731cfdaaf7c44557",
+      "bytes": 24079,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4621054cacec2db9de8aec5e0fcecf76469f6c9afc742d1cda61faa70a5f515d",
+      "path": "data/raw/word/Phu luc. Danh muc nghe_cong viec co anh huong xau toi chuc nang sinh san va nuoi con.docx",
+      "format": "docx",
+      "sha256": "818b431d94dced4fe3a23d6c41d5552d79a337c756b1d6dabe89376f69a88a80",
+      "bytes": 22989,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:7be756627bf24f9bbe096f3dc1332ce79db6364d610ee25f555410bb34aa6e90",
+      "path": "data/raw/word/Quyết-định-23-2021-QĐ-TTg.docx",
+      "format": "docx",
+      "sha256": "e9652170568b1fd01794c2d8571f49d6a1640817aad0b649802b9ef989732aca",
+      "bytes": 170109,
+      "filename_numbers": [
+        "23/2021/QĐ-TTG"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:fb1b9c104aac1f937b410864bce52d75150e1d56bc3ebccf61efa1fa87c78f63",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 01. Van ban de nghi viec su dung nguoi chua du 13 tuoi lam viec.docx",
+      "format": "docx",
+      "sha256": "05e9ce3924d2b6b0825227e67dfb2e0b927b575d6897645614825418b5da9a59",
+      "bytes": 18208,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:fc8c0fb8c47bb9e6cc8285c77879519330969b4fb1f827ec727f0b28666e1f19",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 02. Ban cam ket chua tung bi truy cuu trach nhiem hinh su xu phat VPHC ve hanh vi xam hai tre em.docx",
+      "format": "docx",
+      "sha256": "fc09845c360f2018597396df8f4cc2a2b384c6513fa93c77059a76f7f00e1f15",
+      "bytes": 15768,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c7c343e9aaf37a6977703ff9304c16d2405e39ddbaa207329dfef6ca228284ae",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 03. Phieu dong y cua nguoi dai dien theo phap luat cua nguoi chua du 13 tuoi lam viec.docx",
+      "format": "docx",
+      "sha256": "813473b99cbfb2c79e90852603420d8cc6fd4bedf0f66540f5f0d0da1c987439",
+      "bytes": 15970,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5c1ee90b857db162ca75437bba435a24eb5f1f83f37f971d0578ef017a223b61",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 04. Van ban dong y viec su dung nguoi chua du 13 tuoi lam viec.docx",
+      "format": "docx",
+      "sha256": "9272f0fa4fa8e41e9880f833c83d98a6682833db0ea0dd92a4dbfd947015d1d6",
+      "bytes": 18472,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:639c91650194d96b32c2515328172b14e1bd1564a3c361e7ce409b98db037b6a",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 05. Bao cao tinh hinh dong y su dung nguoi chua du 13 tuoi lam viec.docx",
+      "format": "docx",
+      "sha256": "a706a3a88a606a57e4f775764300cd8dbd712959ea0d5872c9fe1bb185f67a91",
+      "bytes": 17583,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:216f0ebdb49b9d7eb6fd7203cc1ca72f28729fa32f78807df6735905c96d14be",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Mau so 06. So theo doi tinh hinh su dung lao dong chua thanh nien.docx",
+      "format": "docx",
+      "sha256": "ae4b66e15584f96e5782acd76a081c2dc370982410af7b7933d680e275a6da22",
+      "bytes": 17904,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:79b4ea76e9f89aad9026cfe9e85263a8859937aa059e583ace4e6666b7d1bf28",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc II. Danh muc cong viec nhe nguoi tu du 13 tuoi den chua du 15 tuoi duoc lam.docx",
+      "format": "docx",
+      "sha256": "4fe50dcc8bfc99ef204db7f0549cf86f51eb3584fd06c087fb3b63d5afbd4c42",
+      "bytes": 15767,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:550e8cee492909eadee74ce1ec7664894a82c76df124fd9e2f418ee1367ad526",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc III. Danh muc cong viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.docx",
+      "format": "docx",
+      "sha256": "ac85e1ee1c4b6a0b8c5083e48ecd3e44016147801dbb9e529046f75bcfd45663",
+      "bytes": 22428,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:ab0fecd0e28035b222feda1df8b7025021dce7f6b30e19f6a74f787b003b5118",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc IV. Danh muc noi lam viec gay ton hai den su phat trien the luc tri luc nhan cach cua nguoi chua thanh nien.docx",
+      "format": "docx",
+      "sha256": "a32679e400a806e22ffe1906aa78e6c273bf204f6b3be738bd1163600d6a28fd",
+      "bytes": 15365,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0e9490b315778ab4a0ff3d39b99d5d6bade4fe9f1e9cf15a67d772a560a52a17",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Phu luc V. Danh muc nghe cong viec nguoi tu du 15 tuoi den chua du 18 tuoi co the duoc lam them gio lam viec vao ban dem.docx",
+      "format": "docx",
+      "sha256": "b080286a5507fc5c5e4696db32e6778443ac172931f6423fe2f97796d8f24317",
+      "bytes": 16510,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:c86d76e962dd1ef5b04bb4bc1decf74f3c4a4847d3528790cf184451b3a38a84",
+      "path": "data/raw/word/Thông tư 09-2020-TT-BLĐTBXH/Thông-tư-09-2020-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "703ef37e6b469a859c4d359825c0701e1daab4c8add0cf3c5236440e7c402624",
+      "bytes": 73686,
+      "filename_numbers": [
+        "09/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:f0e0f20ebef8a24931979f356ed2edbb047b3e617b8b9f5dafd33c0ed6d61706",
+      "path": "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 01. Phieu thong tin nhu cau tuyen dung lao dong.docx",
+      "format": "docx",
+      "sha256": "cc17648154b3bd017028f07b67ef84325ccf4b03d15bbc00f01790bbe3492e28",
+      "bytes": 22632,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:5c10d6e28c00a710429fbd61c29b93bf00fa3ce709839e234c0dd7666e5d3b64",
+      "path": "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 02. Phieu thong tin nguoi tim viec.docx",
+      "format": "docx",
+      "sha256": "df066a66b995ee0187b99b2ead0d99ca8ee3dfe9eccedbd3910c3795fbed25ef",
+      "bytes": 22266,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:0f6a6c8d5ea08213392d1ddf4a650f51afd9011824a8b2499bd5d6a3cf9d2df7",
+      "path": "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Mau so 03. Phieu thong tin ve nguoi lao dong.docx",
+      "format": "docx",
+      "sha256": "eaf0c250e3c2bbffbeced086e046f6c3d46fa4b94535cb24a4973b630d8bb707",
+      "bytes": 18333,
+      "filename_numbers": [],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:cedc95aa04f86c68ba88bf9f4653c0c4f727383146148554e6d405c6fddb753a",
+      "path": "data/raw/word/Thông tư 11-2022-TT-BLĐTBXH/Thông-tư-11-2022-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "5279bfac9057628b6f5ed13f33a0c91009db0797f79cb8e662b901dad786c7b4",
+      "bytes": 126917,
+      "filename_numbers": [
+        "11/2022/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:4e269c690d6e57347586d0d21340e2a33a95f4795c44bbf95de073fec85ac2ee",
+      "path": "data/raw/word/Thông-tư-06-2021-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "062531c862d02d34f3f56644c4a4856adfebc365b40fac05c22e0f1ba6356013",
+      "bytes": 88813,
+      "filename_numbers": [
+        "06/2021/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:62e5a04f2d14c686944e73d010ba7e8454065c3aaedeee5ec43662e1590c619d",
+      "path": "data/raw/word/Thông-tư-10-2020-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "7a9c9f3f555f1c7b973d303ce4ff8a15a555aa348d07b1f670628e39d40d20da",
+      "bytes": 62808,
+      "filename_numbers": [
+        "10/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:2e24a3defce9e7d65249f6bb8ea7d3655b3dbc89be51e985ae7be32310364d03",
+      "path": "data/raw/word/Thông-tư-11-2020-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "7a3247d8828d7dff9c1936371fef7015dbd9e1a75ce3e281b9a318584a6dc6af",
+      "bytes": 229258,
+      "filename_numbers": [
+        "11/2020/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:66c75f2dd423ab2f8bc8a66000d3038e1b91d491318d3f8aeb0c832bc58176ad",
+      "path": "data/raw/word/Thông-tư-28-2015-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "6751114eb074adb0cab1d1a4d23f9703f58627a50a78707646b4c0b03df6e96a",
+      "bytes": 317797,
+      "filename_numbers": [
+        "28/2015/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    },
+    {
+      "source_id": "src:aba9b22438d04f4a045ad55b91717bff2f23fba9d1ed201f44e700f22a0bc503",
+      "path": "data/raw/word/Thông-tư-59-2015-TT-BLĐTBXH.docx",
+      "format": "docx",
+      "sha256": "99f7226ffe29ff26579d26e1dcddfa502f8582ca89da6a7ccb16e591b183a0fc",
+      "bytes": 205170,
+      "filename_numbers": [
+        "59/2015/TT-BLĐTBXH"
+      ],
+      "header_numbers": [],
+      "source_url": null,
+      "collected_at": null,
+      "verification_status": "pending"
+    }
+  ],
+  "same_basename_docx": [
+    {
+      "basename": "mau so 01_pli. ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "sources": [
+        "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 01_PLI. Ve viec giai trinh nhu cau su dung nguoi lao dong nuoc ngoai.docx"
+      ],
+      "hashes": [
+        "2a95b1fe7269b087f1913c69b4594396d9dd7096537c089d68447ba60c81ed03",
+        "5c747de27c7b4016c0de7230a3261814da71489d37b0b0fdb39dfdb643fee4e3"
+      ]
+    },
+    {
+      "basename": "mau so 02_pli. ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+      "sources": [
+        "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx",
+        "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 02_PLI. Ve viec giai trinh thay doi nhu cau su dung nguoi lao dong nuoc ngoai.docx"
+      ],
+      "hashes": [
+        "4e2a1d77779774e2b91e57d43b5954512f13a907b8c961d989968e0e821eabf3",
+        "9abf33b97a86a9aeb56d0a4d0d9ed19c7ce2cc4f099ee0070ee32997dea3c6de"
+      ]
+    },
+    {
+      "basename": "mau so 07_pli. bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+      "sources": [
+        "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx",
+        "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 07_PLI. Bao cao tinh hinh su dung nguoi lao dong nuoc ngoai.docx"
+      ],
+      "hashes": [
+        "4f4034c2de2f24d429a4cad7ef11c870deec59ea97afac48a2b72792527c7752",
+        "52ff9d60f1afbf6c08b5f495158179f88f37316da756323b127c7d6d878cd89f"
+      ]
+    },
+    {
+      "basename": "mau so 08_pli. bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+      "sources": [
+        "data/raw/word/Nghị định 152-202-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx",
+        "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Mau so 08_PLI. Bao cao tinh hinh nguoi lao dong nuoc ngoai.docx"
+      ],
+      "hashes": [
+        "17157e398317bb84fc444b8ce12ba6a18940c41e35b5d4d002623e99725f6f4e",
+        "b901d2c8e45b0d129bb98d1cb17b160fac45d8e37994e3f5d9cce7eb20a5f2e5"
+      ]
+    },
+    {
+      "basename": "nghị-định-70-2023-nđ-cp.docx",
+      "sources": [
+        "data/raw/word/Nghị định 70-2023-NĐ-CP và phụ lục/Nghị-định-70-2023-NĐ-CP.docx",
+        "data/raw/word/Nghị-định-70-2023-NĐ-CP.docx"
+      ],
+      "hashes": [
+        "6894c353fa3627109fa67e6166962b5c9f726741b7d40773a14d72c595379d45",
+        "773386b418cdcad578fcc55238a26ba5d35939597de15c82b4d7f4e0d91913f2"
+      ]
+    }
+  ],
+  "identity_review_candidates": [
+    "data/raw/hf/16_143-2018-NĐ-CP.md",
+    "data/raw/manual_md/Bộ-luật-10-2012-QH13.md",
+    "data/raw/manual_md/Luật Bảo hiểm xã hội 58-2014-QH13.md",
+    "data/raw/manual_md/Luật-12-2012-QH13.md",
+    "data/raw/manual_md/Nghị-định-115-2015-NĐ-CP.md",
+    "data/raw/manual_md/Nghị-định-143-2018-NĐ-CP.md",
+    "data/raw/manual_md/Nghị-định-70-2023-NĐ-CP.md",
+    "data/raw/manual_md/Thông-tư-06-2021-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-09-2020-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-10-2020-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-11-2020-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-11-2022-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-28-2015-TT-BLĐTBXH.md",
+    "data/raw/manual_md/Thông-tư-59-2015-TT-BLĐTBXH.md"
+  ],
+  "counts": {
+    "docx": 109,
+    "md": 106,
+    "html": 6,
+    "pdf": 37
+  }
+}

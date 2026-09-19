@@ -1,0 +1,10 @@
+{
+  "operation_id": "op-nd75-3-4",
+  "relation_id": "rel:5bf01309dd27563bb1485d8c",
+  "source_clause": "doc:75/2023/NĐ-CP:body/article:3/item:4",
+  "target_locator": "doc:146/2018/NĐ-CP:body/article:14",
+  "verb": "replace",
+  "effective_from": "2019-01-01",
+  "review_status": "verified",
+  "review_refs": []
+}
