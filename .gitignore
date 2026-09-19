@@ -58,3 +58,11 @@ cover/
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Claude files
+.claude/
+*.claude.md
+
+# Data folder (only allow data/cleaned)
+data/*
+!data/cleaned/
